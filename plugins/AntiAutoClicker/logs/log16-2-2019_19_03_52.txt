@@ -1,0 +1,5 @@
+[16-2-2019 21:44:24] Jonasautzen reached 19 CPS, VL=1
+[16-2-2019 21:52:03] Jonasautzen reached 18 CPS, VL=1
+[16-2-2019 23:33:01] fletch4042 reached 20 CPS, VL=1
+[16-2-2019 23:34:09] GlexiTV reached 21 CPS, VL=1
+[16-2-2019 23:41:16] Jester_gamer64 reached 26 CPS, VL=1

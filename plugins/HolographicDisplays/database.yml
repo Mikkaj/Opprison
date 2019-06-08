@@ -1,0 +1,155 @@
+enchant:
+  location: world, -74.387, 7.241, 564.580
+  lines:
+  - '&5&lENCHANT'
+  - Få din helt egen unik pickaxe, ved at
+  - enchante den som du vil.
+besked:
+  location: OurSpawn, 1828.180, 163.389, 4411.120
+  lines:
+  - '&4&lINFORMATION'
+  - 'Denne server er skabt og lavet af '
+  - '&cMikkaj &f& &cLugi2660&f, serverens filer er'
+  - 'blevet smidt ud på en masse forskellige servere, '
+  - nemlig &eManiax&f, &eManiex &f& &eBloure&f.
+  - ''
+  - '&6&lGRATIS SERVER'
+  - Derefter har jeg så valgt at give serveren gratis væk,
+  - til alle de spillere der vil have deres egen &b&nOPPRISON&f.
+  - ''
+  - '&2&lSERVER & DOWNLOAD'
+  - '&fDer er to måder at få de originale filer på.'
+  - ''
+  - '&a#1 - Kontakt mig på Discord'
+  - Kontakt mig over discord (&bMikkaj#9299&f),
+  - og derefter skriv en besked til mig.
+  - Så vil jeg hjælpe & guide dig igennem det.
+  - ''
+  - '&a#2 - Download filerne'
+  - Vil du ikke kontakte mig, eller helst bare gerne,
+  - igang med det samme, så download filerne
+  - 'lige her: &e&n/github&f.'
+  - ''
+  - '&c&lREGLER'
+  - '&71.0&8 : &fDu skal overholde &nreglerne&f, som du'
+  - 'læser inde på min github: &e&n/github&f.'
+  - ''
+  - Have fun med jeres helt egen &b&nOPPRISON&f server!
+auctionhouse:
+  location: world, -99.527, 7.200, 535.700
+  lines:
+  - '&6&lAUKTIONSHUS'
+  - Auktionshuset er et godt sted at
+  - tjene nemme og gode penge, ved at sælge
+  - specielle items til andre!
+shard:
+  location: world, -84.476, 7.200, 530.700
+  lines:
+  - '&3&lShards'
+  - Brug dine Shards &7(£)&f på købe helt
+  - specielle items, som kan være meget sjældne.
+fix:
+  location: OurSpawn, 1823.548, 159.182, 4418.429
+  lines:
+  - '&9&lDUEL'
+  - Kæmp mod dine venner eller fjender!
+  - '&7(Tab og Vind med samme sind)'
+h:
+  location: mines, -254.486, 17.519, -1009.071
+  lines:
+  - '&b&lH Minen Virker ikke !'
+coalmine:
+  location: mines, 37.350, 15.604, -1212.300
+  lines:
+  - '&b&lSell Dit Clay Her!'
+ironmine:
+  location: mines, -63.418, 13.865, -1237.291
+  lines:
+  - '&b&lSell Dit Clay Her!'
+goldmine:
+  location: mines, 141.446, 29.874, -1231.412
+  lines:
+  - '&b&lSell Dit Clay Her!'
+lapismine:
+  location: mines, 63.863, 51.989, -1430.105
+  lines:
+  - '&b&lSell Dit Clay Her!'
+redstonemine:
+  location: mines, -62.300, 26.986, -1571.253
+  lines:
+  - '&b&lSell Dit Clay Her!'
+obsidianmine:
+  location: mines, 299.113, 49.147, -1385.300
+  lines:
+  - '&b&lSell Dit Clay Her!'
+emeraldmine:
+  location: mines, 265.587, 70.329, -1681.700
+  lines:
+  - '&b&lSell Dit Clay Her!'
+diamondmine:
+  location: mines, -144.561, 44.970, -1401.635
+  lines:
+  - '&b&lSell Dit Clay Her!'
+bedrockmine:
+  location: mines, 272.453, 35.624, -1206.978
+  lines:
+  - '&b&lSell Dit Clay Her!'
+casinohd:
+  location: world, -86.712, 7.000, 573.700
+  lines:
+  - '&b&lCasino Denne Vej!'
+mizziemerald:
+  location: Plots, -45.646, 68.200, -127.395
+  lines:
+  - '&8+--------------+'
+  - '&a&lEmerald &aShop!'
+  - '&8+--------------+'
+mizziredstone:
+  location: Plots, -45.533, 68.200, -115.610
+  lines:
+  - '&8+--------------+'
+  - '&c&lRedstone &cShop!'
+  - '&8+--------------+'
+mizzilapis:
+  location: Plots, -57.511, 68.200, -115.457
+  lines:
+  - '&8+--------------+'
+  - '&9&lLapis &9Shop'
+  - '&8+--------------+'
+mizzidiamond:
+  location: Plots, -57.496, 68.200, -127.518
+  lines:
+  - '&8+--------------+'
+  - '&b&lDiamond &bShop!'
+  - '&8+--------------+'
+pvp:
+  location: world, -69.456, 7.200, 534.700
+  lines:
+  - '&9&lPvP'
+  - '&rDer kommer et &9&lPvP'
+  - '&rMap inden længe!'
+fortnite:
+  location: mines, 449.877, 68.200, 162.203
+  lines:
+  - '&4Til alle Jer Fortnite Børn'
+  - '&8Her har i Clock Tower'
+minevent:
+  location: Free_World, 1193.700, 125.200, 487.456
+  lines:
+  - '&7-----------------------'
+  - '&f'
+  - '&b&lMine Event'
+  - '&f'
+  - '&7Hvis Du Får En Sponge Så SKal Du Kontake en staff'
+  - '&f'
+  - '&7Du Får 2 Tril af en sponge'
+  - '&f'
+  - '&7-----------------------'
+bod_frode:
+  location: Plots, -416.571, 66.739, -233.731
+  lines:
+  - '&4Her har vi et lille spil som hedder'
+  - SkinKamp Det gælder om at have det fedeste skin
+  - '&cOg den der vinder får 5 tril!'
+  - '&eSå fortæl jeres venner om det så i har chancen for at vinde!'
+  - '&eSå fortæl jeres venner om det så i har chancen for at vinde!'

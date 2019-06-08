@@ -1,0 +1,88 @@
+options:
+	Enchant: &8[&5Enchant&8]&7
+
+
+on click on a enchantment table:
+	cancel the event
+	if "%player's tool%" contain "diamond_pickaxe", "iron_pickaxe", "golden_pickaxe", "wooden_pickaxe" or "stone_pickaxe":
+		wait 1 ticks
+		open chest with 3 rows named "&5Enchant &8- &dPickaxe" to player
+		wait 1 ticks
+		format slot 10 of player with player's tool to be unstealable
+		set slot 12 of player's current inventory to tnt named "&e&lSprængning" with lore "&7Miner flere blokke i et lige kvadrat.||||&f* &7Pris: &2150 Shards||&f* &7Max Level: &a3||||&fKlik for enchant!"
+	else:
+		message "{@Enchant} &cDu skal holde en Pickaxe i hånden imens!"
+
+
+
+
+on inventory click:
+	if inventory name of player's current inventory is "&5Enchant &8- &dPickaxe":
+		cancel the event
+		if "%player's tool%" contain "diamond_pickaxe", "iron_pickaxe", "golden_pickaxe", "wooden_pickaxe" or "stone_pickaxe":
+			wait 1 ticks
+			if clicked slot is 12:
+				close inventory of player
+				if lore of player's tool contain "&7Sprængning III":
+					message "{@Enchant} &cDin pickaxe er fuld opgraderet i sprængning!"
+					stop
+				else:
+					if {%player%.Tokens} is more than or equal to 150:
+						remove 150 from {%player%.Tokens}
+						if lore of player's tool contain "&7Sprængning II":
+							message "{@Enchant} Du købte &eSprængning III &7til din pickaxe."
+							wait 1 ticks
+							set lore of player's tool to "&7Sprængning III"
+
+						else if lore of player's tool contain "&7Sprængning I":
+							message "{@Enchant} Du købte &eSprængning II &7til din pickaxe."
+							wait 1 ticks
+							set lore of player's tool to "&7Sprængning II"
+
+						else:
+							message "{@Enchant} Du købte &eSprængning I &7til din pickaxe."
+							wait 1 ticks
+							set lore of player's tool to "&7Sprængning I"
+					else:
+						message "{@Enchant} &cDu skal bruge &4£%150 - {%player%.Tokens}% tokens&c, for at købe sprængning!"
+		else:
+			message "{@Enchant} &cDu skal holde en Pickaxe i hånden imens!"
+
+
+on break:
+	if player's gamemode is survival:
+		If "%world of player%" is "Mines", "PVP", "world" or "Mines2nd":
+			if lore of player's tool contain "&7Sprængning":
+				if lore of player's tool contain "&7Sprængning X":
+					set {_radius} to 100.0
+				if lore of player's tool contain "&7Sprængning III":
+					set {_radius} to 2.5
+				else if lore of player's tool contain "&7Sprængning II":
+					set {_radius} to 1.8
+				else if lore of player's tool contain "&7Sprængning I":
+					set {_radius} to 1.3
+				loop blocks in radius {_radius} around the targeted block:
+					If player can build at loop-blocks:
+						add 1 to {Block.%player%}
+						wait 1 ticks
+						if loop-blocks is coal ore:
+							give player 1 coalitem
+						if loop-blocks is iron ore:
+							give player 1 iron ingot
+						if loop-blocks is diamond ore:
+							give player 1 diamond
+						if loop-blocks is emerald ore:
+							give player 1 emerald
+						if loop-blocks is gold ore:
+							give player 1 gold ingot
+						if loop-blocks is stained glass:
+							set loop-blocks to air
+						else:
+							give player loop-blocks
+							set loop-blocks to air
+
+
+every 25 seconds:
+	make console execute command "/mine reset EVENTDP"
+
+

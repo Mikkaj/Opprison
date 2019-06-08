@@ -1,0 +1,8 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":45,"type":"EMERALD_BLOCK"}'
+vault2:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":23,"type":"GOLD_BLOCK"}'
+vault3:
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":13,"type":"DIAMOND_BLOCK"}'
+vault4:
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":22,"type":"QUARTZ_BLOCK"}'

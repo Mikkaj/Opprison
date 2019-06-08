@@ -1,0 +1,435 @@
+# 
+# +------------------------------------------------------+ #
+# 
+# |                       Notes                          | #
+# 
+# +------------------------------------------------------+ #
+
+ops-name-color: none
+nickname-prefix: ''
+max-nick-length: 15
+change-displayname: true
+teleport-cooldown: 0
+teleport-delay: 0
+teleport-invulnerability: 3
+heal-cooldown: 60
+permission-based-item-spawn: false
+spawnmob-limit: 50
+warn-on-smite: true
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.tools
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+kits:
+  Bedrock:
+    delay: 86400
+    items:
+    - 310 1 protection:20 unbreaking:20 name:&0Bedrock_&8➡_&0Hjelm
+    - 311 1 protection:20 unbreaking:20 name:&0Bedrock_&8➡_&0Brystplade
+    - 312 1 protection:20 unbreaking:20 name:&0Bedrock_&8➡_&0Bukser
+    - 313 1 protection:20 unbreaking:20 name:&0Bedrock_&8➡_&0Sko
+    - 278 1 efficiency:80 fortune:75 unbreaking:2000 name:&0Bedrock_&8➡_&0Pickaxe
+    - 276 1 sharpness:10 fire:10 unbeaking:10 name:&0Bedrock_&8➡_&0Sværd
+    - 279 1 efficiency:80 unbreaking:2000 name:&0Bedrock_&8➡_&0Økse
+    - 322:1 64
+    - 262 64
+    - 261 1 Flame:1 Punch:2 Power(cat) name:&0Bedrock_&8➡_&0Bue
+  lapis:
+    delay: 86400
+    items:
+    - 310 1 protection:8 unbreaking:8 name:&9Lapis_&8➡_&9Hjelm
+    - 311 1 protection:8 unbreaking:8 name:&9Lapis_&8➡_&9Brystplade
+    - 312 1 protection:8 unbreaking:8 name:&9Lapis_&8➡_&9Bukser
+    - 313 1 protection:8 unbreaking:8 name:&9Lapis_&8➡_&9Sko
+    - 278 1 efficiency:40 fortune:35 unbreaking:800 name:&9Lapis_&8➡_&9Pickaxe
+    - 276 1 sharpness:8 fire(cat) unbreaking(cat) name:&9Lapis_&8➡_&9Sværd
+    - 279 1 efficiency:40 unbreaking:800 name:&9Lapis_&8➡_&9Økse
+    - 322:1 64
+  redstone:
+    delay: 86400
+    items:
+    - 310 1 protection:9 unbreaking:9 name:&cRedstone_&8➡_&cHjelm
+    - 311 1 protection:9 unbreaking:9 name:&cRedstone_&8➡_&cBrystplade
+    - 312 1 protection:9 unbreaking:9 name:&cRedstone_&8➡_&cBukser
+    - 313 1 protection:9 unbreaking:9 name:&cRedstone_&8➡_&cSko
+    - 278 1 efficiency:45 fortune:40 unbreaking:1000 name:&cRedstone_&8➡_&cPickaxe
+    - 276 1 sharpness:9 fire(cat) unbreaking:4 name:&cRedstone_&8➡_&cSværd
+    - 279 1 efficiency:45 unbreaking:1000 name:&cRedstone_&8➡_&cØkse
+    - 322:1 64
+  diamond:
+    delay: 86400
+    items:
+    - 310 1 protection:10 unbreaking:10 name:&bDiamond_&8➡_&bHjelm
+    - 311 1 protection:10 unbreaking:10 name:&bDiamond_&8➡_&bBrystplade
+    - 312 1 protection:10 unbreaking:10 name:&bDiamond_&8➡_&bBukser
+    - 313 1 protection:10 unbreaking:10 name:&bDiamond_&8➡_&bSko
+    - 278 1 efficiency:50 fortune:45 unbreaking:1200 name:&bDiamond_&8➡_&bPickaxe
+    - 276 1 sharpness:10 fire:4  unbreaking:4 name:&bDiamond_&8➡_&bSværd
+    - 279 1 efficiency:50 unbreaking:1200 name:&bDiamond_&8➡_&bØkse
+    - 322:1 64
+  emerald:
+    delay: 86400
+    items:
+    - 310 1 protection:12 unbreaking:12 name:&aEmerald&8➡_&aHjelm
+    - 311 1 protection:12 unbreaking:12 name:&aEmerald&8➡_&aBrystplade
+    - 312 1 protection:12 unbreaking:12 name:&aEmerald&8➡_&aBukser
+    - 313 1 protection:12 unbreaking:12 name:&aEmerald&8➡_&aSko
+    - 278 1 efficiency:60 fortune:55 unbreaking:1500 name:&aEmerald&8➡_&aPickaxe
+    - 276 1 sharpness:10 fire:5 unbreaking:5 name:&aEmerald&8➡_&aSværd
+    - 279 1 efficiency:60 unbreaking:1500 name:&aEmerald&8➡_&aØkse
+    - 322:1 64
+  obsidian:
+    delay: 86400
+    items:
+    - 310 1 protection:15 unbreaking:15 name:&dObsidian_&8➡_&dHjelm
+    - 311 1 protection:15 unbreaking:15 name:&dObsidian_&8➡_&dBrystplade
+    - 312 1 protection:15 unbreaking:15 name:&dObsidian_&8➡_&dBukser
+    - 313 1 protection:15 unbreaking:15 name:&dObsidian_&8➡_&dSko
+    - 278 1 efficiency:70 fortune:65 unbreaking:1700 name:&dObsidian_&8➡_&dPickaxe
+    - 276 1 sharpness:10 fire:8 unbreaking:8 name:&dObsidian_&8➡_&dSværd
+    - 279 1 efficiency:70 unbreaking:1700 name:&dObsidian_&8➡_&dØkse
+    - 322:1 64
+  iron:
+    delay: 86400
+    items:
+    - 310 1 protection:6 unbreaking:6 name:&7Iron_&8➡_&7Hjelm
+    - 311 1 protection:6 unbreaking:6 name:&7Iron_&8➡_&7Brystplade
+    - 312 1 protection:6 unbreaking:6 name:&7Iron_&8➡_&7Bukser
+    - 313 1 protection:6 unbreaking:6 name:&ff&lIronSko
+    - 278 1 efficiency:30 fortune:25 unbreaking:400 name:&7Iron_&8➡_&7Pickaxe
+    - 276 1 sharpness:6 fire:2 name:&7Iron_&8➡_&7Sværd
+    - 279 1 efficiency:30 unbreaking:400 name:&7Iron_&8➡_&7Økse
+    - 322:1 32
+  gold:
+    delay: 86400
+    items:
+    - 310 1 protection:7 unbreaking:7 name:&eGold_&8➡_&eHjelm
+    - 311 1 protection:7 unbreaking:7 name:&eGold_&8➡_&eBrystplade
+    - 312 1 protection:7 unbreaking:7 name:&eGold_&8➡_&eBukser
+    - 313 1 protection:7 unbreaking:7 name:&e&GoldSko
+    - 278 1 efficiency:35 fortune:30 unbreaking:600 name:&eGold_&8➡_&ePickaxe
+    - 276 1 sharpness:7 fire:2 unbreaking:2 name:&eGold_&8➡_&eSværd
+    - 279 1 unbreaking:600 efficiency:35 name:&eGold_&8➡_&eØkse
+    - 322:1 48
+  coal:
+    delay: 86400
+    items:
+    - 310 1 protection:5 unbreaking:5 name:&8Coal_&8➡_&8Hjelm
+    - 311 1 protection:5 unbreaking:5 name:&8Coal_&8➡_&8Brystplade
+    - 312 1 protection:5 unbreaking:5 name:&8Coal_&8➡_&8Bukser
+    - 313 1 protection:5 unbreaking:5 name:&8Coal_&8➡_&8Sko
+    - 278 1 efficiency:25 fortune:20 unbreaking:200 name:&8Coal_&8➡_&8Pickaxe
+    - 276 1 sharpness:5 name:&8Coal_&8➡_&8Sværd
+    - 279 1 unbreaking:200 efficiency:25 name:&8Coal_&8➡_&8Økse
+    - 322:1 16
+  starter:
+    delay: 600
+    items:
+    - 310 1 protection:2 unbreaking:1
+    - 311 1 protection:2 unbreaking:1
+    - 312 1 protection:2 unbreaking:1
+    - 313 1 protection:2 unbreaking:1
+    - 278 1 efficiency:10 fortune:10 unbreaking:100 name:&fStarter_&8➡_&fPickaxe
+    - 276 1 sharpness:2
+    - 279 1 sharpness:2
+  Mad:
+    delay: 6000
+    items:
+    - 364:0 64
+    - 364:0 64
+    - 364:0 64
+    - 364:0 64
+    - 364:0 64
+    - 364:0 64
+    - 364:0 64
+    - 364:0 64
+    - 364:0 64
+  Dp:
+    delay: 6000
+    items:
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+    - 133:0 64
+enabledSigns:
+# - color
+# - balance
+# - trade
+# - free
+# - disposal
+# - warp
+# - kit
+# - mail
+# - enchant
+# - gamemode
+# - heal
+# - info
+# - spawnmob
+# - repair
+# - time
+# - weather
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: true
+list:
+  Spillere: default A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+  Server Ejer: Ejer
+debug: false
+locale: da
+remove-god-on-disconnect: true
+auto-afk: 1200
+auto-afk-kick: -1
+freeze-afk-players: false
+disable-item-Pickaxeup-while-afk: true
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+death-messages: false
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: true
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 3
+  vip: 5
+  staff: 10
+tpa-accept-cancellation: 120
+starting-balance: 75
+currency-symbol: $
+max-money: 690452656065325
+min-money: 0
+economy-log-enabled: false
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: '{DISPLAYNAME} &8&l〉 &r{MESSAGE}'
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: true
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-Pickaxeup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: false
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: true
+  alert:
+    on-placement: 10,11,46,327
+    on-use: 327
+  blacklist:
+    placement: 10,11,46,327
+    usage: 327
+newbies:
+  announce-format: ''
+  spawnpoint: newbies
+  kit: starter
+respawn-listener-priority: high
+respawn-at-home: false

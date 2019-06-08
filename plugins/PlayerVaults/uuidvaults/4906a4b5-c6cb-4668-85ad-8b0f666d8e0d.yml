@@ -1,0 +1,8 @@
+vault1:
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":63,"type":"GOLDEN_APPLE"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Brystplade"},"type":"DIAMOND_CHESTPLATE"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":15,"PROTECTION_ENVIRONMENTAL":15},"display-name":"§dObsidian
+    §8➡ §dBrystplade"},"type":"DIAMOND_CHESTPLATE"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1700,"DIG_SPEED":70},"display-name":"§dObsidian
+    §8➡ §dØkse"},"type":"DIAMOND_AXE"}'

@@ -1,0 +1,68 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1000,"DIG_SPEED":45},"display-name":"§cRedstone
+    §8➡ §cØkse"},"type":"DIAMOND_AXE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":4,"amount":4,"type":"WOOD"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","damage":15,"amount":22,"type":"STAINED_CLAY"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"HARD_CLAY"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":9,"PROTECTION_ENVIRONMENTAL":9},"display-name":"§cRedstone
+    §8➡ §cHjelm"},"type":"DIAMOND_HELMET"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"HARD_CLAY"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":6,"type":"EMERALD_BLOCK"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§cDu
+    har ikke adgang til denne mine!"],"display-name":"§4§lCoal"},"type":"BARRIER"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§cDu
+    har ikke adgang til denne mine!"],"display-name":"§4§lLapis"},"type":"BARRIER"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§cDu
+    har ikke adgang til denne mine!"],"display-name":"§4§lGold"},"type":"BARRIER"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§cDu
+    har ikke adgang til denne mine!"],"display-name":"§4§lBedrock"},"type":"BARRIER"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§cDu
+    har ikke adgang til denne mine!"],"display-name":"§4§lEmerald"},"type":"BARRIER"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§cDu
+    har ikke adgang til denne mine!"],"display-name":"§4§lIron"},"type":"BARRIER"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lG"},"type":"STAINED_GLASS_PANE"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lE"},"type":"STAINED_GLASS_PANE"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lC"},"type":"STAINED_GLASS_PANE"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lD"},"type":"STAINED_GLASS_PANE"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lN"},"type":"STAINED_GLASS_PANE"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lB"},"type":"STAINED_GLASS_PANE"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lK"},"type":"STAINED_GLASS_PANE"}'
+  '20': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lR"},"type":"STAINED_GLASS_PANE"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lI"},"type":"STAINED_GLASS_PANE"}'
+  '22': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lU"},"type":"STAINED_GLASS_PANE"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lW"},"type":"STAINED_GLASS_PANE"}'
+  '24': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lV"},"type":"STAINED_GLASS_PANE"}'
+  '25': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lJ"},"type":"STAINED_GLASS_PANE"}'
+  '26': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lS"},"type":"STAINED_GLASS_PANE"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lT"},"type":"STAINED_GLASS_PANE"}'
+  '28': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lM"},"type":"STAINED_GLASS_PANE"}'
+  '29': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lF"},"type":"STAINED_GLASS_PANE"}'
+  '30': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lH"},"type":"STAINED_GLASS_PANE"}'
+  '31': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_HELMET"}'
+  '32': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lO"},"type":"STAINED_GLASS_PANE"}'
+  '33': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_CHESTPLATE"}'
+  '34': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lL"},"type":"STAINED_GLASS_PANE"}'
+  '35': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lA"},"type":"STAINED_GLASS_PANE"}'
+  '36': '{"==":"org.bukkit.inventory.ItemStack","damage":13,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7Du
+    har adgang til denne mine!","","§fKlik for at warpe!"],"display-name":"§2§lTr�"},"type":"STAINED_GLASS_PANE"}'

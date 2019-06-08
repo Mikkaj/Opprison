@@ -1,0 +1,22 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":2}},"type":"DIAMOND_SWORD"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":2}},"type":"DIAMOND_AXE"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_HELMET"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_LEGGINGS"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_CHESTPLATE"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":4,"DAMAGE_ALL":9},"display-name":"§cRedstone
+    §8➡ §cSværd"},"type":"DIAMOND_SWORD"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1000,"DIG_SPEED":45},"display-name":"§cRedstone
+    §8➡ §cØkse"},"type":"DIAMOND_AXE"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_BOOTS"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","damage":5,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":100,"LOOT_BONUS_BLOCKS":10,"DIG_SPEED":10},"display-name":"§fStarter
+    §8➡ §fPickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":64,"type":"GOLDEN_APPLE"}'

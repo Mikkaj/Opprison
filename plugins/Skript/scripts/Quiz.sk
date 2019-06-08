@@ -1,0 +1,46 @@
+
+options:
+	Præmie: 300
+
+
+command /quiz <text> -s <text>:
+	permission: spg.quiz
+	trigger:
+		player has permission "spg.quiz":
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast "&6&lGIVEAWAY "
+			broadcast ""
+			broadcast "&d&LSVAR: &b%arg 1%"
+			broadcast ""
+			broadcast "&8[&2Spørgsmål&8] &7Præmie: &a 1 Million."
+			set {Spørgsmål} to arg 1
+			set {Svar} to arg 2
+			set {quiz} to true
+		else:
+			stop
+
+on chat:
+	if {quiz} is true:
+		set {_QuizSvar} to message
+		if {_QuizSvar} is {Svar}:
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			wait 2 tick
+			broadcast ""
+			broadcast "&6&lRIGTIGT! &d&l%player% &7svarede rigtigt - Svar: &f%{Svar}%"
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			add 1000000 to player's money
+			set {quiz} to false
+			stop
+	else:
+		stop

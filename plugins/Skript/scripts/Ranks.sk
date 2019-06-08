@@ -1,0 +1,313 @@
+options:
+	Rank: &8[&eRank&8]&7
+	Butik: &8[&2Butik&8]&7
+
+variables:
+	{Prestige.%player%} = 0
+
+every 1 minute:
+	loop all players:
+		if {Prestige.%loop-player%} is bigger than 0:
+			if loop-player is "Dit navn" or "Dit navn": #Så man ikke kan se ens prestige i tab.
+				stop
+			else:
+				make console execute command "/nte player %loop-player% suffix &8[&dP&f%{Prestige.%loop-player%}%&8]"
+		set {_suffix} to colored loop-player's suffix
+		if {_suffix} contain "Ejer":
+			make console execute command "/nte player %loop-player% priority 1"
+			make console execute command "/nte player %loop-player% prefix &4Ejer &8| &f"
+		else if {_suffix} contain "Head-Admin":
+			make console execute command "/nte player %loop-player% priority 2"
+			make console execute command "/nte player %loop-player% prefix &4H-Admin &8| &f"
+		else if {_suffix} contain "Admin":
+			make console execute command "/nte player %loop-player% priority 3"
+			make console execute command "/nte player %loop-player% prefix &cAdmin &8| &f"
+		else if {_suffix} contain "byg":
+			make console execute command "/nte player %loop-player% priority 4"
+			make console execute command "/nte player %loop-player% prefix &2Byg &8| &f"		
+		else if {_suffix} contain "Mod":
+			make console execute command "/nte player %loop-player% priority 5"
+			make console execute command "/nte player %loop-player% prefix &5Mod &8| &f"
+		else if {_suffix} contain "Hjælper":
+			make console execute command "/nte player %loop-player% priority 6"
+			make console execute command "/nte player %loop-player% prefix &aHjælper &8| &f"
+		else if {_suffix} contain "Bedrock":
+			make console execute command "/nte player %loop-player% priority 7"
+			make console execute command "/nte player %loop-player% prefix &0Bedrock &8| &f"
+		else if {_suffix} contain "Obsidian":
+			make console execute command "/nte player %loop-player% priority 8"
+			make console execute command "/nte player %loop-player% prefix &dObsidian &8| &f"
+		else if {_suffix} contain "Emerald":
+			make console execute command "/nte player %loop-player% priority 9"
+			make console execute command "/nte player %loop-player% prefix &aEmerald &8| &f"
+		else if {_suffix} contain "Diamond":
+			make console execute command "/nte player %loop-player% priority 10"
+			make console execute command "/nte player %loop-player% prefix &bDiamond &8| &f"
+		else if {_suffix} contain "Redstone":
+			make console execute command "/nte player %loop-player% priority 11"
+			make console execute command "/nte player %loop-player% prefix &cRedstone &8| &f"
+		else if {_suffix} contain "Lapis":
+			make console execute command "/nte player %loop-player% priority 12"
+			make console execute command "/nte player %loop-player% prefix &9Lapis &8| &f"
+		else if {_suffix} contain "Gold":
+			make console execute command "/nte player %loop-player% priority 13"
+			make console execute command "/nte player %loop-player% prefix &eGold &8| &f"
+		else if {_suffix} contain "Iron":
+			make console execute command "/nte player %loop-player% priority 14"
+			make console execute command "/nte player %loop-player% prefix &7Iron &8| &f"
+		else if {_suffix} contain "Coal":
+			make console execute command "/nte player %loop-player% priority 15"
+			make console execute command "/nte player %loop-player% prefix &8Coal &8| &f"
+		else if {_suffix} contain "YT": 
+			make console execute command "/nte player %loop-player% prefix &4Y&fT &8| &f"
+			make console execute command "/nte player %loop-player% priority 16"
+		else:
+			make console execute command "/nte player %loop-player% priority 55"
+			set {_Rank} to colored loop-player's prefix
+			replace all "&8[" with "" in {_Rank}
+			replace all "&8]" with " &8| &f" in {_Rank}
+			make console execute command "/nte player %loop-player% prefix %{_Rank}%"
+
+
+on chat:
+	cancel event
+	set {_Rank} to colored player's prefix
+	set {_Rank2} to colored player's suffix
+	if {Prestige.%player%} is bigger than 0:
+		set {_prestige} to "&8[&aP&f%{Prestige.%player%}%&8] "
+	else:
+		set {_prestige} to "&r"
+	if {_Rank2} contain "Coal", "Iron", "Gold", "Lapis", "Mod","Redstone", "Diamond", "Emerald", "Obsidian", "Bedrock", "Hjælper", "Moderator","Admin" or "Ejer":
+		broadcast "%{_prestige}%%{_Rank}%&f %{_Rank2}% %player% &8&l» &f%message%"
+	else:
+		broadcast "%{_prestige}%%{_Rank}%&f %player% &8&l» &f%message%"	
+
+command /prestige:
+	trigger:
+		set {_Rank} to colored player's prefix
+		if {_Rank} contain "Z":
+			if player's balance is greater than or equal to 3000000000000:
+				subtract 3000000000000 from player's balance
+				execute console command "manuadd %player% a"
+				execute console command "spawn %player%"
+				execute console command "manuaddp %player% essentials.warps.prestige1"
+				message "&8[&dPRESTIGE&8] &7Du er kommet i PRESTIGE &f%{Prestige.%player%}%&7!" to player
+				broadcast "&8[&dPRESTIGE&8] &f%player% &7er kommet i prestige &f%{Prestige.%player%}%&7!"
+				log "%player% er i prestige %{Prestige.%player%}%" to "Prestiges/%player%"
+				add 1 to {Prestige.%player%}
+			else:
+				message "&8[&dPRESTIGE&8] &cDu har ikke nok penge! &4($3000000000000)" to player
+		else:
+			message "&8[&dPRESTIGE&8] &7Du skal være i &cZ rank&7!"
+
+command /setprestige [<offline player>] [<number>]:
+	permission: *
+	trigger:
+		if arg 1 is set:
+			if arg 2 is set:
+				message "&8[&dPRESTIGE&8] &b%arg 1% &7prestige blev sat til &f%arg-2%&7."
+				set {Prestige.%arg 1%} to arg-2
+		else:
+			message "&8[&dPRESTIGE&8] &7Brug: &f/setprestige <spiller> <prestiges>&7."
+
+command /addPRESTIGE [<offline player>]:
+	permission: *
+	trigger:
+		if arg 1 is set:
+			set {_Spiller} to arg 1
+			message "&8[&dPRESTIGE&8] &b%{_Spiller}% &7fik tilføjet &f1&7 prestiges."
+			add 1 to {Prestige.%arg 1%}
+		else:
+			message "&8[&dPRESTIGE&8] &7Brug: &f/addPRESTIGE <spiller>&7."
+
+command /prestigelevel:
+	trigger:
+		message "&8[&dPRESTIGE&8] &7Din prestige: &f%{Prestige.%player%}%&7."
+
+
+command /Rank [<text>] [<text>]:
+	permission: *
+	permission message: &8[&cFejl&8] &cDu har ikke adgang til denne kommando!
+	trigger:
+		if arg 1 is not set:
+			send "&8Brug &a/buycrafts spiller rank"
+			send "&a"
+			send "&cRanks &7/ &cKits:"
+			send "&aCoal, Iron, Gold, Lapis, Redstone , Diamond , Emerald , Obsidian , Bedrock, Admin , Yt , Mod , Byg"
+		if arg 1 is set:
+			if arg 2 is "Coal":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/donor/give"
+				make player execute command "manuaddsub %arg 1% Coal"
+				make player execute command "manuaddv %arg 1% suffix &8[&8Coal&8]&f"
+				make player execute command "nte player %arg-1% &8Coal &7| &f"
+				broadcast "{@Butik} &b%arg 1% &7har købt &8Coal&7 ranken!"
+				broadcast ""
+				wait 1.5 ticks
+				broadcast "{@Butik} En tilfældig spiller, vil nu få &f£15 Shards&7!"
+				broadcast ""
+				set {_Vinder} to random player out of all players
+				wait 1.5 seconds
+				broadcast "{@Butik} Vinderen af &f£15 Shards &7er &b%{_Vinder}%&7!"
+				add 15 to {%{_Vinder}%.Tokens}
+				add 1000 to {donator::%arg 1%}
+			if arg 2 is "Iron":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/donor/give"
+				make player execute command "manuaddsub %arg 1% Iron"
+				make player execute command "manuaddv %arg 1% suffix &8[&7Iron&8]&f"
+				make player execute command "nte player %arg-1% &7Iron &7| &f"
+				broadcast "{@Butik} &b%arg 1% &7har købt &7Iron&7 ranken!"
+				broadcast ""
+				wait 1.5 ticks
+				broadcast "{@Butik} En tilfældig spiller, vil nu få &f£20 Shards&7!"
+				broadcast ""
+				set {_Vinder} to random player out of all players
+				wait 1.5 seconds
+				broadcast "{@Butik} Vinderen af &f£20 Shards &7er &b%{_Vinder}%&7!"
+				add 20 to {%{_Vinder}%.Tokens}
+				add 1500 to {donator::%arg 1%}
+			if arg 2 is "Gold":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/donor/give"
+				make player execute command "manuaddsub %arg 1% Gold"
+				make player execute command "manuaddv %arg 1% suffix &8[&eGold&8]&f"
+				make player execute command "nte player %arg-1% prefix &eGold &7| &f"
+				broadcast "{@Butik} &b%arg 1% &7har købt &eGold&7 ranken!"
+				broadcast ""
+				wait 1.5 ticks
+				broadcast "{@Butik} En tilfældig spiller, vil nu få &f£25 Shards&7!"
+				broadcast ""
+				set {_Vinder} to random player out of all players
+				wait 1.5 seconds
+				broadcast "{@Butik} Vinderen af &f£25 Shards &7er &b%{_Vinder}%&7!"
+				add 25 to {%{_Vinder}%.Tokens}
+				add 2000 to {donator::%arg 1%}
+			if arg 2 is "Lapis":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/donor/give"
+				make player execute command "manuaddsub %arg 1% Lapis"
+				make player execute command "manuaddv %arg 1% suffix &8[&9Lapis&8]&f"
+				make player execute command "nte player %arg-1% prefix &9Lapis &7| &f"
+				broadcast "{@Butik} &b%arg 1% &7har købt &9Lapis&7 ranken!"
+				broadcast ""
+				wait 1.5 ticks
+				broadcast "{@Butik} En tilfældig spiller, vil nu få &f£30 Shards&7!"
+				broadcast ""
+				set {_Vinder} to random player out of all players
+				wait 1.5 seconds
+				broadcast "{@Butik} Vinderen af &f£30 Shards &7er &b%{_Vinder}%&7!"
+				add 30 to {%{_Vinder}%.Tokens}
+				add 2500 to {donator::%arg 1%}
+			if arg 2 is "Redstone":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/donor/give"
+				make player execute command "manuaddsub %arg 1% Redstone"
+				make player execute command "manuaddv %arg 1% suffix &8[&cRedstone&8]&f"
+				make player execute command "nte player %arg-1% prefix &4Redstone &7| &f"
+				broadcast "{@Butik} &b%arg 1% &7har købt &cRedstone&7 ranken!"
+				broadcast ""
+				wait 1.5 ticks
+				broadcast "{@Butik} En tilfældig spiller, vil nu få &f£35 Shards&7!"
+				broadcast ""
+				set {_Vinder} to random player out of all players
+				wait 1.5 seconds
+				broadcast "{@Butik} Vinderen af &f£35 Shards &7er &b%{_Vinder}%&7!"
+				add 35 to {%{_Vinder}%.Tokens}
+				add 3000 to {donator::%arg 1%}
+			if arg 2 is "Diamond":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/donor/give"
+				make player execute command "manuaddsub %arg 1% Diamond"
+				make player execute command "manuaddv %arg 1% suffix &8[&bDiamond&8]&f"
+				make player execute command "nte player %arg-1% prefix &bDiamond &7| &f"
+				broadcast "{@Butik} &b%arg 1% &7har købt &bDiamond&7 ranken!"
+				broadcast ""
+				wait 1.5 ticks
+				broadcast "{@Butik} En tilfældig spiller, vil nu få &f£40 Shards&7!"
+				broadcast ""
+				set {_Vinder} to random player out of all players
+				wait 1.5 seconds
+				broadcast "{@Butik} Vinderen af &f£40 Shards &7er &b%{_Vinder}%&7!"
+				add 40 to {%{_Vinder}%.Tokens}
+				add 4000 to {donator::%arg 1%}
+			if arg 2 is "Emerald":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/donor/give"
+				make player execute command "manuaddsub %arg 1% Emerald"
+				make player execute command "manuaddv %arg 1% suffix &8[&aEmerald&8]&f"
+				make player execute command "nte player %arg-1% prefix &aEmerald &7| &f"
+				broadcast "{@Butik} &b%arg 1% &7har købt &aEmerald&7 ranken!"
+				broadcast ""
+				wait 1.5 ticks
+				broadcast "{@Butik} En tilfældig spiller, vil nu få &f£45 Shards&7!"
+				broadcast ""
+				set {_Vinder} to random player out of all players
+				wait 1.5 seconds
+				broadcast "{@Butik} Vinderen af &f£45 Shards &7er &b%{_Vinder}%&7!"
+				add 45 to {%{_Vinder}%.Tokens}
+				add 5000 to {donator::%arg 1%}
+			if arg 2 is "Obsidian":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/donor/give"
+				make player execute command "manuaddsub %arg 1% Obsidian"
+				make player execute command "manuaddv %arg 1% suffix &8[&dObsidian&8]&f"
+				make player execute command "nte player %arg-1% prefix &dObsidian &7| &f"
+				broadcast "{@Butik} &b%arg 1% &7har købt &dObsidian&7 ranken!"
+				broadcast ""
+				wait 1.5 ticks
+				broadcast "{@Butik} En tilfældig spiller, vil nu få &f£50 Shards&7!"
+				broadcast ""
+				set {_Vinder} to random player out of all players
+				wait 1.5 seconds
+				broadcast "{@Butik} Vinderen af &f£50 Shards &7er &b%{_Vinder}%&7!"
+				add 50 to {%{_Vinder}%.Tokens}
+				add 5500 to {donator::%arg 1%}
+			if arg 2 is "Bedrock":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/donor/give"
+				make player execute command "manuaddsub %arg 1% Bedrock"
+				make player execute command "manuaddv %arg 1% suffix &8[&0Bedrock&8]&f"
+				make player execute command "nte player %arg-1% prefix &0bedrock &7| &f"
+				broadcast "{@Butik} &b%arg 1% &7har købt &0Bedrock&7 ranken!"
+				broadcast ""
+				wait 1.5 ticks
+				broadcast "{@Butik} En tilfældig spiller, vil nu få &f£70 Shards&7!"
+				broadcast ""
+				set {_Vinder} to random player out of all players
+				wait 1.5 seconds
+				broadcast "{@Butik} Vinderen af &f£70 Shards &7er &b%{_Vinder}%&7!"
+				add 70 to {%{_Vinder}%.Tokens}
+				add 6000 to {donator::%arg 1%}
+			if arg 2 is "Mod":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/mod/give"
+				make player execute command "manuaddsub %arg 1% Mod"
+				make player execute command "manuaddv %arg 1% suffix &8[&5Mod&8]&f"
+				make player execute command "nte player %arg-1% prefix &5Mod &7| &f"
+			if arg 2 is "byg":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/mod/give"
+				make player execute command "manuaddsub %arg 1% bygger"
+				make player execute command "manuaddv %arg 1% suffix &8[&dBygger&8]&f"
+				make player execute command "nte player %arg-1% prefix &dByg &7| &f"			
+			if arg 2 is "Hjælper":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/mod/give"
+				make player execute command "manuaddsub %arg 1% Hjælper"
+				make player execute command "manuaddv %arg 1% suffix &8[&aHjælper&8]&f"
+			if arg 2 is "Admin":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/admin/give"
+				make player execute command "manuaddsub %arg 1% Admin"
+				make player execute command "manuaddv %arg 1% suffix &8[&cAdmin&8]&f"
+				make player execute command "nte player %arg-1% &cAdmin &7| &f"
+			if arg 2 is "H-Admin" or "HAdmin":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/hadmin/give"
+				make player execute command "manuaddsub %arg 1% Head-Admin"
+				make player execute command "manuaddv %arg 1% suffix &8[&4Head-Admin&8]&f"
+				make player execute command "nte player %arg-1% prefix &4Head-Admin &7| &f"
+			if arg 2 is "yt":
+				log "%player% gav %arg 1% %arg 2% rank" to "Ranks/donor/give"
+				make player execute command "manuaddsub %arg 1% yt"
+				make player execute command "manuaddv %arg 1% suffix &8[&4Y&fT&8]&f"
+				make player execute command "nte player %arg-1% prefix &4Y&fT &7| &f"
+				broadcast "{@Butik} &b%arg 1% &7har Fået &4Y&fT&7 ranken!"
+				broadcast ""
+				wait 1.5 ticks
+				broadcast "{@Butik} En tilfældig spiller, vil nu få &f£70 Shards&7!"
+				broadcast ""
+				set {_Vinder} to random player out of all players
+				wait 1.5 seconds
+				broadcast "{@Butik} Vinderen af &f£70 Shards &7er &b%{_Vinder}%&7!"
+				add 70 to {%{_Vinder}%.Tokens}
+				add 6000 to {donator::%arg 1%}
+
+

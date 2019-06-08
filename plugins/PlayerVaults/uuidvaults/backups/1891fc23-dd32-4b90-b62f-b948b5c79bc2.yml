@@ -1,0 +1,5 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"STICK"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":7,"type":"DIRT"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":17,"type":"SPRUCE_WOOD_STAIRS"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":34,"type":"SPRUCE_FENCE"}'

@@ -1,0 +1,41 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","display-name":"§c§lREDSTONE
+    RANK"},"type":"BOOK"}'
+vault2:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":15,"PROTECTION_ENVIRONMENTAL":15},"display-name":"§dObsidian
+    §8➡ §dHjelm"},"type":"DIAMOND_HELMET"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":64,"type":"GOLDEN_APPLE"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Brystplade"},"type":"DIAMOND_CHESTPLATE"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Bukser"},"type":"DIAMOND_LEGGINGS"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Bukser"},"type":"DIAMOND_LEGGINGS"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":15,"PROTECTION_ENVIRONMENTAL":15},"display-name":"§dObsidian
+    §8➡ §dSko"},"type":"DIAMOND_BOOTS"}'
+  '28': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":15,"PROTECTION_ENVIRONMENTAL":15},"display-name":"§dObsidian
+    §8➡ §dSko"},"type":"DIAMOND_BOOTS"}'
+  '36': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"LOOT_BONUS_BLOCKS":75,"DIG_SPEED":80},"display-name":"§0Bedrock
+    §8➡ §0Pickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '37': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"LOOT_BONUS_BLOCKS":75,"DIG_SPEED":80},"lore":["§7Spr�ngning
+    I"],"display-name":"§0Bedrock §8➡ §0Pickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '42': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1700,"DIG_SPEED":70},"display-name":"§dObsidian
+    §8➡ §dØkse"},"type":"DIAMOND_AXE"}'
+  '43': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"DIG_SPEED":80},"display-name":"§0Bedrock
+    §8➡ §0Økse"},"type":"DIAMOND_AXE"}'
+  '44': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"ARROW_FIRE":1,"ARROW_KNOCKBACK":2},"display-name":"§0Bedrock
+    §8➡ §0Bue"},"type":"BOW"}'
+  '45': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":10,"FIRE_ASPECT":10},"display-name":"§0Bedrock
+    §8➡ §0Sværd"},"type":"DIAMOND_SWORD"}'
+  '46': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":10,"FIRE_ASPECT":10},"display-name":"§0Bedrock
+    §8➡ §0Sværd"},"type":"DIAMOND_SWORD"}'
+  '47': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":8,"DAMAGE_ALL":10,"FIRE_ASPECT":8},"display-name":"§dObsidian
+    §8➡ §dSværd"},"type":"DIAMOND_SWORD"}'
+  '48': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":8,"DAMAGE_ALL":10,"FIRE_ASPECT":8},"display-name":"§dObsidian
+    §8➡ §dSværd"},"type":"DIAMOND_SWORD"}'
+  '49': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":10,"FIRE_ASPECT":10},"display-name":"§0Bedrock
+    §8➡ §0Sværd"},"type":"DIAMOND_SWORD"}'
+  '52': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"DIG_SPEED":80},"display-name":"§0Bedrock
+    §8➡ §0Økse"},"type":"DIAMOND_AXE"}'
+  '53': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"ARROW_FIRE":1,"ARROW_KNOCKBACK":2},"display-name":"§0Bedrock
+    §8➡ §0Bue"},"type":"BOW"}'

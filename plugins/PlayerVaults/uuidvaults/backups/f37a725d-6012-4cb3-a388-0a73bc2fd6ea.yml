@@ -1,0 +1,23 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":8,"DAMAGE_ALL":10,"FIRE_ASPECT":8},"display-name":"§dObsidian
+    §8➡ §dSværd"},"type":"DIAMOND_SWORD"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1700,"LOOT_BONUS_BLOCKS":65,"DIG_SPEED":70},"display-name":"§dObsidian
+    §8➡ §dPickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1700,"DIG_SPEED":70},"display-name":"§dObsidian
+    §8➡ §dØkse"},"type":"DIAMOND_AXE"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":64,"type":"GOLDEN_APPLE"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":10,"FIRE_ASPECT":10},"display-name":"§0Bedrock
+    §8➡ §0Sværd"},"type":"DIAMOND_SWORD"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"LOOT_BONUS_BLOCKS":75,"DIG_SPEED":80},"display-name":"§0Bedrock
+    §8➡ §0Pickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":31,"type":"GOLDEN_APPLE"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":8,"DAMAGE_ALL":10,"FIRE_ASPECT":8},"display-name":"§dObsidian
+    §8➡ §dSværd"},"type":"DIAMOND_SWORD"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"type":"GOLDEN_APPLE"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":8,"DAMAGE_ALL":10,"FIRE_ASPECT":8},"display-name":"§dObsidian
+    §8➡ §dSværd"},"type":"DIAMOND_SWORD"}'
+  '30': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"type":"GOLDEN_APPLE"}'
+  '39': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"type":"GOLDEN_APPLE"}'
+  '48': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"type":"GOLDEN_APPLE"}'
+  '53': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Sko"},"type":"DIAMOND_BOOTS"}'

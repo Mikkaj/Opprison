@@ -1,0 +1,10 @@
+vault1:
+  '4': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":100,"LOOT_BONUS_BLOCKS":10,"DIG_SPEED":10},"display-name":"§fStarter
+    §8➡ §fPickaxe"},"type":"DIAMOND_PICKAXE"}'
+vault2:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2500 Emeralder."],"display-name":"§b50x Shards"},"type":"PRISMARINE_SHARD"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2500 Emeralder."],"display-name":"§b50x Shards"},"type":"PRISMARINE_SHARD"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":22,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2500 Emeralder."],"display-name":"§b50x Shards"},"type":"PRISMARINE_SHARD"}'

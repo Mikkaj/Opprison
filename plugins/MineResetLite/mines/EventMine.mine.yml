@@ -1,0 +1,26 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 0
+  surface: ''
+  maxZ: 83
+  maxY: 114
+  maxX: 119
+  fillMode: false
+  world: pvp
+  minY: 95
+  resetWarnings: []
+  minX: 104
+  composition:
+    '57:0': 0.2
+    '79:0': 0.05
+    '95:0': 0.05
+    '17:0': 0.05
+    '95:13': 0.05
+    '165:0': 0.2
+    '54:0': 0.05
+    '89:0': 0.15
+    '133:0': 0.2
+  name: EventMine
+  resetClock: 0
+  minZ: 68
+  isSilent: false

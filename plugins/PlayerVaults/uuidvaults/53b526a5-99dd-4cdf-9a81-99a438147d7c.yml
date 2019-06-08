@@ -1,0 +1,22 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":47,"type":"GOLDEN_APPLE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":15,"PROTECTION_ENVIRONMENTAL":15},"display-name":"§dObsidian
+    §8➡ §dHjelm"},"type":"DIAMOND_HELMET"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"DIG_SPEED":80},"display-name":"§0Bedrock
+    §8➡ §0Økse"},"type":"DIAMOND_AXE"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Sko"},"type":"DIAMOND_BOOTS"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":600,"LOOT_BONUS_BLOCKS":30,"DIG_SPEED":35},"display-name":"§eGold
+    §8➡ §ePickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Sko"},"type":"DIAMOND_BOOTS"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":10,"FIRE_ASPECT":10},"display-name":"§0Bedrock
+    §8➡ §0Sværd"},"type":"DIAMOND_SWORD"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Bukser"},"type":"DIAMOND_LEGGINGS"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Brystplade"},"type":"DIAMOND_CHESTPLATE"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":15,"PROTECTION_ENVIRONMENTAL":15},"display-name":"§dObsidian
+    §8➡ §dHjelm"},"type":"DIAMOND_HELMET"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2950 Emeralder."],"display-name":"§c3x Mystery Key"},"type":"TRIPWIRE_HOOK"}'

@@ -1,0 +1,17 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1},"lore":["§7Right-Click
+    on a \"§fElite§7\" crate","§7to win an item!",""],"display-name":"§fElite Crate
+    Key"},"type":"TRIPWIRE_HOOK"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":10,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1},"lore":["§7Right-Click
+    on a \"§fRocket§7\" crate","§7to win an item!",""],"display-name":"§fRocket Crate
+    Key"},"type":"TRIPWIRE_HOOK"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":5,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1},"lore":["§7Right-Click
+    on a \"§fMystery§7\" crate","§7to win an item!",""],"display-name":"§fMystery
+    Crate Key"},"type":"TRIPWIRE_HOOK"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"type":"GOLDEN_APPLE"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","display-name":"§4Tilbage"},"type":"NETHER_STAR"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"HARD_CLAY"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"HARD_CLAY"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"HARD_CLAY"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":61,"type":"HARD_CLAY"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'

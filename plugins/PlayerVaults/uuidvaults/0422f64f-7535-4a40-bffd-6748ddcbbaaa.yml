@@ -1,0 +1,8 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1500,"DIG_SPEED":60},"display-name":"§aEmerald§8➡
+    §aØkse"},"type":"DIAMOND_AXE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":5,"DAMAGE_ALL":10,"FIRE_ASPECT":5},"display-name":"§aEmerald§8➡
+    §aSværd"},"type":"DIAMOND_SWORD"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1500,"LOOT_BONUS_BLOCKS":55,"DIG_SPEED":60},"display-name":"§aEmerald§8➡
+    §aPickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":64,"type":"GOLDEN_APPLE"}'

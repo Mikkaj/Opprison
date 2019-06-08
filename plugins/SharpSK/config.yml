@@ -1,0 +1,17 @@
+cfgver: "1.5.9"
+
+# SharpSK Config
+metrics: true
+updater: true
+
+
+# Plugin hooks
+permissionsex: true
+mythicmobs: true
+jobsreborn: true
+authmereloaded: true
+lightapi: true
+ucars: true
+glowapi: true
+mcmmo: true
+coreprotect: true

@@ -1,0 +1,25 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","damage":2,"amount":27,"type":"LOG"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":3,"amount":16,"type":"LOG"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":9,"type":"LADDER"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":12,"type":"LOG"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":20,"type":"LOG_2"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":12,"PROTECTION_ENVIRONMENTAL":12},"display-name":"§aEmerald§8➡
+    §aHjelm"},"type":"DIAMOND_HELMET"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Brystplade"},"type":"DIAMOND_CHESTPLATE"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Bukser"},"type":"DIAMOND_LEGGINGS"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":20,"PROTECTION_ENVIRONMENTAL":20},"display-name":"§0Bedrock
+    §8➡ §0Sko"},"type":"DIAMOND_BOOTS"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":5,"DAMAGE_ALL":10,"FIRE_ASPECT":5},"display-name":"§aEmerald§8➡
+    §aSværd"},"type":"DIAMOND_SWORD"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":62,"type":"GOLDEN_APPLE"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","damage":2,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1500,"DIG_SPEED":60},"display-name":"§aEmerald§8➡
+    §aØkse"},"type":"DIAMOND_AXE"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":62,"type":"STAINED_CLAY"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"EMERALD_BLOCK"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":17,"type":"EMERALD_BLOCK"}'

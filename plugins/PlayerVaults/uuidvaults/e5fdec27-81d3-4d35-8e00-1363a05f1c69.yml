@@ -1,0 +1,65 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SNOW_BALL"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SNOW_BALL"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"STICK"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"WOOD"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":19,"type":"HARD_CLAY"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":15,"PROTECTION_ENVIRONMENTAL":15},"display-name":"§dObsidian
+    §8➡ §dBrystplade"},"type":"DIAMOND_CHESTPLATE"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_CHESTPLATE"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":7,"PROTECTION_ENVIRONMENTAL":7},"display-name":"§eGold
+    §8➡ §eBrystplade"},"type":"DIAMOND_CHESTPLATE"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":19,"type":"COOKED_BEEF"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","damage":11,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":100,"LOOT_BONUS_BLOCKS":10,"DIG_SPEED":10},"display-name":"§fStarter
+    §8➡ §fPickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_LEGGINGS"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_HELMET"}'
+  '20': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_BOOTS"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":600,"LOOT_BONUS_BLOCKS":30,"DIG_SPEED":35},"display-name":"§eGold
+    §8➡ §ePickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '22': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":8,"PROTECTION_ENVIRONMENTAL":8},"display-name":"§9Lapis
+    §8➡ §9Sko"},"type":"DIAMOND_BOOTS"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","damage":7,"type":"WOOL"}'
+  '24': '{"==":"org.bukkit.inventory.ItemStack","type":"WOOL"}'
+  '25': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":2}},"type":"DIAMOND_SWORD"}'
+  '26': '{"==":"org.bukkit.inventory.ItemStack","amount":12,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1},"lore":["§7Right-Click
+    on a \"§fElite§7\" crate","§7to win an item!",""],"display-name":"§fElite Crate
+    Key"},"type":"TRIPWIRE_HOOK"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":7,"PROTECTION_ENVIRONMENTAL":7},"display-name":"§eGold
+    §8➡ §eBukser"},"type":"DIAMOND_LEGGINGS"}'
+  '28': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":8,"PROTECTION_ENVIRONMENTAL":8},"display-name":"§9Lapis
+    §8➡ §9Sko"},"type":"DIAMOND_BOOTS"}'
+  '29': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":8,"PROTECTION_ENVIRONMENTAL":8},"display-name":"§9Lapis
+    §8➡ §9Bukser"},"type":"DIAMOND_LEGGINGS"}'
+  '30': '{"==":"org.bukkit.inventory.ItemStack","damage":11,"type":"WOOL"}'
+  '31': '{"==":"org.bukkit.inventory.ItemStack","damage":10,"type":"WOOL"}'
+  '32': '{"==":"org.bukkit.inventory.ItemStack","damage":2,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":2}},"type":"DIAMOND_AXE"}'
+  '33': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '34': '{"==":"org.bukkit.inventory.ItemStack","damage":9,"amount":2,"type":"WOOL"}'
+  '35': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":800,"LOOT_BONUS_BLOCKS":35,"DIG_SPEED":40},"display-name":"§9Lapis
+    §8➡ §9Pickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '36': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":800,"LOOT_BONUS_BLOCKS":35,"DIG_SPEED":40},"display-name":"§9Lapis
+    §8➡ §9Pickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '37': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":10,"FIRE_ASPECT":10},"display-name":"§0Bedrock
+    §8➡ §0Sværd"},"type":"DIAMOND_SWORD"}'
+  '38': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":600,"LOOT_BONUS_BLOCKS":30,"DIG_SPEED":35},"display-name":"§eGold
+    §8➡ §ePickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '40': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2,"DAMAGE_ALL":7,"FIRE_ASPECT":2},"display-name":"§eGold
+    §8➡ §eSværd"},"type":"DIAMOND_SWORD"}'
+  '41': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":800,"LOOT_BONUS_BLOCKS":35,"DIG_SPEED":40},"display-name":"§9Lapis
+    §8➡ §9Pickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '42': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":600,"LOOT_BONUS_BLOCKS":30,"DIG_SPEED":35},"display-name":"§eGold
+    §8➡ §ePickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '43': '{"==":"org.bukkit.inventory.ItemStack","amount":19,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1},"lore":["§7Right-Click
+    on a \"§fRocket§7\" crate","§7to win an item!",""],"display-name":"§fRocket Crate
+    Key"},"type":"TRIPWIRE_HOOK"}'
+  '44': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2950 Emeralder."],"display-name":"§c3x Mystery Key"},"type":"TRIPWIRE_HOOK"}'

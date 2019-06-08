@@ -1,0 +1,60 @@
+command /giveaway:
+	permission: *
+	trigger:
+		broadcast ""
+		broadcast "&8[&2Giveaway&8] &7Giveaway på &b£5 Shards&7!"
+		broadcast ""
+		wait 1.5 seconds
+		set {_Vinder} to random player out of all players
+		broadcast ""
+		broadcast "&8[&2Giveaway&8] &7Vinderen blev &f%{_Vinder}% &7af &b£5 Shards&7!"
+		broadcast ""
+		add 5 to {%{_Vinder}%.Tokens}
+
+every 15 second:
+	make console execute command "/mine reset eventdp"
+
+
+
+command /rankgiveaway [<text>]:
+	permission: *
+	trigger:
+		if arg 1 is "COAL", "IRON", "GOLD", "LAPIS", "REDSTONE", "DIAMOND", "EMERALD", "OBSIDIAN" or "BEDROCK":
+			set {_Vinder} to random player out of all players
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast "&6GIVEAWAY MED &f%arg 1% &6RANK!"
+			broadcast "&6VINDEREN ER"
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast "&63 SEKUNDER TILBAGE!"
+			broadcast ""
+			broadcast ""
+			wait 1 second
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast "&62 SEKUNDER TILBAGE!"
+			broadcast ""
+			broadcast ""
+			wait 1 second
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast "&61 SEKUND TILBAGE!"
+			broadcast ""
+			broadcast ""
+			wait 1 second
+			broadcast ""
+			broadcast ""
+			broadcast ""
+			broadcast "&6VINDEREN ER &b%{_Vinder}%&6!"
+			broadcast ""
+			broadcast ""
+			wait 1.5 seconds
+			message "&8[&4TIP&8] &7Højreklikker du med bogen, og du allerede har rank. Er det bare træls for dig! :)" to {_Vinder}
+			make player execute command "/rankbog %{_Vinder}% %arg 1%"
+		else:
+			message "&8[&2Rank Giveaway&8] &7Brug: &f/rankgiveaway <rank>&7."

@@ -1,0 +1,57 @@
+# You can choose to disable command protection here:
+
+BlockPlugins: true
+
+BlockVersion: true
+
+BlockAbout: true
+
+BlockQuestionMark: true
+
+BlockMe: true
+
+BlockKill: true
+
+BlockPlugman: true
+
+
+
+# Sent to players attempting to use /plugins and /pl
+
+Plugins: '&8[&cFejl&8] &cDu har ikke adgang til denne kommando!'
+
+
+
+# Sent to players attempting to use /?
+
+QuestionMark: '&8[&cFejl&8] &cDu har ikke adgang til denne kommando!'
+
+
+
+# Sent to players attempting to use /about
+
+About: '&8[&cFejl&8] &cDu har ikke adgang til denne kommando!'
+
+
+
+# Sent to players attempting to use /version and /ver
+
+Version: '&8[&cFejl&8] &cDu har ikke adgang til denne kommando!'
+
+
+
+# Sent to players attempting to use /me
+
+Me: '&8[&cFejl&8] &cDu har ikke adgang til denne kommando!'
+
+
+
+# Sent to players attempting to use /kill
+
+Kill: '&8[&cFejl&8] &cDu har ikke adgang til denne kommando!'
+
+
+
+# Sent to players attempting to use /plugman
+
+Plugman: '&8[&cFejl&8] &cDu har ikke adgang til denne kommando!'

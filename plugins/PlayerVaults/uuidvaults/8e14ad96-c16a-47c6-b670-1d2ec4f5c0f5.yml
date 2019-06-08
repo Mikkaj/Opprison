@@ -1,0 +1,2 @@
+vault1:
+  '22': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"EMERALD_BLOCK"}'

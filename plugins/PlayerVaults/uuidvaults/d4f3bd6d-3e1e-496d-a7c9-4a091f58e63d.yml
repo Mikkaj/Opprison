@@ -1,0 +1,18 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":600,"LOOT_BONUS_BLOCKS":30,"DIG_SPEED":35},"display-name":"§eGold
+    §8➡ §ePickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":5,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":800,"LOOT_BONUS_BLOCKS":35,"DIG_SPEED":40},"display-name":"§9Lapis
+    §8➡ §9Pickaxe"},"type":"DIAMOND_PICKAXE"}'
+vault2:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"BRICK"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":14,"type":"BRICK"}'

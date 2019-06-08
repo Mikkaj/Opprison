@@ -1,0 +1,8 @@
+[10-2-2019 11:23:38] swagkonrad reached 18 CPS, VL=1
+[10-2-2019 11:23:38] zZ_basse_Zz reached 19 CPS, VL=1
+[10-2-2019 11:24:48] SuperWilliam2005 reached 26 CPS, VL=1
+[10-2-2019 11:24:54] zZ_basse_Zz reached 27 CPS, VL=1
+[10-2-2019 11:31:09] SuperWilliam2005 reached 24 CPS, VL=1
+[10-2-2019 11:31:14] SuperWilliam2005 reached 23 CPS, VL=1
+[10-2-2019 11:33:19] SuperWilliam2005 reached 59 CPS, VL=1
+[10-2-2019 11:33:24] SuperWilliam2005 reached 29 CPS, VL=1

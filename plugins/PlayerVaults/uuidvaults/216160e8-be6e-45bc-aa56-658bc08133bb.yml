@@ -1,0 +1,13 @@
+vault10:
+  '53': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"BOOK","pages":["Sådan
+    får man en rankbog: /Rankbog [Spiller] [Rank]§0\n§0\n§0Sådan giver man shards:
+    /ShardAdmin Give [Spiller] [Antal]"]},"type":"BOOK_AND_QUILL"}'
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"generation":0,"==":"ItemMeta","meta-type":"BOOK_SIGNED","pages":["Mit
+    rigtige navn er Noah. Jeg er 13 år.§0\\n§0Jeg er en rigtig god assistent eller
+    noget andet er god til commands ved alt om minecraft spørg mig alt.§0 Vil være
+    sød og lytte til dig Ejer Goddreng. DU er en rigtig god dreng. Men du skulle ikke
+    have spildt","80k på denne pis server."],"author":"BokIUnderbukser","title":"Du
+    er en legende"},"type":"WRITTEN_BOOK"}'
+  '53': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":600,"LOOT_BONUS_BLOCKS":30,"DIG_SPEED":35},"lore":["§7Spr�ngning
+    III"],"display-name":"§eGold §8➡ §ePickaxe"},"type":"DIAMOND_PICKAXE"}'

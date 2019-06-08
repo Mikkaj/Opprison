@@ -1,0 +1,7 @@
+[16-2-2019 14:40:06] HjaxGaming reached 68 CPS, VL=1
+[16-2-2019 14:40:07] HjaxGaming reached 159 CPS, VL=2
+[16-2-2019 14:40:08] HjaxGaming reached 76 CPS, VL=1
+[16-2-2019 14:40:39] HjaxGaming reached 100 CPS, VL=1
+[16-2-2019 14:59:36] Cola_Light reached 19 CPS, VL=1
+[16-2-2019 15:14:43] Cola_Light reached 24 CPS, VL=1
+[16-2-2019 15:24:29] Maawc reached 23 CPS, VL=1

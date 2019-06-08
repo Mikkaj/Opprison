@@ -1,0 +1,6 @@
+[8-2-2019 21:46:23] ZepperPVP reached 29 CPS, VL=1
+[8-2-2019 21:46:50] ZepperPVP reached 38 CPS, VL=1
+[8-2-2019 21:54:49] lee1shark1 reached 18 CPS, VL=1
+[8-2-2019 21:56:59] ZepperPVP reached 48 CPS, VL=1
+[8-2-2019 21:56:59] lee1shark1 reached 21 CPS, VL=1
+[8-2-2019 22:03:37] ZepperPVP reached 25 CPS, VL=1

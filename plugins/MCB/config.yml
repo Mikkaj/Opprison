@@ -1,0 +1,8 @@
+#variables for format are %p for player, %s for the server the player is going to, and %a for the server the player just left
+
+format: $8
+
+signtp: false
+
+
+

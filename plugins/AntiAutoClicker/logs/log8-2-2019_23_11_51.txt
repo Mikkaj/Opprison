@@ -1,0 +1,8 @@
+[8-2-2019 00:14:50] soniiii reached 20 CPS, VL=1
+[8-2-2019 00:15:05] ZepperPVP reached 19 CPS, VL=1
+[8-2-2019 00:15:05] soniiii reached 43 CPS, VL=1
+[8-2-2019 00:16:52] ZepperPVP reached 18 CPS, VL=1
+[8-2-2019 00:20:35] xXXBear_BearXXx reached 22 CPS, VL=1
+[8-2-2019 00:21:11] xXXBear_BearXXx reached 41 CPS, VL=1
+[8-2-2019 00:21:23] xXXBear_BearXXx reached 22 CPS, VL=2
+[8-2-2019 00:29:24] ZepperPVP reached 19 CPS, VL=1

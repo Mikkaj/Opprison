@@ -1,0 +1,19 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 3
+  surface: ''
+  maxZ: -124
+  maxY: 64
+  maxX: -124
+  fillMode: false
+  world: Plots
+  minY: 27
+  resetWarnings: []
+  minX: -142
+  composition:
+    '57:0': 0.5
+    '133:0': 0.5
+  name: MrSilass
+  resetClock: 2
+  minZ: -142
+  isSilent: true

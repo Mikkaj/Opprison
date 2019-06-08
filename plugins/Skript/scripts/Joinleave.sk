@@ -1,0 +1,7 @@
+on join:
+	set join message to "&8[&2&l✔&8] &a%player% &7tilsluttede serveren!"
+	stop
+
+on quit:
+	set quit message to " &8[&4&l✖&8] &c%player% &7forlod serveren!"
+	stop

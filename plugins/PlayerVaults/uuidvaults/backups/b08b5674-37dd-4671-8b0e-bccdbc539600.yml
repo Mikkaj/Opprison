@@ -1,0 +1,9 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1000,"LOOT_BONUS_BLOCKS":40,"DIG_SPEED":45},"display-name":"§cRedstone
+    §8➡ §cPickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1000,"LOOT_BONUS_BLOCKS":40,"DIG_SPEED":45},"display-name":"§cRedstone
+    §8➡ §cPickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1000,"LOOT_BONUS_BLOCKS":40,"DIG_SPEED":45},"display-name":"§cRedstone
+    §8➡ §cPickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1000,"LOOT_BONUS_BLOCKS":40,"DIG_SPEED":45},"display-name":"§cRedstone
+    §8➡ §cPickaxe"},"type":"DIAMOND_PICKAXE"}'

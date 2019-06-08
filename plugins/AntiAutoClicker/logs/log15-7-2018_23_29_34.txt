@@ -1,0 +1,13 @@
+[16-7-2018 02:50:13] Mikkaj reached 30 CPS, VL=1
+[16-7-2018 02:50:17] Mikkaj reached 23 CPS, VL=1
+[16-7-2018 02:51:24] Mikkaj reached 20 CPS, VL=1
+[16-7-2018 02:51:36] Mikkaj reached 43 CPS, VL=1
+[16-7-2018 02:51:37] Mikkaj reached 55 CPS, VL=2
+[16-7-2018 02:51:38] Mikkaj reached 52 CPS, VL=3
+[16-7-2018 02:51:39] Mikkaj reached 54 CPS, VL=4
+[16-7-2018 02:51:40] Mikkaj reached 24 CPS, VL=1
+[16-7-2018 02:51:54] Mikkaj reached 418 CPS, VL=1
+[16-7-2018 02:51:55] Mikkaj reached 388 CPS, VL=2
+[16-7-2018 02:51:56] Mikkaj reached 377 CPS, VL=3
+[16-7-2018 02:51:57] Mikkaj reached 367 CPS, VL=4
+[16-7-2018 02:51:58] Mikkaj reached 376 CPS, VL=1

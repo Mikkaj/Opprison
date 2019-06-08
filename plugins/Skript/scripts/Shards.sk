@@ -1,0 +1,27 @@
+command /shards [<text>]:
+	aliases: /shard, /gem, /gems, /token, /tokens
+	trigger:
+		if arg 1 is set:
+			message "&8[&3Shards&8] &f%arg 1%&7's shards: &b£%{%arg 1%.tokens} + 0%&7."
+			stop
+
+		else:
+			message "&8[&3Shards&8] &7Dine shards: &b£%{%player%.tokens} + 0%&7."
+			stop
+
+
+command /shardadmin [<text>] [<offline player>] [<number>]:
+	usage: /shardadmin give <spiller> <shards>
+	permission: *
+	trigger:
+		if arg-1 is not set:
+			message "&8[&3Shards&8] &7Brug: &f/shardadmin give <spiller> <antal>&7."
+		set {_spiller} to arg-2
+		set {_shards} to arg-3
+		if arg 1 is "Give":
+			if arg 2 is set:
+				if arg 3 is set:
+					add {_shards} to {%{_spiller}%.tokens}
+					message "&8[&3Shards&8] &7Du fik &b£%{_shards}% shards&7!" to {_Spiller}
+					message "&8[&3Shards&8] &7Du gav &f%{_Spiller}% &b£%{_shards}% shards&7!"
+				

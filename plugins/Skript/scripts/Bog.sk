@@ -1,0 +1,99 @@
+options:
+	Bog: &8[&bRankbog&8]&7
+
+
+on click with a book:
+	if player's tool is a book named "&8&lCOAL RANK":
+		remove 1 book named "&8&lCOAL RANK" from player's inventory
+		make console execute command "manuaddsub %player% Coal"
+		make console execute command "manuaddv %player% suffix &8[&8Coal&8]&f"
+		stop
+	else if player's tool is a book named "&7&lIRON RANK":
+		make console execute command "manuaddsub %player% Iron"
+		make console execute command "manuaddv %player% suffix &8[&7Iron&8]&f"
+		remove 1 book named "&7&lIRON RANK" from player's inventory
+		make console execute command "/rank %player% Iron"
+		stop
+	else if player's tool is a book named "&e&lGOLD RANK":
+		make console execute command "manuaddsub %player% Gold"
+		make console execute command "manuaddv %player% suffix &8[&eGold&8]&f"
+		remove 1 book named "&e&lGOLD RANK" from player's inventory
+		make console execute command "/rank %player% Gold"
+		stop
+	else if player's tool is a book named "&9&lLAPIS RANK":
+		make console execute command "manuaddsub %player% Lapis"
+		make console execute command "manuaddv %player% suffix &8[&9Lapis&8]&f"
+		remove 1 book named "&9&lLAPIS RANK" from player's inventory
+		make console execute command "/rank %player% Lapis"
+		stop
+	else if player's tool is a book named "&c&lREDSTONE RANK":
+		make console execute command "manuaddsub %player% Redstone"
+		make console execute command "manuaddv %player% suffix &8[&cRedstone&8]&f"
+		remove 1 book named "&c&lREDSTONE RANK" from player's inventory
+		make console execute command "/rank %player% Redstone"
+		stop
+	else if player's tool is a book named "&b&lDIAMOND RANK":
+		make console execute command "manuaddsub %player% Diamond"
+		make console execute command "manuaddv %player% suffix &8[&bDiamond&8]&f"
+		remove 1 book named "&b&lDIAMOND RANK" from player's inventory
+		make console execute command "/rank %player% Diamond"
+		stop
+	else if player's tool is a book named "&a&lEMERALD RANK":
+		make console execute command "manuaddsub %player% Emerald"
+		make console execute command "manuaddv %player% suffix &8[&aEmerald&8]&f"
+		remove 1 book named "&a&lEMERALD RANK" from player's inventory
+		make console execute command "/rank %player% Emerald"
+		stop
+	else if player's tool is a book named "&d&lOBSIDIAN RANK":
+		make console execute command "manuaddsub %player% Obsidian"
+		make console execute command "manuaddv %player% suffix &8[&dObsidian&8]&f"
+		remove 1 book named "&d&lOBSIDIAN RANK" from player's inventory
+		make console execute command "/rank %player% Obsidian"
+		stop
+	else if player's tool is a book named "&0&lBEDROCK RANK":
+		make console execute command "manuaddsub %player% Bedrock"
+		make console execute command "manuaddv %player% suffix &8[&0Bedrock&8]&f"
+		remove 1 book named "&0&lBEDROCK RANK" from player's inventory
+		make console execute command "/rank %player% Bedrock"
+		stop
+
+command /rankbog [<offline player>] [<text>]:
+	permission: *
+	trigger:
+		if arg-1 is not set:
+			message "{@Bog} Brug: &f/rankbog <spiller> [rank]&7."
+			stop
+		if arg-1 is set:
+			set {_spiller} to "%arg-1%" parsed as a offline player
+			if arg 2 is "COAL", "IRON", "GOLD", "LAPIS", "REDSTONE", "DIAMOND", "EMERALD", "OBSIDIAN" or "BEDROCK":
+				message "{@Bog} Du gav &b%arg 1%&7 en &f%arg 2% &7rank bog!"
+			if arg-2 is "Coal":
+				give {_spiller} a book named "&8&lCOAL RANK"
+				stop
+			else if arg-2 is "Iron":
+				give {_spiller} a book named "&7&lIRON RANK"
+				stop
+			else if arg-2 is "Gold":
+				give {_spiller} a book named "&e&lGOLD RANK"
+				stop
+			else if arg-2 is "Lapis":
+				give {_spiller} a book named "&9&lLAPIS RANK"
+				stop
+			else if arg-2 is "Redstone":
+				give {_spiller} a book named "&c&lREDSTONE RANK"
+				stop
+			else if arg-2 is "Diamond":
+				give {_spiller} a book named "&b&lDIAMOND RANK"
+				stop
+			else if arg-2 is "Emerald":
+				give {_spiller} a book named "&a&lEMERALD RANK"
+				stop
+			else if arg-2 is "Obsidian":
+				give {_spiller} a book named "&d&lOBSIDIAN RANK"
+				stop
+			else if arg-2 is "Bedrock":
+				give {_spiller} a book named "&0&lBEDROCK RANK"
+				stop
+			else:
+				make console execute command "/rankbog"
+				

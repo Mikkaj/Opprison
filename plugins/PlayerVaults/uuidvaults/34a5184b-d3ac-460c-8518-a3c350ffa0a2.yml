@@ -1,0 +1,6 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":400,"DIG_SPEED":30},"display-name":"§7Iron
+    §8➡ §7Økse"},"type":"DIAMOND_AXE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":6,"FIRE_ASPECT":2},"display-name":"§7Iron
+    §8➡ §7Sværd"},"type":"DIAMOND_SWORD"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":32,"type":"GOLDEN_APPLE"}'

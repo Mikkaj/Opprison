@@ -1,0 +1,40 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Message Configuration:
+#     Messages are handled in lists to allow for advanced customization!
+#     Feel free to add color codes by using & in your messages!
+#     To split a message onto multiple lines use the \n delimiter!
+#     Lines starting with / will be run as a command!
+#     To add single apostrophes into a message use ''.
+#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+#     If you are unfamiliar with YAML use the in-game commands: /am help
+
+settings:
+  enabled: true
+  min-players: 1
+  log-to-console: false
+message-lists:
+  json:
+    enabled: false
+    interval: 1
+    expiry: -1
+    random: false
+    messages:
+    - |-
+      {
+        "text": "&8[&6Butik&8] &7Du kan købe fordele m.m med &f/butik&7.",
+        "clickEvent": {
+          "action": "run_command",
+          "value": "/butik"
+        }
+      }
+  regular:
+    enabled: true
+    interval: 75
+    expiry: -1
+    random: true
+    messages:
+    - '&8[&cReklame&8] &7Du kan købe din helt egen mine via. &b/buy&7!'
+    - '&8[&cReklame&8] &7Snak med de andre spillere via. &9/discord&7!'
+    - '&8[&cReklame&8] &7Denne besked sendes, fordi det er en reklame server.'

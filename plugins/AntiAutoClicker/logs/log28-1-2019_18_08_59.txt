@@ -1,0 +1,8 @@
+[28-1-2019 20:51:20] Amalie_DK reached 26 CPS, VL=1
+[28-1-2019 20:51:21] Amalie_DK reached 21 CPS, VL=2
+[28-1-2019 20:51:22] Amalie_DK reached 31 CPS, VL=3
+[28-1-2019 20:51:23] Amalie_DK reached 27 CPS, VL=4
+[28-1-2019 20:51:24] Amalie_DK reached 21 CPS, VL=1
+[28-1-2019 20:51:25] Amalie_DK reached 26 CPS, VL=2
+[28-1-2019 21:06:58] Play7o0 reached 37 CPS, VL=1
+[28-1-2019 21:17:56] Mikkivl reached 22 CPS, VL=1

@@ -1,0 +1,14 @@
+[2-2-2019 21:53:57] ebbesendk reached 18 CPS, VL=1
+[2-2-2019 21:57:54] SuperSofia_DK reached 18 CPS, VL=1
+[2-2-2019 21:58:31] ebbesendk reached 52 CPS, VL=1
+[2-2-2019 21:58:39] SuperSofia_DK reached 18 CPS, VL=1
+[2-2-2019 22:13:36] SuperSofia_DK reached 18 CPS, VL=1
+[2-2-2019 22:14:31] SuperSofia_DK reached 18 CPS, VL=1
+[2-2-2019 22:14:33] SuperSofia_DK reached 18 CPS, VL=1
+[2-2-2019 22:14:35] SuperSofia_DK reached 21 CPS, VL=2
+[2-2-2019 22:34:18] ebbesendk reached 19 CPS, VL=1
+[2-2-2019 22:37:44] SuperSofia_DK reached 18 CPS, VL=1
+[2-2-2019 22:41:22] SuperSofia_DK reached 18 CPS, VL=1
+[2-2-2019 22:43:03] SuperSofia_DK reached 29 CPS, VL=1
+[2-2-2019 22:45:13] SuperSofia_DK reached 19 CPS, VL=1
+[2-2-2019 22:50:20] SuperSofia_DK reached 20 CPS, VL=1

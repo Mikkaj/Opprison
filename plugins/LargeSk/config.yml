@@ -1,0 +1,54 @@
+# You are now looking at the config file of LargeSk - an addon for Skript
+
+### Metrics ###
+
+# Decide if you want to enable Metrics, leave it true if you
+# Are a good person :)
+enableMetrics: true
+
+### BungeeCord
+
+bungee:
+  # Set it to true if you use BungeeCord
+  use: false
+
+### Pastebin
+
+# Essential to use the pastebin expression
+# How to get? Login/register on pastebion.com
+# Visit this page http://pastebin.com/api
+# Copy the key from the second section - Your Unique Developer API Key
+pastebinDeveloperKey: "blank"
+
+### Updates ###
+
+updates:
+  # Set to false if you want to disable all the features below completely
+  # It will still check for updates ONCE while enabling the plugin
+  check: true
+  
+  # How often would you like to check for updates? (in minutes)
+  frequency: 90
+
+  # Would you like to send titlebar messages to players with
+  # Permission largesk.notify when an update is detected?
+  notify: true
+  
+  # Would you like to enable command for downloading an update?
+  # There is no reason for you to disable it :P
+  command: true
+ 
+### Toggles ###
+# Here you can disable registering some expressions, conditions, effects and events
+# If you don't have required plugin, they also won't load,
+# There is no need for you to modify it unless you are having troubles
+# Or security issues
+enable:
+  AAC: true
+  SkinsRestorer: true
+  lag: true # The lag server expression
+ 
+### Other ### 
+ 
+# This is something you shouldn't touch, or else this file will be cleared.
+configVersion: 5

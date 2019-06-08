@@ -1,0 +1,535 @@
+A:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  B:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '60000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+B:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  C:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '120000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+C:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  D:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '240000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - crate givekey %player% Daglig 1
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+D:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  E:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '480000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+E:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  F:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '960000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+F:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  G:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '19200000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - crate givekey %player% Daglig 1
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+G:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  H:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '38400000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+H:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  I:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '76800000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+I:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  J:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '307200000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - crate givekey %player% Daglig 1
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+J:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  K:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '614400000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+K:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  L:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '1230000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+L:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  M:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '2460000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - crate givekey %player% Daglig 1
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+M:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  N:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '4920000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+N:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  O:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '9830000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - crate givekey %player% Daglig 1
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+O:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  P:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '19660000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+P:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  Q:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '39320000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+Q:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  R:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '78640000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - crate givekey %player% Daglig 1
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+R:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  S:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '157290000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+S:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  T:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '314570000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+T:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  U:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '621150000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - crate givekey %player% Daglig 1
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+U:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  V:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '1220000000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+V:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  W:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '2440000000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+W:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  X:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '6500000000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - crate givekey %player% Daglig 1
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+X:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  Y:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '12000000000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - crate givekey %player% Emerald 3
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds
+Y:
+  options:
+    ranks_display_order: 1
+    last_rank: false
+    rank_prefix: '&r'
+    allow_reset: false
+    reset_cost: '0'
+    reset_commands:
+    - eco reset %player%
+    - clearinventory %player%
+    - ezbroadcast &8[&6Rankup&8] &4%player% &char sat sig tilbage i &4%rankfrom%&c!
+  Z:
+    active: true
+    confirm_to_rankup: false
+    rankup_prefix: '&r'
+    cost: '25000000000000'
+    requirement_message:
+    - '&8[&6Rankup&8] &cDu mangler &4$%difference%&c, for at købe dig til &4%rankto%&c!'
+    rankup_commands:
+    - crate givekey %player% Legendary 1
+    - ezbroadcast &8[&6Rankup&8] &2%player% &akøbte sig til &2%rankto%&a!
+    - manuadd %player% %rankto% all_unnamed_worlds

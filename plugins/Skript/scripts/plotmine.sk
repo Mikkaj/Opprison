@@ -1,0 +1,39 @@
+options:
+
+	prefix:&7|&6&l PLOTMINE&7 |
+
+	
+
+command /pmine [<text>]:
+
+	permission: pmine.opret
+
+	permission message: {@prefix} &bDu har ikke adgang til at oprette plot miner!
+
+	trigger:
+
+		if arg-1 is not set:
+
+			message "{@prefix} &3Korrekt brug: &7/pmine (hvems plotmine)"
+
+		if arg-1 is set:
+
+			execute player command "prisonmine create %arg-1%"
+
+			execute player command "prisonmine setregion %arg-1%"
+
+			
+
+			execute player command "prisonmine addblock %arg-1% 57 20"		
+
+			
+
+			execute player command "prisonmine addblock %arg-1% 133 80"
+
+			
+
+			execute player command "prisonmine reset %arg-1%"
+
+			
+
+			message "{@prefix} &bDu har nu oprettet en plot mine"

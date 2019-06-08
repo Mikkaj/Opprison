@@ -1,0 +1,18 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: -584
+  maxY: 114
+  maxX: 1059
+  fillMode: false
+  world: twitch
+  minY: 103
+  resetWarnings: []
+  minX: 1035
+  composition:
+    '159:11': 1.0
+  name: twitch1
+  resetClock: 3
+  minZ: -608
+  isSilent: true

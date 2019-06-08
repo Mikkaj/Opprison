@@ -1,0 +1,5 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","damage":4,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"LOOT_BONUS_BLOCKS":75,"DIG_SPEED":80},"lore":["§7Spr�ngning
+    III"],"display-name":"§0Bedrock §8➡ §0Pickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":60,"type":"COOKED_BEEF"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","type":"EMERALD_BLOCK"}'

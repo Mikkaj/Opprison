@@ -1,0 +1,13 @@
+[27-1-2019 21:25:18] Elias88reda reached 21 CPS, VL=1
+[27-1-2019 21:51:26] Play7o0 reached 18 CPS, VL=1
+[27-1-2019 22:34:04] AntonHLarsen reached 20 CPS, VL=1
+[27-1-2019 22:34:05] AntonHLarsen reached 18 CPS, VL=2
+[27-1-2019 22:37:08] AntonHLarsen reached 20 CPS, VL=1
+[27-1-2019 22:37:13] AntonHLarsen reached 20 CPS, VL=1
+[27-1-2019 22:37:14] AntonHLarsen reached 18 CPS, VL=2
+[27-1-2019 23:21:42] ebbesendk reached 23 CPS, VL=1
+[27-1-2019 23:21:44] ebbesendk reached 20 CPS, VL=1
+[27-1-2019 23:21:45] ebbesendk reached 21 CPS, VL=2
+[27-1-2019 23:21:46] ebbesendk reached 19 CPS, VL=3
+[27-1-2019 23:43:32] OliverHjuler reached 20 CPS, VL=1
+[27-1-2019 23:43:33] OliverHjuler reached 18 CPS, VL=2

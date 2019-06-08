@@ -1,0 +1,16 @@
+NPCS:
+  '0':
+    Commands:
+    - ah~~false
+  '4':
+    Commands:
+    - random~~true
+    - /random~~true
+    - /random~~false
+    - random~~false
+  '9':
+    Commands:
+    - ah~~false
+  '8':
+    Commands:
+    - shards~~false

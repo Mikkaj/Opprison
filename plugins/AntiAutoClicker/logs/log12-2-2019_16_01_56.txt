@@ -1,0 +1,10 @@
+[12-2-2019 17:12:23] HqckzDK reached 20 CPS, VL=1
+[12-2-2019 17:12:24] HqckzDK reached 30 CPS, VL=2
+[12-2-2019 17:41:10] AugustHS reached 33 CPS, VL=1
+[12-2-2019 17:41:31] mbm123 reached 41 CPS, VL=1
+[12-2-2019 17:41:43] Jule_Nisse reached 19 CPS, VL=1
+[12-2-2019 17:41:43] mbm123 reached 22 CPS, VL=1
+[12-2-2019 17:44:51] Jule_Nisse reached 19 CPS, VL=1
+[12-2-2019 17:46:23] AugustHS reached 18 CPS, VL=1
+[12-2-2019 17:53:29] AugustHS reached 18 CPS, VL=1
+[12-2-2019 18:26:18] AugustHS reached 33 CPS, VL=1

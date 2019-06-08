@@ -1,0 +1,20 @@
+nodes:
+  console:
+    sender_name: Console
+    enabled: true
+  online_players:
+    enabled: true
+  tps:
+    enabled: true
+  max_players:
+    enabled: true
+player_nodes: true
+color_char: '&'
+sign_line_split: ;;
+world_nodes: true
+polling_interval: 1000
+node_directory: ub
+stream_output: false
+startup_commands: []
+shutdown_commands: []
+silent_command_execution: false

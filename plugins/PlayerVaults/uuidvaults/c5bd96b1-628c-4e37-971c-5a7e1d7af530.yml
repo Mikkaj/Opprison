@@ -1,0 +1,2 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"generation":0,"==":"ItemMeta","meta-type":"BOOK_SIGNED","pages":["diamond\n"],"author":"onlyV21","title":"diamond"},"type":"WRITTEN_BOOK"}'

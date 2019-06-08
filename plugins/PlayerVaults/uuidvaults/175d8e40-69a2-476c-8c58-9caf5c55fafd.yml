@@ -1,0 +1,4 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","damage":12,"amount":64,"type":"STAINED_CLAY"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":12,"amount":64,"type":"STAINED_CLAY"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","damage":12,"amount":10,"type":"STAINED_CLAY"}'

@@ -1,0 +1,4 @@
+[6-2-2019 13:24:40] Play7o0 reached 24 CPS, VL=1
+[6-2-2019 13:24:41] Play7o0 reached 22 CPS, VL=2
+[6-2-2019 13:24:42] Play7o0 reached 18 CPS, VL=3
+[6-2-2019 13:24:43] Play7o0 reached 21 CPS, VL=4

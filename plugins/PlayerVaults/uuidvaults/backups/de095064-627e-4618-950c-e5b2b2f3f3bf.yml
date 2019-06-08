@@ -1,0 +1,15 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","damage":11,"type":"WOOL"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2500 Emeralder."],"display-name":"§b50x Shards"},"type":"PRISMARINE_SHARD"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":15,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1},"lore":["§7Right-Click
+    on a \"§fMystery§7\" crate","§7to win an item!",""],"display-name":"§fMystery
+    Crate Key"},"type":"TRIPWIRE_HOOK"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2500 Emeralder Pr Plot !."],"display-name":"§bSet Plot sammen"},"type":"PAINTING"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §21000 Emeralder."],"display-name":"§bK�b Fuldt Bedrock Plot"},"type":"BEDROCK"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":36,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2500 Emeralder."],"display-name":"§b50x Shards"},"type":"PRISMARINE_SHARD"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2950 Emeralder."],"display-name":"§c3x Mystery Key"},"type":"TRIPWIRE_HOOK"}'

@@ -1,0 +1,4 @@
+[31-1-2019 20:21:31] Itzpandapvpmc reached 32 CPS, VL=1
+[31-1-2019 20:21:47] Itzpandapvpmc reached 53 CPS, VL=1
+[31-1-2019 20:33:15] oDezNutz_ reached 19 CPS, VL=1
+[31-1-2019 20:36:19] oDezNutz_ reached 22 CPS, VL=1

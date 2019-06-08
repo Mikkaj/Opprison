@@ -1,0 +1,576 @@
+Panel:
+  BackButton:
+    type: 262
+    amount: 1
+    durability: 0
+    meta: true
+    name: '&7&lPrevious Page'
+    lore:
+    - ''
+    - '&7Return to the previous panel page.'
+  Home:
+    Title: '&b%MINE%'
+    Component:
+      ManageBlocks:
+        type: 1
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lManage Blocks'
+        lore:
+        - ''
+        - '&7Manage the blocks to spawn'
+        - '&7inside this mine.'
+      ManageResets:
+        type: 23
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lManage Resets'
+        lore:
+        - ''
+        - '&7Force reset or change the'
+        - '&7way this mine resets.'
+      ManageEffects:
+        type: 379
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lManage Effects'
+        lore:
+        - ''
+        - '&7Add or change effects that are'
+        - '&7given to users in this mine.'
+      ManageChildren:
+        type: 399
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lManage Children'
+        lore:
+        - ''
+        - '&7Add or remove mines that will'
+        - '&7reset when this mine resets.'
+      Schematic:
+        None:
+          type: 7
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&a&lSchematic'
+          lore:
+          - ''
+          - '&7This mine has no schematic yet.'
+          - ''
+          - '&7Set the schematic to set how'
+          - '&7the blocks inside the mine will'
+          - '&7be upon resets.'
+          - ''
+          - '&7The blocks in the Block Manager'
+          - '&7will be ignored if there is a'
+          - '&7schematic.'
+          - ''
+          - '&7&o(Left click: Set Schematic)'
+          NoRegion: '&cYou must set the mines region before you can make a schematic
+            of the region!'
+          ResetTypeChanged: '&cThe reset type of %MINE% was changed to Instant.'
+        Set:
+          type: 56
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&a&lSchematic'
+          lore:
+          - ''
+          - '&7This mine has a schematic.'
+          - ''
+          - '&7The mine will reset to the'
+          - '&7same schematic every time.'
+          - ''
+          - '&7&o(Left click: Remove Schematic)'
+      Teleport:
+        type: 368
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lTeleport'
+        lore:
+        - ''
+        - '&7Teleport to the teleport'
+        - '&7point of the mine.'
+        NoTeleportLocation: '&cThat mine doesn''t have a teleport location.'
+      SignChooser:
+        type: 323
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lPlace Signs & Holograms'
+        lore:
+        - ''
+        - '&7Get a sign/hologram to place'
+        - '&7in the world.'
+  BlockManager:
+    Title: '&7Block Manager: &b%MINE%'
+    Component:
+      Block:
+        type: 339
+        amount: 1
+        durability: 0
+        meta: true
+        lore:
+        - ''
+        - '&7This will spawn with a chance'
+        - '&7of: &b%CHANCE%%&7.'
+        - ''
+        - '&7&o(Left click: Remove)'
+        - '&7&o(Right click: Edit Chance)'
+      AddBlock:
+        type: 388
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&b&lAdd a Block'
+        lore:
+        - ''
+        - '&7&o(Click: Add a new block to this'
+        - '&7mine)'
+        Already100: '&cThe total of all the chances already adds to 100%.'
+      NextPage:
+        type: 262
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lNext Page'
+      PreviousPage:
+        type: 262
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&a&lPrevious Page'
+      Filler:
+        type: 160
+        amount: 1
+        durability: 15
+        meta: true
+        name: '&0'
+      AllowBlockPlacing:
+        type: 278
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&b&lAllow Block Placing: %ALLOW%'
+        lore:
+        - ''
+        - '&7Whether to let players place blocks'
+        - '&7within this mine.'
+        - ''
+        - '&7&o(This is reccomended to be false, because'
+        - '&7&oplacing affects percentage resets)'
+  BlockInserter:
+    Title: '&7Place the Block inside'
+  ResetManager:
+    Home:
+      Title: '&7Reset Manager: &b%MINE%'
+      Component:
+        ResetNow:
+          type: 77
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&b&lReset Now'
+          lore:
+          - ''
+          - '&7&o(Click: Reset the mine now)'
+        ResetType:
+          type: 331
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&b&lReset Type: %TYPE%'
+          lore:
+          - ''
+          - '&7Gradual: Slower, more efficient.'
+          - '&7Faster: less efficient.'
+          - ''
+          - '&7&o(Click: Change Type)'
+          HasSchematic: '&cThis mine has a schematic, so it must have be ''Instant''.
+            Remove the schematic to change the Reset Type.'
+        TimedReset:
+          type: 347
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&b&lTimed Reset %TIME%'
+          lore:
+          - ''
+          - '&7&o(Click: Edit the Timed Reset settings)'
+          Time: '%MINUTES%m%SECONDS%s'
+        PercentageReset:
+          type: 325
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&b&lPercentage Reset'
+          lore:
+          - ''
+          - '&7&o(Click: Edit the Percentage Reset settings)'
+    Component:
+      ResetMessagesEnabled:
+        type: 339
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7Reset Messages Enabled: &b%ENABLED%'
+        lore:
+        - ''
+        - '&7Whether messages like ''%NAME%'
+        - '&7is resetting.'' will be sent.'
+        - ''
+        - '&7&o(Click: Toggle)'
+      BroadcastResetMessagesInstead:
+        type: 339
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7Broadcast Reset Messages Instead: &b%ENABLED%'
+        lore:
+        - ''
+        - '&7Whether messages like ''%NAME% will'
+        - '&7is resetting'' will be broadcasted'
+        - '&7instead of sent to players who'
+        - '&7are near to the mine when'
+        - '&7it resets.'
+        - ''
+        - '&7(Reset Messages must be enabled for'
+        - '&7this to matter)'
+        - ''
+        - '&7&o(Click: Toggle)'
+    TimedReset:
+      Title: '&7Editing Timed Reset'
+      Component:
+        Enabled:
+          'True':
+            type: 351
+            amount: 1
+            durability: 10
+            meta: true
+            name: '&7Enabled: &a&ltrue'
+            lore:
+            - ''
+            - '&7&o(Click: Toggle)'
+          'False':
+            type: 351
+            amount: 1
+            durability: 8
+            meta: true
+            name: '&7Enabled: &c&lfalse'
+            lore:
+            - ''
+            - '&7&o(Click: Toggle)'
+        Time:
+          type: 347
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&7Time Until Reset: %TIME%'
+          Enabled: '&b%MINUTES%&7m&b%SECONDS%&7s'
+          Disabled: '&cTimed Reset is Disabled'
+        IntervalMessagesEnabled:
+          type: 339
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&7Interval Messages Enabled: &b%ENABLED%'
+          lore:
+          - ''
+          - '&7Whether messages like ''this mine'
+          - '&7will reset in x seconds'' will be sent.'
+          - ''
+          - '&7&o(Click: Toggle)'
+        BroadcastIntervalMessagesInstead:
+          type: 339
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&7Broadcast Interval Messages Instead: &b%ENABLED%'
+          lore:
+          - ''
+          - '&7Whether messages like ''this mine will'
+          - '&7reset in x seconds'' will be broadcasted'
+          - '&7instead of sent to players who are near'
+          - '&7to the mine.'
+          - ''
+          - '&7(Interval Messages must be enabled for'
+          - '&7this to matter)'
+          - ''
+          - '&7&o(Click: Toggle)'
+        Interval:
+          Icon:
+            type: 347
+            amount: 1
+            durability: 0
+            meta: true
+            name: '&7Reset Interval: &b%INTERVAL%'
+            lore:
+            - ''
+            - '&7This is the amount of seconds between'
+            - '&7each reset of this mine. Click the buttons'
+            - '&7on the sides to tweak the interval to your'
+            - '&7liking.'
+            Format: '&b%MINUTES%&7m&b%SECONDS%&7s'
+          Manipulation:
+            Addition:
+              type: 35
+              amount: 1
+              durability: 5
+              meta: true
+              name: '&aAdd %AMOUNT% to Reset Interval'
+            Subtraction:
+              type: 35
+              amount: 1
+              durability: 14
+              meta: true
+              name: '&4Subtract %AMOUNT% from Reset Interval'
+    PercentageReset:
+      Title: '&7Editing Percentage Reset'
+      Component:
+        Enabled:
+          'False':
+            type: 351
+            amount: 1
+            durability: 8
+            meta: true
+            name: '&7Enabled: &c&lfalse'
+            lore:
+            - ''
+            - '&cWarning: When you first enable this'
+            - '&cit will scan the mine (instantly)'
+            - '&cso the block count is known.'
+            - ''
+            - '&7&o(Click: Toggle)'
+            NoBlocks: '&cYou need to add a block to the mine before enabling percentage
+              resetting!'
+          Resetting:
+            type: 351
+            amount: 1
+            durability: 10
+            meta: true
+            name: '&7Enabled: &6Soon (Currently Resetting)'
+          'True':
+            type: 351
+            amount: 1
+            durability: 10
+            meta: true
+            name: '&7Enabled: &a&ltrue'
+            lore:
+            - ''
+            - '&7&o(Click: Toggle)'
+        PercentageToResetAt:
+          Manipulation:
+            Addition:
+              type: 35
+              amount: 1
+              durability: 5
+              meta: true
+              name: '&aAdd %AMOUNT%% to Reset Percentage'
+            Subtraction:
+              type: 35
+              amount: 1
+              durability: 14
+              meta: true
+              name: '&4Subtract %AMOUNT%% from Reset Percentage'
+            Viewer:
+              type: 325
+              amount: 1
+              durability: 0
+              meta: true
+              name: '&7Reset at: &b%PERCENT%%&7 blocks left'
+  SignChooser:
+    Title: '&7Sign/Hologram Chooser'
+    Component:
+      SignGiven: '&aSign given.'
+      HologramGiven: '&aHologram given.'
+      Filler:
+        type: 160
+        amount: 1
+        durability: 15
+        meta: true
+        name: '&0'
+  EffectManager:
+    Home:
+      Title: '&7Effect Manager: &b%MINE%'
+      Component:
+        Effect:
+          EffectEnabled:
+            type: 348
+            amount: 1
+            durability: 0
+            meta: true
+            name: '&7&l%NAME% is &a&lEnabled (%POTENCY%)'
+            lore:
+            - ''
+            - '&7&o(Left click: Disable)'
+            - '&7&o(Right click: Change Potency)'
+          EffectDisabled:
+            type: 348
+            amount: 1
+            durability: 0
+            meta: true
+            name: '&7&l%NAME% is &c&lDisabled'
+            lore:
+            - ''
+            - '&7&o(Left click: Enable)'
+        Filler:
+          type: 160
+          amount: 1
+          durability: 15
+          meta: true
+          name: '&0'
+    PotencySelector:
+      Title: '&7Potency Selector'
+      Component:
+        Potency:
+          type: 348
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&7&lPotency: &b&l%POTENCY%'
+          lore:
+          - ''
+          - '&7&o(Left click: +1 Potency)'
+          - '&7&o(Right click: -1 Potency)'
+  ChildrenManager:
+    MainPage:
+      Title: '&7Children Manager'
+      Component:
+        Filler:
+          type: 160
+          amount: 1
+          durability: 15
+          meta: true
+          name: '&0'
+        Child:
+          type: 1
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&a&l%NAME%'
+          lore:
+          - '&7%NAME% will reset when %PARENT% resets.'
+          - ''
+          - '&7&o(Click: Remove Child)'
+        Add:
+          type: 388
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&a&lAdd a Child'
+          lore:
+          - '&7Add a mine that will reset when'
+          - '&7%PARENT% resets.'
+          NoneLeft: '&cEvery other mine is already a child of this mine!'
+          MaxChildren: '&cThis mine already has the maximum amount of children. If
+            you need to add another one, consider adding that mine as a a child, to
+            a child of this mine.'
+    ChildSelector:
+      Title: '&7Mine List'
+      Component:
+        Mine:
+          type: 1
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&b&l%NAME%'
+          lore:
+          - ''
+          - '&7&o(Click: Add Child)'
+          RecursiveWarning: '&cUnable to add child. That mine, if added as a child,
+            would cause the server to crash because %PARENT% is already a child of
+            this mine; so they would infinitely reset eachother.'
+        NextPage:
+          type: 262
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&a&lNext Page'
+        PreviousPage:
+          type: 262
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&a&lPrevious Page'
+        Filler:
+          type: 160
+          amount: 1
+          durability: 15
+          meta: true
+          name: '&0'
+MineList:
+  Title: '&7Mine List'
+  Component:
+    Mine:
+      type: 1
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&b&l%NAME%'
+      lore:
+      - ''
+      - '&7Blocks Inside:'
+      - '%BLOCKSINSIDE%'
+      - ''
+      - '&7&o(Left Click: View Panel)'
+      - '&7&o(Right Click: Teleport to Mine)'
+      BlocksInsideFormat: '&e- %NAME%'
+      None: '&eNone'
+    NextPage:
+      type: 262
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&a&lNext Page'
+    PreviousPage:
+      type: 262
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&a&lPrevious Page'
+    Filler:
+      type: 160
+      amount: 1
+      durability: 15
+      meta: true
+      name: '&0'
+ChanceSelector:
+  Title: '&7Select Chance'
+  Component:
+    Chance:
+      type: 388
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&c&lBlock Chance'
+      lore:
+      - ''
+      - '&7Block Chance: &e%CHANCE%%'
+    Subtraction:
+      type: 95
+      amount: 1
+      durability: 14
+      meta: true
+      name: '&c&lSubtract %AMOUNT%%'
+    Addition:
+      type: 95
+      amount: 1
+      durability: 5
+      meta: true
+      name: '&a&lAdd %AMOUNT%%'
+      AboveMaxError: '&cThat value exceeds the maximum chance, total block chances
+        cannot exceed 100%.'
+    Continue:
+      type: 35
+      amount: 1
+      durability: 5
+      meta: true
+      name: '&a&lSave Chance & Continue'
+      0Percent: '&cYou must select a percent that is above 0%!'

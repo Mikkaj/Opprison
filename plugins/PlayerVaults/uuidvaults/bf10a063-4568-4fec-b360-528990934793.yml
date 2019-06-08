@@ -1,0 +1,4 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"MELON"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"MELON"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":34,"type":"MELON"}'

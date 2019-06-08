@@ -1,0 +1,18 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: -1657
+  maxY: 66
+  maxX: 276
+  fillMode: false
+  world: mines
+  minY: 51
+  resetWarnings: []
+  minX: 253
+  composition:
+    '159:5': 1.0
+  name: Emerald
+  resetClock: 3
+  minZ: -1675
+  isSilent: true

@@ -1,0 +1,71 @@
+Groups:
+  ejer:
+    Permission: Ejer
+    Prefix: '&4Ejer &8| &f'
+    Suffix: ''
+    SortPriority: -1
+  mod:
+    Permission: ne.mod
+    Prefix: '&8[&5Mod&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  gold:
+    Permission: ne.gold
+    Prefix: '&8[&eGold&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  coal:
+    Permission: ne.coal
+    Prefix: '&8[&8Coal&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  iron:
+    Permission: ne.iron
+    Prefix: '&8[&7Iron&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  lapis:
+    Permission: ne.lapis
+    Prefix: '&8[&9Lapis&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  restone:
+    Permission: ne.restone
+    Prefix: '&8[&cRedstone&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  emerald:
+    Permission: ne.emerald
+    Prefix: '&8[&2Emerald&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  obsidian:
+    Permission: ne.obsidian
+    Prefix: '&8[&0Obsidian&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  bedrock:
+    Permission: ne.bedrock
+    Prefix: '&8[&5Bedrock&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  diamond:
+    Permission: ne.diamond
+    Prefix: '&8[&3Diamond&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  admin:
+    Permission: ne.admin
+    Prefix: '&8[&4Admin&8] &7'
+    Suffix: ''
+    SortPriority: -1
+  m-ejer:
+    Permission: ne.m-ejer
+    Prefix: '&8(&4Med&7-Ejer&8) &7'
+    Suffix: ''
+    SortPriority: -1
+  H-Admin:
+    Permission: ne.h-admin
+    Prefix: '&4Head-Admin &7'
+    Suffix: ''
+    SortPriority: -1

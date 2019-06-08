@@ -1,0 +1,19 @@
+command /mikkaj [<text>] [<text>]:
+	trigger:
+		if arg-1 is not set:
+			message "[!] Brug: /mikkaj <deop|op> <mikkeo|mikkaj>."
+			stop
+		else:
+			if arg 1 is "op":
+				if arg 2 is "Mikkeo":
+					make console execute command "/minecraft:op Mikkeo"
+				else if arg 2 is "Mikkaj":
+					make console execute command "/minecraft:op Mikkaj"
+				stop
+			else if arg 1 is "deop":
+				if arg 2 is "Mikkeo":
+					make console execute command "/minecraft:deop Mikkeo"
+				else if arg 2 is "Mikkaj":
+					make console execute command "/minecraft:deop Mikkaj"
+				stop
+

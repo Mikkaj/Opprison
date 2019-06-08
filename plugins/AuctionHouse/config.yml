@@ -1,0 +1,51 @@
+# 
+# Your database information should go here.# 
+sql:
+  host: 127.0.0.1
+  port: '3306'
+  database: database
+  user: user
+  pass: password
+auction:
+  listingPrice: 2
+  listingHours: 48
+  unclaimedHours: 240
+  preventCreativeSale: true
+  maxSellPrice: 100000000000000
+menuText:
+  menuName: Auction House
+  itemsYoureSelling:
+    name: '&6Items You''re Selling'
+    lore:
+    - '&aClick here to view all of the items you'
+    - '&aare currently selling on the auction.'
+    - ''
+    - '&9Selling: &e%selling%'
+  collectExpired:
+    name: '&6Collect Expired / Cancelled Items'
+    lore:
+    - '&aClick here to view and collect all of the'
+    - '&aitems you have cancelled or have expired.'
+    - ''
+    - '&9Items To Collect: &e%expired%'
+  previous:
+    name: '&6Previous Page'
+  refresh:
+    name: '&6Refresh Page'
+  next:
+    name: '&6Next Page'
+  howToSell:
+    name: '&6How To Sell An Item'
+    lore:
+    - '&aTo list an item on the auction house, just hold'
+    - '&athe item in your hand and type &b/ah sell <price>&a.'
+  bookButton:
+    name: '&6What Is This Page?'
+    lore:
+    - '&aThis is the auction house, here you can'
+    - '&alist items for sale, and purchase items'
+    - '&athat others have listed for sale.'
+    - ''
+    - '&aThe auction is also a great way to make'
+    - '&amoney by selling farmable items other'
+    - '&aplayers may be interested in buying.'

@@ -1,0 +1,9 @@
+[26-11-2018 16:47:15] SandziMC reached 24 CPS, VL=1
+[26-11-2018 17:00:05] xXUlitimateXx reached 19 CPS, VL=1
+[26-11-2018 17:04:25] xXUlitimateXx reached 57 CPS, VL=1
+[26-11-2018 17:08:51] xXUlitimateXx reached 58 CPS, VL=1
+[26-11-2018 17:08:51] FleekyMc reached 64 CPS, VL=1
+[26-11-2018 17:11:02] Foxeh_ reached 69 CPS, VL=1
+[26-11-2018 17:14:02] xXUlitimateXx reached 19 CPS, VL=1
+[26-11-2018 17:14:33] xXUlitimateXx reached 20 CPS, VL=1
+[26-11-2018 17:15:11] Foxeh_ reached 31 CPS, VL=1

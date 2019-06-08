@@ -1,0 +1,7 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":16,"type":"GOLDEN_APPLE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"DIAMOND_BLOCK"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"DIAMOND_BLOCK"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":12,"type":"DIAMOND_BLOCK"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","damage":7,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"LOOT_BONUS_BLOCKS":75,"DIG_SPEED":80},"display-name":"§0Bedrock
+    §8➡ §0Pickaxe"},"type":"DIAMOND_PICKAXE"}'

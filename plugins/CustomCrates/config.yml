@@ -1,0 +1,143 @@
+Crates:
+  Mystery:
+    ParticleEffect:
+      enabled: true
+      onlywhenopening: false
+      particle: LAVA
+    Key:
+      material: TRIPWIRE_HOOK
+      name: '&4Mystery &8➡ &4Key'
+      enchanted: true
+      lore: ''
+    Sound:
+      movingSound: WOOD_CLICK
+      prizeSound: SUCCESSFUL_HIT
+      closeInventorySound: LEVEL_UP
+    LeftClickInv:
+      enabled: true
+      enablechancelore: true
+      lore:
+      - '&7Chance: &a%chance%%'
+      name: '&dCrate &8- &4%crate%'
+    OpenInv:
+      name: '&cOpening %crate%'
+    PrizeItem:
+      material: NETHER_STAR
+      name: '&7Præmie'
+      enchanted: true
+    PreCommands:
+    - intet
+    BlockType: ENDER_CHEST
+    Items:
+      '1':
+        enchanted: true
+        material: paper
+        name: '&f$1.500.000'
+        chance: 25
+        amount: 1
+        commands:
+        - eco give %player% 1500000
+        - msg:&8[&dCrate&8] &7Du fik &f1.500.000 &7i &cMystery &7crate.
+      '2':
+        enchanted: true
+        material: prismarine_shard
+        name: '&b5x Shards'
+        chance: 23
+        amount: 5
+        commands:
+        - shards give %player% 5
+        - msg:&8[&dCrate&8] &7Du fik &b5x Shards &7i &cMystery &7crate.
+      '3':
+        enchanted: true
+        material: ender_pearl
+        name: '&c3x Lille Mine-bomber'
+        chance: 20
+        amount: 3
+        commands:
+        - bc Ikke lavet
+        - msg:&8[&dCrate&8] &7Du fik &c3x Lille Mine-bomber &7i &cMystery &7crate.
+      '4':
+        enchanted: true
+        material: emerald_block
+        name: '&a256x Emerald Blocks'
+        chance: 18
+        amount: 1
+        commands:
+        - give %player% 256 EmeraldBlock
+        - msg:&8[&dCrate&8] &7Du fik &e256 Emerald Blocks &7i &cMystery &7crate.
+      '5':
+        enchanted: true
+        material: gold_chestplate
+        name: '&eKIT: Gold'
+        chance: 16
+        amount: 1
+        commands:
+        - ekits gold %player%
+        - msg:&8[&dCrate&8] &7Du fik &eKit Gold &7i &cMystery &7crate.
+      '6':
+        enchanted: true
+        material: TRIPWIRE_HOOK
+        name: '&c2x Mystery Keys'
+        chance: 15
+        amount: 1
+        commands:
+        - crate gk %player% Mystery 2
+        - msg:&8[&dCrate&8] &7Du fik &c2x Mystery Keys &7i &cMystery &7crate.
+      '7':
+        enchanted: true
+        material: prismarine_shard
+        name: '&b35x Shards'
+        chance: 12
+        amount: 35
+        commands:
+        - shards give %player% 35
+        - msg:&8[&dCrate&8] &7Du fik &b35x Shards &7i &cMystery &7crate.
+      '8':
+        enchanted: true
+        material: diamond_chestplate
+        name: '&bKIT: Diamond'
+        chance: 10
+        amount: 1
+        commands:
+        - ekits Diamond %player%
+        - msg:&8[&dCrate&8] &7Du fik &bKit Diamond &7i &cMystery &7crate.
+      '9':
+        enchanted: true
+        material: paper
+        name: '&f$500.000.000'
+        chance: 8
+        amount: 1
+        commands:
+        - eco give %player% 50000000
+        - msg:&8[&dCrate&8] &7Du fik &f500 Millioner &7i &cMystery &7crate.
+        - broadcast &d%player% &7har vundet &f$500 Millioner &7i &cMystery &7crate!
+      '10':
+        enchanted: true
+        material: grass
+        name: '&aAdgang til 3 Plots'
+        chance: 7
+        amount: 3
+        commands:
+        - manuaddp %player% plots.plot.3
+        - msg:&8[&dCrate&8] &7Du fik &a3 Plots &7i &cMystery &7crate.
+        - broadcast &d%player% &7har vundet &a3 Plots &7i &cMystery &7crate!
+      '11':
+        enchanted: true
+        material: sign
+        name: '&9Fly indtil deaktivering'
+        chance: 6
+        amount: 1
+        commands:
+        - fly %player% on
+        - msg:&8[&dCrate&8] &7Du fik &9Fly indtil deaktivering &7i &cMystery &7crate.
+        - broadcast &d%player% &7har vundet &9Fly indtil deaktivering &7i &cMystery &7crate!
+      '12':
+        enchanted: true
+        material: book
+        name: '&8&lBEDROCK RANK!'
+        chance: 1.5
+        amount: 1
+        commands:
+        - rank %player% bedrock
+        - msg:&8[&dCrate&8] &7Du fik &8Bedrock rank &7i &cMystery &7crate.
+        - broadcast &d%player% &7har vundet &8BEDROCK RANK &7i &cMystery &7crate!

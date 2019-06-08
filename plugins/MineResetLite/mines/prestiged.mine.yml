@@ -1,0 +1,19 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: -1265
+  maxY: 69
+  maxX: -924
+  fillMode: false
+  world: mines
+  minY: 35
+  resetWarnings: []
+  minX: -939
+  composition:
+    '57:0': 0.15
+    '133:0': 0.85
+  name: prestiged
+  resetClock: 3
+  minZ: -1307
+  isSilent: true

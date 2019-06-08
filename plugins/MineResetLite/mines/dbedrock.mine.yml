@@ -1,0 +1,17 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 0
+  surface: ''
+  maxZ: -1214
+  maxY: 31
+  maxX: 286
+  fillMode: false
+  world: mines
+  minY: 25
+  resetWarnings: []
+  minX: 258
+  composition: {}
+  name: dbedrock
+  resetClock: 0
+  minZ: -1233
+  isSilent: false

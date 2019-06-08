@@ -1,0 +1,6 @@
+[16-2-2019 11:11:54] Jonasautzen reached 27 CPS, VL=1
+[16-2-2019 11:11:54] larsthing12 reached 30 CPS, VL=1
+[16-2-2019 11:12:03] Jonasautzen reached 30 CPS, VL=1
+[16-2-2019 11:12:03] larsthing12 reached 34 CPS, VL=1
+[16-2-2019 11:12:07] Jonasautzen reached 18 CPS, VL=2
+[16-2-2019 11:12:07] larsthing12 reached 19 CPS, VL=2

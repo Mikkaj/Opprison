@@ -1,0 +1,15 @@
+[4-2-2019 14:18:45] ebbesendk reached 20 CPS, VL=1
+[4-2-2019 14:18:47] ebbesendk reached 26 CPS, VL=2
+[4-2-2019 14:18:48] ebbesendk reached 18 CPS, VL=3
+[4-2-2019 14:20:44] ebbesendk reached 20 CPS, VL=1
+[4-2-2019 14:29:48] ebbesendk reached 20 CPS, VL=1
+[4-2-2019 15:03:58] UH4v3Sm4llPeen reached 20 CPS, VL=1
+[4-2-2019 16:35:16] TheGamerTristan reached 22 CPS, VL=1
+[4-2-2019 16:40:49] UH4v3Sm4llPeen reached 18 CPS, VL=1
+[4-2-2019 17:00:02] UH4v3Sm4llPeen reached 98 CPS, VL=1
+[4-2-2019 17:14:14] zanderxenia reached 19 CPS, VL=1
+[4-2-2019 17:58:09] Hackerman07_xD reached 19 CPS, VL=1
+[4-2-2019 18:12:21] Hackerman07_xD reached 20 CPS, VL=1
+[4-2-2019 18:12:22] Hackerman07_xD reached 21 CPS, VL=2
+[4-2-2019 18:23:35] Hackerman07_xD reached 18 CPS, VL=1
+[4-2-2019 18:53:14] Hackerman07_xD reached 40 CPS, VL=1

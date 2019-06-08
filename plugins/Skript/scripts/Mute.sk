@@ -1,0 +1,51 @@
+options:
+	p: &8[&3Servernavn&8]&7
+
+command /mute [<text>] [<text>]:
+	permission: essentials.mute
+	permission message: &8[&4Fejl&8] &cDu har ikke tilladelse til denne kommando!
+	trigger:
+		set {_s} to arg-1 parsed as a offline player
+		set {_g} to arg-2
+		if {_s} is not set:
+			send "{@p} Brug: &f/mute <spiller> [grund]&7."
+			send "{@p} F.eks: &f/mute Mikkaj Spam&7."
+			stop
+		else if {_g} is not set:
+			send "{@p} &cDu har ikke indtastet grunden."
+			send "{@p} Brug: &f/mute <spiller> [grund]&7."
+			send "{@p} F.eks: &f/mute Mikkaj Spam&7."
+			stop
+		if {_s} has permission "essentials.mute":
+			send "{@p} &cDu kan ikke mute en staff!"
+			stop
+		if arg 2 is set:
+			if {mute.%{_s}%} is not set:
+				send "{@p} &c%player% &7muted &4%{_s}% &7i &f30 minutter&7 for: &e%{_g}% (1. Gang)&7!" to all players
+				make console execute command "/essentials:mute %{_s}% 30m"
+				set {mute.%{_s}%} to 1
+				stop
+			if {mute.%{_s}%} is 1:
+				send "{@p} &c%player% &7muted &4%{_s}% &7i &f1 time&7 for: &e%{_g}% (1. Gang)&7!" to all players
+				make console execute command "/essentials:mute %{_s}% 1h"
+				set {mute.%{_s}%} to 2
+				stop
+			if {mute.%{_s}%} is 2:
+				send "{@p} &c%player% &7muted &4%{_s}% &7i &f3 timer&7 for: &e%{_g}% (1. Gang)&7!" to all players
+				make console execute command "/essentials:mute %{_s}% 3h"
+				clear {mute.%{_s}%}
+				stop
+
+command /unmute [<text>]:
+	permission: essentials.unmute
+	permission message: &8[&4Fejl&8] &cDu har ikke tilladelse til denne kommando!
+	trigger:
+		set {_s} to arg-1 parsed as a offline player
+		if {_s} is not set:
+			send "{@p} Brug: &f/unmute <spiller>&7."
+			send "{@p} F.eks: &f/unmute Mikkaj Hack&7."
+			stop
+		if {_s} is set:
+			send "{@p} &a%player% &7unmuted &2%{_s}%&7!" to all players
+			make console execute command "/essentials:mute %{_s}% 1s"
+			stop

@@ -1,0 +1,365 @@
+options:
+	Sell: &8[&eSell&8]&7
+
+
+on rightclick:
+	if player is sneaking:
+		if "%player's tool%" contain "diamond_pickaxe", "iron_pickaxe", "golden_pickaxe", "wooden_pickaxe" or "stone_pickaxe":
+			make player execute command "/sell sneak+click"
+
+
+command /autosell [<text>]:
+	trigger:
+		if {Autosell.%player%} is true:
+			message "&8[&3AutoSell&8] &7Du har &cdeaktiveret &7autosell!"
+			set {Autosell.%player%} to false
+		else if {Autosell.%player%} is false:
+			message "&8[&3AutoSell&8] &7Du har &aaktiveret &7autosell!"
+			set {Autosell.%player%} to true
+
+		else if {Autosell.%player%} is not set:
+			set {Autosell.%player%} to true
+			message "&8[&3AutoSell&8] &7Du har &aaktiveret &7autosell!"
+
+on block break:
+	if "%player's tool%" contain "diamond_pickaxe", "iron_pickaxe", "golden_pickaxe", "wooden_pickaxe" or "stone_pickaxe":
+		add 1 to {Block.%player%}
+
+
+command /blocks:
+	trigger:
+		message "&8[&3Server&8] &7Du har mined &f%{Block.%player%} + 0% &7blocks!"
+
+on block break:
+	if "%player's tool%" contain "diamond_pickaxe", "iron_pickaxe", "golden_pickaxe", "wooden_pickaxe" or "stone_pickaxe":
+		if {Autosell.%player%} is true:
+			add 1 to {blocks.autosell.%player%}
+			if {blocks.autosell.%player%} is bigger than 40:
+				set {blocks.autosell.%player%} to 0
+				make player execute command "/sell"
+		
+
+
+command /sell [<text>]:	
+	trigger:
+		set {_rank} to colored player's prefix
+		replace all "&8" with "" in {_rank}
+		replace all "&7" with "" in {_rank}
+		replace all " " with "" in {_rank}
+		set {_rank2} to colored player's suffix
+		replace all "&8" with "" in {_rank2}
+		replace all "&7" with "" in {_rank2}
+		replace all " " with "" in {_rank2}
+		if {Multipler} is not set:
+			set {Multipler} to 0
+		while amount of coal block in player's inventory is bigger than 0:
+			remove 1 coal block from player's inventory
+			add 180 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+		while amount of coalitem in player's inventory is bigger than 0:
+			remove 1 coalitem from player's inventory
+			add 20 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+		while amount of coal ore in player's inventory is bigger than 0:
+			remove 1 coal ore from player's inventory
+			add 20 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+		while amount of stone in player's inventory is bigger than 0:
+			remove 1 stone from player's inventory
+			add 10 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+		while amount of stone brick in player's inventory is bigger than 0:
+			remove 1 stone brick from player's inventory
+			add 40 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+		while amount of mossy cobblestone in player's inventory is bigger than 0:
+			remove 1 mossy cobblestone from player's inventory
+			add 95 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+		while amount of cobblestone in player's inventory is bigger than 0:
+			remove 1 cobblestone from player's inventory
+			add 5 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of redstone in player's inventory is bigger than 0:
+			remove 1 redstone from player's inventory
+			add 30 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+		while amount of redstone block in player's inventory is bigger than 0:
+			remove 1 redstone block from player's inventory
+			add 270 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of iron ore in player's inventory is bigger than 0:
+			remove 1 iron ore from player's inventory
+			add 35 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+		while amount of iron ingot in player's inventory is bigger than 0:
+			remove 1 iron ingot from player's inventory
+			add 25 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of lapis lazuli in player's inventory is bigger than 0:
+			remove 1 lapis lazuli from player's inventory
+			add 35 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of red sand in player's inventory is bigger than 0:
+			remove 1 red sand from player's inventory
+			add 35 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of lapis lazuli block in player's inventory is bigger than 0:
+			remove 1 lapis lazuli block from player's inventory
+			add 315 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of lapis lazuli ore in player's inventory is bigger than 0:
+			remove 1 lapis lazuli ore from player's inventory
+			add 25 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of iron block in player's inventory is bigger than 0:
+			remove 1 iron block from player's inventory
+			add 225 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of obsidian in player's inventory is bigger than 0:
+			remove 1 obsidian from player's inventory
+			add 375 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of quartz block in player's inventory is bigger than 0:
+			remove 1 quartz block from player's inventory
+			add 7 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of gold ingot in player's inventory is bigger than 0:
+			remove 1 gold ingot from player's inventory
+			add 50 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of diamond in player's inventory is bigger than 0:
+			remove 1 diamond from player's inventory
+			add 95 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of diamond ore in player's inventory is bigger than 0:
+			remove 1 diamond ore from player's inventory
+			add 95 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of melon in player's inventory is bigger than 0:
+			remove 1 melon from player's inventory
+			add 5 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of diamond block in player's inventory is bigger than 0:
+			remove 1 diamond block from player's inventory
+			add 855 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of emerald in player's inventory is bigger than 0:
+			remove 1 emerald from player's inventory
+			add 150 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of emerald ore in player's inventory is bigger than 0:
+			remove 1 emerald ore from player's inventory
+			add 150 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+
+		while amount of emerald block in player's inventory is bigger than 0:
+			remove 1 emerald block from player's inventory
+			add 900 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+
+		while amount of wool in player's inventory is bigger than 0:
+			remove 1 wool from player's inventory
+			add 75 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of gold ore in player's inventory is bigger than 0:
+			remove 1 gold ore from player's inventory
+			add 35 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of gold block in player's inventory is bigger than 0:
+			remove 1 gold block from player's inventory
+			add 300 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+		while amount of sand stone in player's inventory is bigger than 0:
+			remove 1 sand stone from player's inventory
+			add 35 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of Snow in player's inventory is bigger than 0:
+			remove 1 Snow from player's inventory
+			add 35 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of Chest in player's inventory is bigger than 0:
+			remove 1 Chest from player's inventory
+			add 5 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of Furnace in player's inventory is bigger than 0:
+			remove 1 Furnace from player's inventory
+			add 10 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of Log in player's inventory is bigger than 0:
+			remove 1 Log from player's inventory
+			add 10 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of Beacon in player's inventory is bigger than 0:
+			remove 1 Beacon from player's inventory
+			add 500 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+
+		while amount of glass in player's inventory is bigger than 0:
+			remove 1 glass from player's inventory
+			add 150 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+
+		while amount of glass in player's inventory is bigger than 0:
+			remove 1 glass from player's inventory
+			add 150 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of yellow stained clay in player's inventory is bigger than 0:
+			remove 1 yellow stained clay from player's inventory
+			add 700 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of brown stained clay in player's inventory is bigger than 0:
+			remove 1 brown stained clay from player's inventory
+			add 500 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of white stained clay in player's inventory is bigger than 0:
+			remove 1 white stained clay from player's inventory
+			add 600 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of light blue stained clay in player's inventory is bigger than 0:
+			remove 1 light blue stained clay from player's inventory
+			add 800 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of red stained clay in player's inventory is bigger than 0:
+			remove 1 red stained clay from player's inventory
+			add 900 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of cyan stained clay in player's inventory is bigger than 0:
+			remove 1 cyan stained clay from player's inventory
+			add 1000 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of lime stained clay in player's inventory is bigger than 0:
+			remove 1 lime stained clay from player's inventory
+			add 1100 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		while amount of black stained clay in player's inventory is bigger than 0:
+			remove 1 black stained clay from player's inventory
+			add 1200 to {_sælgpenge.%player%}
+			add 1 to {_block.%player%} 
+
+		if {_sælgpenge.%player%} is bigger than 0:
+			set {_Double} to 10
+			if {_rank2} contain "Coal", "Iron" or "Gold":
+				add 1 to {_Double} 
+			else if {_rank2} contain "Lapis", "Redstone" or "Diamond":
+				add 1.5 to {_Double} 
+			else if {_rank2} contain "Emerald", "Obsidian" or "Bedrock":
+				add 2.1 to {_Double} 
+
+			if {_rank} contain "[A]":
+				add 0 to {_Double}
+			else if {_rank} contain "[B]": #+1
+				add 0.1 to {_Double}
+			else if {_rank} contain "[C]": #+2
+				add 0.2 to {_Double}
+			else if {_rank} contain "[D]": #+3
+				add 0.3 to {_Double}
+			else if {_rank} contain "[E]": #+4
+				add 0.5 to {_Double}
+			else if {_rank} contain "[F]": #1.2 + 0.5
+				add 0.7 to {_Double}
+			else if {_rank} contain "[G]": #1.7 + 0.6
+				add 1.2 to {_Double}
+			else if {_rank} contain "[H]": #+7
+				add 1.8 to {_Double}
+			else if {_rank} contain "[I]": #+8
+				add 2.5 to {_Double}
+			else if {_rank} contain "[J]": #+9
+				add 15 to {_Double}
+			else if {_rank} contain "[K]": #+10
+				add 25 to {_Double}
+			else if {_rank} contain "[L]": #+11
+				add 45 to {_Double}
+			else if {_rank} contain "[M]": #+12
+				add 80 to {_Double} #80
+			else if {_rank} contain "[N]": #+13
+				add 150 to {_Double}
+			else if {_rank} contain "[O]": #+14
+				add 300 to {_Double}
+			else if {_rank} contain "[P]": #+15
+				add 600 to {_Double}
+			else if {_rank} contain "[Q]": #+16
+				add 800 to {_Double}
+			else if {_rank} contain "[R]": #+17
+				add 1000 to {_Double}
+			else if {_rank} contain "[S]": #+18
+				add 1300 to {_Double}
+			else if {_rank} contain "[T]": #+19
+				add 1500 to {_Double}
+			else if {_rank} contain "[U]": #+20
+				add 1900 to {_Double}
+			else if {_rank} contain "[V]": #+21
+				add 2400 to {_Double}
+			else if {_rank} contain "[W]": #+22
+				add 2900 to {_Double}
+			else if {_rank} contain "[X]": #23
+				add 3500 to {_Double}
+			else if {_rank} contain "[Y]": #24
+				add 7500 to {_Double}
+			else if {_rank} contain "[Z]": #25
+				add 8000 to {_Double}
+			add {_sælgpenge.%player%} * {_Double} to {_penge.%player%}
+			wait 1.5 ticks
+			add {_Multipler} * {_penge.%player%} to {_penge.%player%}
+			wait 1 ticks
+			add {_penge.%player%} to player's money
+			set action bar of player to coloured "&e&l* &fIndkomst: &a$%{_penge.%player%}% &8- &fBlocks: &b%{_block.%player%}% &8- &fMultipler: &d%{_Multipler}%x &e&l*"
+			wait 0.25 seconds
+			set action bar of player to coloured "&e&l* &fIndkomst: &a$%{_penge.%player%}% &8- &fBlocks: &b%{_block.%player%}% &8- &fMultipler: &d%{_Multipler}%x &e&l*"
+			make player execute command "/ezrefresh"
+			stop
+		else:
+			set action bar of player to coloured "&e&l* &8Du har ingen blocks, som kan sælges! &e&l*"
+			stop
+
+
+command /multipler [<number>]:
+	permission: *
+	permission message: &8[&4Fejl&8] &cDu har ikke tilladelse til denne kommando!
+	trigger:
+		if arg-1 is not set:
+			message "&8[&dMultipler&8] &7Brug: &f/multipler <tal>&7."
+		else:
+			if arg-1 is less than 0:
+				message "&8[&dMultipler&8] &cEn multipler kan mindst være på &40&c."
+				stop
+			else:
+				message "&8[&dMultipler&8] &7Du ændrede multipleren til &f%arg-1%&7, i stedet for &f%{Multipler}%&7."
+				message "&8[&dMultipler&8] &c%player%&7 har ændret multipleren til &f%arg-1%&7, i stedet for &f%{Multipler}%&7." to ops
+				set {Multipler} to arg-1
+				stop

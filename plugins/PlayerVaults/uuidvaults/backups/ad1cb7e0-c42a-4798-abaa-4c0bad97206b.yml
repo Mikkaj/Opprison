@@ -1,0 +1,23 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":6,"PROTECTION_ENVIRONMENTAL":6},"display-name":"§ff§lIronSko"},"type":"DIAMOND_BOOTS"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":6,"PROTECTION_ENVIRONMENTAL":6},"display-name":"§7Iron
+    §8➡ §7Hjelm"},"type":"DIAMOND_HELMET"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":6,"PROTECTION_ENVIRONMENTAL":6},"display-name":"§7Iron
+    §8➡ §7Bukser"},"type":"DIAMOND_LEGGINGS"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":6,"PROTECTION_ENVIRONMENTAL":6},"display-name":"§7Iron
+    §8➡ §7Bukser"},"type":"DIAMOND_LEGGINGS"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":7,"PROTECTION_ENVIRONMENTAL":7},"display-name":"§eGold
+    §8➡ §eBukser"},"type":"DIAMOND_LEGGINGS"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":12,"PROTECTION_ENVIRONMENTAL":12},"display-name":"§aEmerald§8➡
+    §aBukser"},"type":"DIAMOND_LEGGINGS"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1,"PROTECTION_ENVIRONMENTAL":2}},"type":"DIAMOND_CHESTPLATE"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"DIG_SPEED":80},"display-name":"§0Bedrock
+    §8➡ §0Økse"},"type":"DIAMOND_AXE"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1700,"DIG_SPEED":70},"display-name":"§dObsidian
+    §8➡ §dØkse"},"type":"DIAMOND_AXE"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":10,"PROTECTION_ENVIRONMENTAL":10},"display-name":"§bDiamond
+    §8➡ §bBukser"},"type":"DIAMOND_LEGGINGS"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":12,"PROTECTION_ENVIRONMENTAL":12},"display-name":"§aEmerald§8➡
+    §aBrystplade"},"type":"DIAMOND_CHESTPLATE"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":12,"PROTECTION_ENVIRONMENTAL":12},"display-name":"§aEmerald§8➡
+    §aBukser"},"type":"DIAMOND_LEGGINGS"}'

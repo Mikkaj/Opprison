@@ -1,0 +1,18 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 3
+  surface: ''
+  maxZ: -320
+  maxY: 64
+  maxX: 240
+  fillMode: false
+  world: Plots
+  minY: 37
+  resetWarnings: []
+  minX: 221
+  composition:
+    '133:0': 1.0
+  name: Olimic
+  resetClock: 3
+  minZ: -338
+  isSilent: true

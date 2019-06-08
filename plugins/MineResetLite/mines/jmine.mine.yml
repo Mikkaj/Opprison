@@ -1,0 +1,20 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: -1314
+  maxY: 14
+  maxX: -273
+  fillMode: false
+  world: mines
+  minY: 1
+  resetWarnings: []
+  minX: -288
+  composition:
+    '57:0': 0.1
+    '41:0': 0.7
+    '56:0': 0.2
+  name: jmine
+  resetClock: 3
+  minZ: -1336
+  isSilent: true

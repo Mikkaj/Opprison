@@ -1,0 +1,3 @@
+vault1:
+  '40': '{"==":"org.bukkit.inventory.ItemStack","damage":11,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":200,"LOOT_BONUS_BLOCKS":20,"DIG_SPEED":25},"display-name":"§8Coal
+    §8➡ §8Pickaxe"},"type":"DIAMOND_PICKAXE"}'

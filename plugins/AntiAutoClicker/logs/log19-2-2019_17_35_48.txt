@@ -1,0 +1,2 @@
+[19-2-2019 19:09:42] storeklodser reached 24 CPS, VL=1
+[19-2-2019 20:34:46] Fanta_Light reached 20 CPS, VL=1

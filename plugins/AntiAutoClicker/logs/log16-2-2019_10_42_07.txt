@@ -1,0 +1,5 @@
+[16-2-2019 11:44:10] Cola_Light reached 28 CPS, VL=1
+[16-2-2019 11:50:11] Los_Pouls reached 25 CPS, VL=1
+[16-2-2019 11:50:13] Jonasautzen reached 18 CPS, VL=1
+[16-2-2019 11:52:41] Jonasautzen reached 18 CPS, VL=1
+[16-2-2019 11:52:42] Jonasautzen reached 20 CPS, VL=2

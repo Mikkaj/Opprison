@@ -1,0 +1,18 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: -1569
+  maxY: 22
+  maxX: -68
+  fillMode: false
+  world: mines
+  minY: 4
+  resetWarnings: []
+  minX: -88
+  composition:
+    '159:14': 1.0
+  name: Redstone
+  resetClock: 3
+  minZ: -1591
+  isSilent: true

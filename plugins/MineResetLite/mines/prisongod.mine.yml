@@ -1,0 +1,19 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: -1453
+  maxY: 21
+  maxX: -1329
+  fillMode: false
+  world: mines
+  minY: 3
+  resetWarnings: []
+  minX: -1360
+  composition:
+    '49:0': 0.8
+    '159:15': 0.2
+  name: prisongod
+  resetClock: 3
+  minZ: -1476
+  isSilent: true

@@ -1,0 +1,53 @@
+vault5:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":64,"type":"STAINED_CLAY"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","damage":14,"amount":5,"type":"STAINED_CLAY"}'
+vault2:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SIGN"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SIGN"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SIGN"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SIGN"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SIGN"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SIGN"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SIGN"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SIGN"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"SIGN"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":10,"type":"SIGN"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":48,"type":"CHEST"}'
+vault4:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1700,"DIG_SPEED":70},"display-name":"§dObsidian
+    §8➡ §dØkse"},"type":"DIAMOND_AXE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":15,"PROTECTION_ENVIRONMENTAL":15},"display-name":"§dObsidian
+    §8➡ §dHjelm"},"type":"DIAMOND_HELMET"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2,"DAMAGE_ALL":7,"FIRE_ASPECT":2},"display-name":"§eGold
+    §8➡ §eSværd"},"type":"DIAMOND_SWORD"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"DIG_SPEED":80},"display-name":"§0Bedrock
+    §8➡ §0Økse"},"type":"DIAMOND_AXE"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":8,"DAMAGE_ALL":10,"FIRE_ASPECT":8},"display-name":"§dObsidian
+    §8➡ §dSværd"},"type":"DIAMOND_SWORD"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":600,"LOOT_BONUS_BLOCKS":30,"DIG_SPEED":35},"display-name":"§eGold
+    §8➡ §ePickaxe"},"type":"DIAMOND_PICKAXE"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COOKED_BEEF"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":600,"DIG_SPEED":35},"display-name":"§eGold
+    §8➡ §eØkse"},"type":"DIAMOND_AXE"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":10,"FIRE_ASPECT":10},"display-name":"§0Bedrock
+    §8➡ §0Sværd"},"type":"DIAMOND_SWORD"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":15,"PROTECTION_ENVIRONMENTAL":15},"display-name":"§dObsidian
+    §8➡ §dBrystplade"},"type":"DIAMOND_CHESTPLATE"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":12,"PROTECTION_ENVIRONMENTAL":12},"display-name":"§aEmerald§8➡
+    §aBrystplade"},"type":"DIAMOND_CHESTPLATE"}'

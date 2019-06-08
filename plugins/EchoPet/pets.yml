@@ -1,0 +1,13 @@
+autosave:
+  9e152151-6764-4bdb-b452-74487716b660:
+    pet:
+      type: PIG
+      name: MizziHunter
+      data:
+        baby: true
+  82d55098-721c-44ad-96b7-a41a027d1af4:
+    pet:
+      type: PIG
+      name: SULLIGANG
+      data:
+        baby: true

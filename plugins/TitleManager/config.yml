@@ -1,0 +1,33 @@
+usingConfig: true
+config-version: 3
+using-bungeecord: false
+legacy-client-support: false
+updater:
+  check-automatically: true
+tabmenu:
+  enabled: true
+  header: \n&f&l-&r      &6&lServernavn      &f&l-&r\n
+  footer: '&7Online: &f{online}'
+welcome_message:
+  enabled: true
+  title: ''
+  subtitle: ''
+  fadeIn: 20
+  stay: 40
+  fadeOut: 20
+  first-join:
+    title: ''
+    subtitle: ''
+actionbar-welcome:
+  enabled: true
+  message: ''
+  first-join:
+    message: ''
+number-format:
+  enabled: true
+  format: '#,###.##'
+date-format:
+  format: EEE, dd MMM yyyy HH:mm:ss z
+disabled-variables:
+- my-disabled-variable
+- also-called-placeholders

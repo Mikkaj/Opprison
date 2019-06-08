@@ -1,0 +1,22 @@
+sign:
+  title: '&1[SELL]'
+  detect: sell
+  failure: '&4No such shop!'
+messages:
+  noperm: '&4You don''t have enough permissions.'
+  sign:
+    create: '&aSell sign created.'
+    toolong: '&4This sign won''t work! It''s name is too long!'
+  sell:
+    failure: '&4An error occured. No items sold.'
+    success: '&bYou sold %i for $%p'
+    returned: '&b%i items couldn''t be sold.'
+    overflow: '&bSome items couldn''t fit in your inventory and were dropped.'
+shops:
+  spawn:
+    items:
+      STONE: 5.0
+      GRASS: 5.0
+    line3: Line 3!
+    line4: Line 4!
+    name: Spawn Shop

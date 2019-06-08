@@ -1,0 +1,12 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":64,"type":"GOLDEN_APPLE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":64,"type":"GOLDEN_APPLE"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","damage":47,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"LOOT_BONUS_BLOCKS":100}},"type":"DIAMOND_PICKAXE"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":1},"lore":["§7Right-Click
+    on a \"§fMystery§7\" crate","§7to win an item!",""],"display-name":"§fMystery
+    Crate Key"},"type":"TRIPWIRE_HOOK"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":8,"DAMAGE_ALL":10,"FIRE_ASPECT":8},"display-name":"§dObsidian
+    §8➡ §dSværd"},"type":"DIAMOND_SWORD"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"COOKED_BEEF"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","damage":5,"amount":47,"type":"STAINED_CLAY"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":15,"type":"DIAMOND_BLOCK"}'

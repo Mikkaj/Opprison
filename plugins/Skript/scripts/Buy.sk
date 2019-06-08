@@ -1,0 +1,361 @@
+command /buy [<text>]:
+	trigger:
+		wait 1 ticks
+		open chest with 3 rows named "&2Butik &8- &aMenu" to player
+		wait 1 ticks
+		loop 27 times:
+			set slot (loop-int - 1) of player's current inventory to red glass pane named "&n"
+		set slot 10 of player's current inventory to Book named "&2&lRanks" with lore "||&fKlik for udvide!"
+		set slot 12 of player's current inventory to Quartz Ore named "&2&lPlotMiner" with lore "||&fKlik for udvide!"
+		set slot 14 of player's current inventory to Tripwire hook named "&2&lBlandet" with lore "||&fKlik for udvide!"
+		set slot 16 of player's current inventory to Emeraldore named "&2&lPenge Kommer Snart!" with lore "||&fKlik for udvide!"
+		set slot 26 of player's current inventory to Book named "&4&lHvis du Vælger at købe Rank! er der ingen ! Refund på det!"
+		stop
+options:
+	#Hvis ikke en af disse spillere er på, kan man ikke købe noget!
+	#Hvis ikke du vil indsætte en spiller, så bare skriv "Ingen" uden "".
+	Ejer: ingen
+	Ejer1: ingen
+	Ejer2: ingen
+	Ejer3: ingen
+	Ejer4: ingen
+	Ejer5: ingen
+	Ejer6: ingen
+
+	CoalPris: 750
+	IronPris: 1500
+	GoldPris: 2000
+	LapisPris: 2500
+	RedstonePris: 3000
+	DiamondPris: 4000
+	EmeraldPris: 5000
+	ObsidianPris: 5500
+	BedrockPris: 6000
+
+	GrønPlotmine: 1500
+	BlåPlotmine: 3500
+	GulPlotmine: 5000
+	GigaPlotmine: 7000
+	PlotPlotmine: 8500
+
+	MysteryKey: 950
+
+on inventory click:
+	if inventory name of player's current inventory is "&2Butik &8- &aRanks":
+		cancel the event
+		if clicked slot is 13:
+			make player execute command "/buy"
+		if clicked slot is 0:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Rank} to colored player's suffix
+			if {_Rank} contain "Coal", "Iron", "Gold", "Lapis", "Redstone", "Diamond", "Emerald", "Obsidian" or "Bedrock":
+				message "&8[&2Butik&8] &cDu kan ikke købe dette rank!"
+				stop
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &8Coal &7for &2{@CoalPris} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+				stop
+		else if clicked slot is 1:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Rank} to colored player's suffix
+			if {_Rank} contain "Iron", "Gold", "Lapis", "Redstone", "Diamond", "Emerald", "Obsidian" or "Bedrock":
+				message "&8[&2Butik&8] &cDu kan ikke købe dette rank!"
+				stop
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &7Iron &7for &2{@IronPris} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+				stop
+		if clicked slot is 2:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Rank} to colored player's suffix
+			if {_Rank} contain "Gold", "Lapis", "Redstone", "Diamond", "Emerald", "Obsidian" or "Bedrock":
+				message "&8[&2Butik&8] &cDu kan ikke købe dette rank!"
+				stop
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &eGold &7for &2{@GoldPris} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+				stop
+		if clicked slot is 3:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Rank} to colored player's suffix
+			if {_Rank} contain "Lapis", "Redstone", "Diamond", "Emerald", "Obsidian" or "Bedrock":
+				message "&8[&2Butik&8] &cDu kan ikke købe dette rank!"
+				stop
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &9Lapis &7for &2{@LapisPris} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+				stop
+		if clicked slot is 4:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Rank} to colored player's suffix
+			if {_Rank} contain "Redstone", "Diamond", "Emerald", "Obsidian" or "Bedrock":
+				message "&8[&2Butik&8] &cDu kan ikke købe dette rank!"
+				stop
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &cRedstone &7for &2{@RedstonePris} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+				stop
+		if clicked slot is 5:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Rank} to colored player's suffix
+			if {_Rank} contain "Diamond", "Emerald", "Obsidian" or "Bedrock":
+				message "&8[&2Butik&8] &cDu kan ikke købe dette rank!"
+				stop
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &bDiamond &7for &2{@DiamondPris} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+				stop
+		if clicked slot is 6:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Rank} to colored player's suffix
+			if {_Rank} contain "Emerald", "Obsidian" or "Bedrock":
+				message "&8[&2Butik&8] &cDu kan ikke købe dette rank!"
+				stop
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &aEmerald &7for &2{@EmeraldPris} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+				stop
+		if clicked slot is 7:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Rank} to colored player's suffix
+			if {_Rank} contain "Obsidian" or "Bedrock":
+				message "&8[&2Butik&8] &cDu kan ikke købe dette rank!"
+				stop
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &dObsidian &7for &2{@ObsidianPris} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+				stop
+		if clicked slot is 8:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Rank} to colored player's suffix
+			if {_Rank} contain "Bedrock":
+				message "&8[&2Butik&8] &cDu kan ikke købe dette rank!"
+				stop
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &0Bedrock &7for &2{@BedrockPris} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+				stop
+
+
+	else if inventory name of player's current inventory is "&2Butik &8- &aPlotMiner":
+		if clicked slot is 0:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &2Grøn Plotmine &7for &2{@GrønPlotmine} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+		else if clicked slot is 1:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &bBlå Plotmine &7for &2{@BlåPlotmine} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+		else if clicked slot is 2:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &6Gul Plotmine &7for &2{@GulPlotmine} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+		else if clicked slot is 3:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &5GiGA Plotmine &7for &2{@GigaPlotmine} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+		else if clicked slot is 4:
+			close inventory of player
+			wait 1.5 ticks
+			set {_Ejer} to "{@Ejer}" parsed as a offline player
+			set {_Ejer1} to "{@Ejer1}" parsed as a offline player
+			set {_Ejer2} to "{@Ejer2}" parsed as a offline player
+			set {_Ejer3} to "{@Ejer3}" parsed as a offline player
+			set {_Ejer4} to "{@Ejer4}" parsed as a offline player
+			set {_Ejer5} to "{@Ejer5}" parsed as a offline player
+			set {_Ejer6} to "{@Ejer6}" parsed as a offline player
+			if {_Ejer}, {_Ejer1}, {_Ejer2}, {_Ejer3}, {_Ejer4}, {_Ejer5} or {_Ejer6} is online:
+				broadcast "&8[&2Butik&8] &b%player% &7vil gerne købe &9Plot Plotmine &7for &2{@PlotPlotmine} EM&7!"
+				stop
+			else:
+				message "&8[&2Butik&8] &cDu kan ikke købe et produkt, fordi der ingen Emerald-modtagere er!" to player
+				stop
+	else if inventory name of player's current inventory is "&2Butik &8- &aBlandet", "&2Butik &8- &aRanks" or "&2Butik &8- &aPlotMiner &8- &aPenge &8- &aMenu":
+		if clicked slot is 13:
+			cancel event
+			make player execute command "/buy"
+			stop
+	else if inventory name of player's current inventory is "&2Penge &8- &aMenu":
+		cancel the event
+		if clicked slot is 16:
+			wait 1 ticks
+			open chest with 2 rows named "&2Butik &8- &aPenge" to player
+			wait 1 ticks
+			format slot 0 of player with a tripwire hook named "&c3x Mystery Key" with lore "&8Pris: &2{@MysteryKey} Emeralder." to close then run [make console execute command "bc &b%player% &7vil gerne købe &c3x Mystery Keys &7for &2{@MysteryKey} EM&7!"]
+			format slot 1 of player with 50 prismarine shard named "&b50x Shards" with lore "&8Pris: &2500 Emeralder." to close then run [make console execute command "bc &b%player% &7vil gerne købe &b50x Shards &7for &2500 EM&7!"]
+			format slot 2 of player with 1 Bedrock named "&bKøb Fuldt Bedrock Plot" with lore "&8Pris: &21000 Emeralder." to close then run [make console execute command "bc &b%player% &7vil gerne købe Fuldt Bedrock på plot &7for &21000 EM&7!"]
+			format slot 3 of player with 1 painting named "&bSet Plot sammen" with lore "&8Pris: &2500 Emeralder Pr Plot !." to close then run [make console execute command "bc &b%player% &7vil gerne købe Plot sat sammen på plot &7for &2500 EM&7!"]
+			format slot 13 of player with Nether star named "&4Tilbage" to run [make player execute command "/buy"]
+			stop
+	else if inventory name of player's current inventory is "&2Butik &8- &aMenu":
+		cancel the event
+		if clicked slot is 14:
+			wait 1 ticks
+			open chest with 2 rows named "&2Butik &8- &aBlandet" to player
+			wait 1 ticks
+			format slot 0 of player with a tripwire hook named "&c3x Mystery Key" with lore "&8Pris: &2{@MysteryKey} Emeralder." to close then run [make console execute command "bc &b%player% &7vil gerne købe &c3x Mystery Keys &7for &2{@MysteryKey} EM&7!"]
+			format slot 1 of player with 50 prismarine shard named "&b50x Shards" with lore "&8Pris: &2500 Emeralder." to close then run [make console execute command "bc &b%player% &7vil gerne købe &b50x Shards &7for &2500 EM&7!"]
+			format slot 2 of player with 1 Bedrock named "&bFuld Bedrock Plot" with lore "&8Pris: &21000 Emeralder." to close then run [make console execute command "bc &b%player% &7vil gerne købe Fuldt Bedrock på plot &7for &21000 EM&7!"]
+			format slot 3 of player with 1 painting named "&bPlot Merge" with lore "&8Pris: &2500 Emeralder Pr. Plot" to close then run [make console execute command "bc &b%player% &7vil gerne købe Plot sat sammen på plot &7for &2500 EM&7!"]
+			format slot 13 of player with Nether star named "&4Tilbage" to run [make player execute command "/buy"]
+			stop
+		if clicked slot is 12:
+			wait 1 ticks
+			open chest with 2 rows named "&2Butik &8- &aPlotMiner" to player
+			wait 1 ticks
+			format slot 0 of player with a Green Wool named "&2Grøn PlotMine" with lore "&8Størrelse:||&f* &75x5x5||||&8Pris:|| &2{@GrønPlotmine} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &2Grøn Plotmine &7for &2{@GrønPlotmine} EM&7!"]
+			format slot 1 of player with a Light Blue Wool named "&bBlå PlotMine" with lore "&8Størrelse:||&f* &712x12x10||||&8Pris:|| &2{@BlåPlotmine} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &bBlå Plotmine &7for &2{@BlåPlotmine} EM&7!"]
+			format slot 2 of player with a Orange Wool named "&6Gul PlotMine &c(KRÆVER DONATOR)" with lore "&8Størrelse:||&f* &720x20x15||||&8Pris:|| &2{@GulPlotmine} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &6Gul Plotmine &7for &2{@GulPlotmine} EM&7!"]
+			format slot 3 of player with a Purple Wool named "&5GIGA PlotMine &c(KRÆVER DONATOR)" with lore "&8Størrelse:||&f* &735x35x20&7||||&8Pris:|| &2{@GigaPlotmine} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &5GIGA Plotmine &7for &2{@GigaPlotmine} EM&7!"]
+			format slot 4 of player with a Blue Wool named "&9PLOT PlotMine &c(KRÆVER DONATOR)" with lore "&8Størrelse:||&f* &7Fylder et helt plot&7||||&8Pris:|| &2{@PlotPlotmine} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &9Plot Plotmine &7for &2{@PlotPlotmine} EM&7!"]
+			format slot 13 of player with Nether star named "&4Tilbage" to run [make player execute command "/buy"]
+			stop
+		if clicked slot is 10:
+			wait 1 ticks
+			open chest with 2 rows named "&2Butik &8- &aRanks" to player
+			wait 1 ticks
+			format slot 0 of player with a Coalitem named "&8Coal" with lore "&8Generelle kommandoer:||&8* &fÆndre ens ingame navn med &8/nickname&f.||&8* &fAdgang til 5 kister med &8/chest&f.||&8* &fAdgang til Coal kittet med &8/kit coal&f.||&8* &fAdgang til Coal's mine med &8/warp coal&f.||&8Generelle funktioner:||&8* &fEvne til at tilslutte i fuld server.||&8* &fEvne til at bruge farvekoder i chatten.||&8* &fMulighed for at have 2 Plots.||&8* &fRanken bliver vist i chat og tap.||||&8Pris:|| &2{@CoalPris} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &8Coal &7for &2{@CoalPris} EM&7!"]
+			format slot 1 of player with a Iron Ingot named "&7Iron" with lore "&7Generelle kommandoer:||&8* &fÆndre ens ingame navn med &8/nickname&f.||&7* &fAdgang til 7 kister med &7/chest&f.||&7* &fEvne til at kunne flyve med &7/fly&f.||&8* &fAdgang til Coal kittet med &8/kit coal&f.||&8* &fAdgang til Coal's mine med &8/warp coal&f.||&7* &fAdgang til Iron kittet med &7/kit iron&f.||&7* &fAdgang til Iron's mine med &7/warp iron&f.||&7Generelle funktioner:||&8* &fEvne til at tilslutte i fuld server.||&8* &fEvne til at bruge farvekoder i chatten.||&7* &fMulighed for at have 3 Plots.||&8* &fRanken bliver vist i chat og tap.||||&8Pris:|| &2{@IronPris} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &7Iron &7for &2{@IronPris} EM&7!"]
+			format slot 2 of player with a Gold Ingot named "&eGold" with lore "&eGenerelle kommandoer:||&e* &fKan reparere dit værktøj med &e/fix&f.||&e* &fKan reparere alt i din inventory med &e/fix all||&e* &fPlacere en blok på hovedet med &e/hat&f.||&8* &fÆndre ens ingame navn med &8/nickname&f.||&e* &fAdgang til 10 kister med &e/chest&f.||&7* &fEvne til at kunne flyve med &7/fly&f.||&8* &fAdgang til Coal kittet med &8/kit coal&f.||&8* &fAdgang til Coal's mine med &8/warp coal&f.||&7* &fAdgang til Iron kittet med &7/kit iron&f.||&7* &fAdgang til Iron's mine med &7/warp iron&f.||&e* &fAdgang til Gold kittet med &e/kit gold&f.||&e* &fAdgang til Gold's mine med &e/warp gold&f.||&eGenerelle funktioner:||&8* &fEvne til at tilslutte i fuld server.||&8* &fEvne til at bruge farvekoder i chatten.||&e* &fMulighed for at have 4 Plots.||&8* &fRanken bliver vist i chat og tap.||||&8Pris:|| &2{@GoldPris} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &eGold &7for &2{@GoldPris} EM&7!"]
+			format slot 3 of player with a Lapis Lazuli named "&9Lapis" with lore "&9Generelle kommandoer:||&9* &fÅbne sin enderchest med &9/echest&f.||&e* &fKan reparere dit værktøj med &e/fix&f.||&e* &fKan reparere alt i din inventory med &e/fix all||&e* &fPlacere en blok på hovedet med &e/hat&f.||&8* &fÆndre ens ingame navn med &8/nickname&f.||&9* &fAdgang til 12 kister med &9/chest&f.||&7* &fEvne til at kunne flyve med &7/fly&f.||&8* &fAdgang til Coal kittet med &8/kit coal&f.||&8* &fAdgang til Coal's mine med &8/warp coal&f.||&7* &fAdgang til Iron kittet med &7/kit iron&f.||&7* &fAdgang til Iron's mine med &7/warp iron&f.||&e* &fAdgang til Gold kittet med &e/kit gold&f.||&e* &fAdgang til Gold's mine med &e/warp gold&f.||&9* &fAdgang til Lapis kittet med &9/kit lapis&f.||&9* &fAdgang til Lapis's mine med &9/warp lapis&f.||&9Generelle funktioner:||&8* &fEvne til at tilslutte i fuld server.||&8* &fEvne til at bruge farvekoder i chatten.||&9* &fMulighed for at have 5 Plots.||&8* &fRanken bliver vist i chat og tap.||||&8Pris:|| &2{@LapisPris} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &9Lapis &7for &2{@LapisPris} EM&7!"]
+			format slot 4 of player with a Redstone named "&cRedstone" with lore "&cGenerelle kommandoer:||&9* &fÅbne sin enderchest med &9/echest&f.||&e* &fKan reparere dit værktøj med &e/fix&f.||&e* &fKan reparere alt i din inventory med &e/fix all||&e* &fPlacere en blok på hovedet med &e/hat&f.||&c* &fÆndre ens ingame navn med farver med &c/nickname&f.||&9* &fAdgang til 15 kister med &9/chest&f.||&7* &fEvne til at kunne flyve med &7/fly&f.||&8* &fAdgang til Coal kittet med &8/kit coal&f.||&8* &fAdgang til Coal's mine med &8/warp coal&f.||&7* &fAdgang til Iron kittet med &7/kit iron&f.||&7* &fAdgang til Iron's mine med &7/warp iron&f.||&e* &fAdgang til Gold kittet med &e/kit gold&f.||&e* &fAdgang til Gold's mine med &e/warp gold&f.||&9* &fAdgang til Lapis kittet med &9/kit lapis&f.||&9* &fAdgang til Lapis's mine med &9/warp lapis&f.||&c* &fAdgang til Redstone kittet med &c/kit redstone&f.||&c* &fAdgang til Redstone's mine med &c/warp redstone&f.||&cGenerelle funktioner:||&8* &fEvne til at tilslutte i fuld server.||&8* &fEvne til at bruge farvekoder i chatten.||&c* &fMulighed for at have 6 Plots.||&8* &fRanken bliver vist i chat og tap.||||&8Pris:|| &2{@RedstonePris} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &cRedstone &7for &2{@RedstonePris} EM&7!"]
+			format slot 5 of player with a Diamond named "&bDiamond" with lore "&bGenerelle kommandoer:||&9* &fÅbne sin enderchest med &9/echest&f.||&e* &fKan reparere dit værktøj med &e/fix&f.||&e* &fKan reparere alt i din inventory med &e/fix all||&e* &fPlacere en blok på hovedet med &e/hat&f.||&c* &fÆndre ens ingame navn med farver med &c/nickname&f.||&b* &fAdgang til 20 kister med &b/chest&f.||&7* &fEvne til at kunne flyve med &7/fly&f.||&8* &fAdgang til Coal kittet med &8/kit coal&f.||&8* &fAdgang til Coal's mine med &8/warp coal&f.||&7* &fAdgang til Iron kittet med &7/kit iron&f.||&7* &fAdgang til Iron's mine med &7/warp iron&f.||&e* &fAdgang til Gold kittet med &e/kit gold&f.||&e* &fAdgang til Gold's mine med &e/warp gold&f.||&9* &fAdgang til Lapis kittet med &9/kit lapis&f.||&9* &fAdgang til Lapis's mine med &9/warp lapis&f.||&c* &fAdgang til Redstone kittet med &c/kit redstone&f.||&c* &fAdgang til Redstone's mine med &c/warp redstone&f.||&b* &fAdgang til Diamond kittet med &b/kit diamond&f.||&b* &fAdgang til Diamond's mine med &b/warp diamond&f.||&bGenerelle funktioner:||&8* &fEvne til at tilslutte i fuld server.||&8* &fEvne til at bruge farvekoder i chatten.||&b* &fMulighed for at have 7 Plots.||&8* &fRanken bliver vist i chat og tap.||||&8Pris:|| &2{@DiamondPris} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &bDiamond &7for &2{@DiamondPris} EM&7!"]
+			format slot 6 of player with a Emerald named "&aEmerald" with lore "&aGenerelle kommandoer:||&9* &fÅbne sin enderchest med &9/echest&f.||&e* &fKan reparere dit værktøj med &e/fix&f.||&e* &fKan reparere alt i din inventory med &e/fix all||&e* &fPlacere en blok på hovedet med &e/hat&f.||&c* &fÆndre ens ingame navn med farver med &c/nickname&f.||&a* &fAdgang til 27 kister med &a/chest&f.||&7* &fEvne til at kunne flyve med &7/fly&f.||&8* &fAdgang til Coal kittet med &8/kit coal&f.||&8* &fAdgang til Coal's mine med &8/warp coal&f.||&7* &fAdgang til Iron kittet med &7/kit iron&f.||&7* &fAdgang til Iron's mine med &7/warp iron&f.||&e* &fAdgang til Gold kittet med &e/kit gold&f.||&e* &fAdgang til Gold's mine med &e/warp gold&f.||&9* &fAdgang til Lapis kittet med &9/kit lapis&f.||&9* &fAdgang til Lapis's mine med &9/warp lapis&f.||&c* &fAdgang til Redstone kittet med &c/kit redstone&f.||&c* &fAdgang til Redstone's mine med &c/warp redstone&f.||&b* &fAdgang til Diamond kittet med &b/kit diamond&f.||&b* &fAdgang til Diamond's mine med &b/warp diamond&f.||&a* &fAdgang til Emerald kittet med &a/kit emerald&f.||&a* &fAdgang til Emerald's mine med &a/warp emerald&f.||&aGenerelle funktioner:||&8* &fEvne til at tilslutte i fuld server.||&8* &fEvne til at bruge farvekoder i chatten.||&b* &fMulighed for at have 8 Plots.||&8* &fRanken bliver vist i chat og tap.||||&8Pris:|| &2{@EmeraldPris} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &aEmerald &7for &2{@EmeraldPris} EM&7!"]
+			format slot 7 of player with a Obsidian named "&dObsidian" with lore "&dGenerelle kommandoer:||&9* &fÅbne sin enderchest med &9/echest&f.||&e* &fKan reparere dit værktøj med &e/fix&f.||&e* &fKan reparere alt i din inventory med &e/fix all||&e* &fPlacere en blok på hovedet med &e/hat&f.||&c* &fÆndre ens ingame navn med farver med &c/nickname&f.||&d* &fAdgang til 38 kister med &d/chest&f.||&7* &fEvne til at kunne flyve med &7/fly&f.||&8* &fAdgang til Coal kittet med &8/kit coal&f.||&8* &fAdgang til Coal's mine med &8/warp coal&f.||&7* &fAdgang til Iron kittet med &7/kit iron&f.||&7* &fAdgang til Iron's mine med &7/warp iron&f.||&e* &fAdgang til Gold kittet med &e/kit gold&f.||&e* &fAdgang til Gold's mine med &e/warp gold&f.||&9* &fAdgang til Lapis kittet med &9/kit lapis&f.||&9* &fAdgang til Lapis's mine med &9/warp lapis&f.||&c* &fAdgang til Redstone kittet med &c/kit redstone&f.||&c* &fAdgang til Redstone's mine med &c/warp redstone&f.||&b* &fAdgang til Diamond kittet med &b/kit diamond&f.||&b* &fAdgang til Diamond's mine med &b/warp diamond&f.||&a* &fAdgang til Emerald kittet med &a/kit emerald&f.||&a* &fAdgang til Emerald's mine med &a/warp emerald&f.||&d* &fAdgang til Obsidian kittet med &d/kit obsidian&f.||&d* &fAdgang til Obsidian's mine med &d/warp obsidian&f.||&dGenerelle funktioner:||&8* &fEvne til at tilslutte i fuld server.||&8* &fEvne til at bruge farvekoder i chatten.||&d* &fMulighed for at have 10 Plots.||&8* &fRanken bliver vist i chat og tap.||||&8Pris:|| &2{@ObsidianPris} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &dObsidian &7for &2{@ObsidianPris} EM&7!"]
+			format slot 8 of player with a Bedrock named "&0Bedrock" with lore "&0Generelle kommandoer:||&9* &fÅbne sin enderchest med &9/echest&f.||&e* &fKan reparere dit værktøj med &e/fix&f.||&e* &fKan reparere alt i din inventory med &e/fix all||&e* &fPlacere en blok på hovedet med &e/hat&f.||&c* &fÆndre ens ingame navn med farver med &c/nickname&f.||&0* &fAdgang til 50 kister med &0/chest&f.||&7* &fEvne til at kunne flyve med &7/fly&f.||&8* &fAdgang til Coal kittet med &8/kit coal&f.||&8* &fAdgang til Coal's mine med &8/warp coal&f.||&7* &fAdgang til Iron kittet med &7/kit iron&f.||&7* &fAdgang til Iron's mine med &7/warp iron&f.||&e* &fAdgang til Gold kittet med &e/kit gold&f.||&e* &fAdgang til Gold's mine med &e/warp gold&f.||&9* &fAdgang til Lapis kittet med &9/kit lapis&f.||&9* &fAdgang til Lapis's mine med &9/warp lapis&f.||&c* &fAdgang til Redstone kittet med &c/kit redstone&f.||&c* &fAdgang til Redstone's mine med &c/warp redstone&f.||&b* &fAdgang til Diamond kittet med &b/kit diamond&f.||&b* &fAdgang til Diamond's mine med &b/warp diamond&f.||&a* &fAdgang til Emerald kittet med &a/kit emerald&f.||&a* &fAdgang til Emerald's mine med &a/warp emerald&f.||&d* &fAdgang til Obsidian kittet med &d/kit obsidian&f.||&d* &fAdgang til Obsidian's mine med &d/warp obsidian&f.||&0* &fAdgang til Bedrock kittet med &0/kit bedrock&f.||&0* &fAdgang til Bedrock's mine med &0/warp bedrock&f.||&0Generelle funktioner:||&8* &fEvne til at tilslutte i fuld server.||&8* &fEvne til at bruge farvekoder i chatten.||&0* &fMulighed for at have 15 Plots.||&8* &fRanken bliver vist i chat og tap.||||&8Pris:|| &2{@BedrockPris} Emeralder.||||&fKlik for at købe!" to close then run [make console execute command "bc &b%player% &7vil gerne købe &0Bedrock &7for &2{@BedrockPris} EM&7!"]
+			format slot 13 of player with Nether star named "&4Tilbage" to run [make player execute command "/buy"]
+			stop

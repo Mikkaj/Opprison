@@ -1,0 +1,137 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 17
+npc:
+  '8':
+    metadata:
+      cached-skin-uuid: caae522d-023b-4b27-a8ae-2fd6350bfc54
+      cached-skin-uuid-name: ole
+    name: §9§lOle
+    uuid: fbe5e6b5-9604-4ee0-bb5f-3f4266b474ba
+    traits:
+      location:
+        world: OurSpawn
+        x: '1839.9303439882285'
+        y: '156.0'
+        z: '4411.548417771275'
+        yaw: '90.90103149414062'
+        pitch: '-4.800048828125'
+      inventory: {}
+      spawned: true
+      owner:
+        owner: Magnus_L_A
+        uuid: 92e29f7b-f48d-4048-90e8-d06c5e29a9b0
+    traitnames: location,spawned,owner,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      cached-skin-uuid: 51750086-c578-46d5-b17d-42e4e3a47fa3
+      cached-skin-uuid-name: SuperSofia_DK
+      player-skin-name: SuperSofia_DK
+    name: SuperSofia_DK
+    uuid: fd361923-0d54-4aa5-8741-b160c76408d6
+    traits:
+      location:
+        world: world
+        x: '-85.5'
+        y: '5.0'
+        z: '570.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      inventory: {}
+      spawned: true
+      owner:
+        owner: SuperSofia_DK
+        uuid: 51750086-c578-46d5-b17d-42e4e3a47fa3
+    traitnames: location,spawned,owner,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    metadata:
+      cached-skin-uuid: 4c449604-aadc-4f8d-af36-03580696f0b0
+      player-skin-name: vagt
+      nameplate-visible: false
+      cached-skin-uuid-name: Vagt
+    name: §6Vagt
+    uuid: 2b8af4a6-7474-4f6c-8460-e732a7b53e70
+    traits:
+      inventory: {}
+      spawned: true
+      location:
+        world: mines
+        x: '313.52586145327473'
+        y: '25.0'
+        z: '203.89044061928328'
+        yaw: '183.868896484375'
+        pitch: '25.799901962280273'
+      owner:
+        owner: Bod_Frode
+        uuid: cc80e527-f46e-4a49-932b-c4ef3327799e
+    traitnames: location,spawned,owner,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    metadata:
+      cached-skin-uuid: 51750086-c578-46d5-b17d-42e4e3a47fa3
+      cached-skin-uuid-name: SuperSofia_DK
+    name: SuperSofia_DK
+    uuid: 91e8d395-bee6-432b-8d6e-49403d753a3c
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '-85.5'
+        y: '5.0'
+        z: '570.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      inventory: {}
+      owner:
+        owner: SuperSofia_DK
+        uuid: 51750086-c578-46d5-b17d-42e4e3a47fa3
+    traitnames: location,spawned,owner,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    metadata:
+      cached-skin-uuid: 69705d07-35fd-4ad8-ac9c-52bf60740d3b
+      cached-skin-uuid-name: ebbesendk
+    name: ebbesendk
+    uuid: 568674b2-f2b9-4475-a7ef-ee6c80542a5e
+    traits:
+      location:
+        world: Plots
+        x: '-434.2914041982862'
+        y: '77.0'
+        z: '-132.49516203353647'
+        yaw: '-90.52557373046875'
+        pitch: '2.6717987060546875'
+      inventory: {}
+      spawned: true
+      owner:
+        owner: SuperSofia_DK
+        uuid: 51750086-c578-46d5-b17d-42e4e3a47fa3
+    traitnames: location,spawned,owner,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

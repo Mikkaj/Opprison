@@ -1,0 +1,2 @@
+[12-2-2019 20:24:21] YouCanHitMee reached 39 CPS, VL=1
+[12-2-2019 20:25:05] YouCanHitMee reached 21 CPS, VL=1

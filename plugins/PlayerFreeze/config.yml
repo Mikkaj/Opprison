@@ -1,0 +1,50 @@
+##Should we send a message to all the online players with the permssion to freeze?
+sendmsg-to-all-staff: true
+
+##If the above statement is true the message below will be used.
+msg-to-all-staff-freeze:
+  - '&c%staff% &4has frozen &c%frozenplayer%'  #You can use the placeholders %staff% and %frozenplayer% here.
+msg-to-all-staff-un-freeze:
+  - '&3%staff% &bhas un-frozen &3%frozenplayer%'  #You can use the placeholders %staff% and %frozenplayer% here.
+
+##I recommend keeping this true. It prevents players from jumping around and getting kicked for fly.
+##Beware! Having this enabled will remove the potion-effects jump-boost and slowness on player join.
+potion-effects: true  #This will give them slowness and jump-boost level 900. Which prevents moving.
+
+##These are the messages sent to the player that is frozen and to the staff that froze them.
+freeze-msg-staff: '&3%player% &bhas been frozen.'
+freeze-msg-player: '&cYou have been frozen by &4%staff%'
+
+##These are the messages sent to the player that got un-frozen and to the staff that un-froze them.
+un-freeze-msg-staff: '&3%player% &bhas been un-frozen.'
+un-freeze-msg-player: '&cYou have been un-frozen by &4%staff%'
+
+##This is the message to send to players without the permssion 'pf.freeze'.
+no-perm-msg: '&cYou lack the required permissions to use this command.'
+
+##This is the message that shows when you do /listfrozen to list the frozen players. The placeholder %frozenplayers% can be used here to display a list of frozen players.
+frozen-player-list-msg:
+  - '&5&m=====&7 FROZEN PLAYERS &5&m====='
+  - '&c%frozenplayers%'
+  - '&5&m=====&7 FROZEN PLAYERS &5&m====='
+
+##This option blocks all commands while frozen except the commands that you specify below.
+block-cmds-while-frozen: true
+
+##These are all of the commands that are allowed to be used while the above option is true and the player is frozen.
+allowed-cmds-while-frozen:
+  - 'f c p' ##You must use the command and the arguments!
+
+##This is the large exclamation point//alert symbol.
+alert-msg: true
+
+##This is the message that will come after the alert-msg.
+freeze-msg:
+  - '&c&lYou Have Been Frozen! Logging off &b= &c&lBan!'
+  - '&5&lPlease join TeamSpeak at &cts.ip.here&a!'
+
+##This toggles the feature below.
+logoff-command-toggle: true
+
+##This feature will automatically run this command as console when a frozen player that doesn't have the permssion 'pf.freeze' logs off.
+logoff-command: 'ban %player% Logging off while frozen.'  #Don't use a "/" infront of the command.

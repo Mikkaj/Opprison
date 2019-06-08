@@ -1,0 +1,21 @@
+lastAccountName: Mikkaj
+timestamps:
+  login: 1559939524542
+  lastteleport: 1559923510118
+  logout: 1559939683322
+ipAddress: 178.157.250.44
+lastlocation:
+  world: mines
+  x: 273.1788750920335
+  y: 9.0
+  z: -305.5675587232284
+  yaw: 177.15755
+  pitch: 34.33035
+logoutlocation:
+  world: OurSpawn
+  x: 1831.6278699055176
+  y: 159.2459159692743
+  z: 4415.968189129268
+  yaw: 150.27055
+  pitch: 5.9283743
+money: '1100073.0'

@@ -1,0 +1,8 @@
+vault1:
+  '22': '{"==":"org.bukkit.inventory.ItemStack","amount":49,"type":"EMERALD_BLOCK"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"EMERALD_BLOCK"}'
+  '24': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"EMERALD_BLOCK"}'
+  '25': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"EMERALD_BLOCK"}'
+  '26': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"EMERALD_BLOCK"}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"EMERALD_BLOCK"}'
+  '38': '{"==":"org.bukkit.inventory.ItemStack","amount":10,"type":"DIAMOND_BLOCK"}'

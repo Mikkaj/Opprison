@@ -1,0 +1,65 @@
+# EZRanksLite version: v1.6 Main Configuration
+debug: false
+server_name: Maniax
+ranks:
+  enabled: false
+  format_has_access: '&f%rankfrom% &7til &f%rankto% &a(Gennemført)'
+  format_no_access: '&f%rankfrom% &7til &f%rankto% &c(%cost%)'
+  format_last_rank: ''
+  header:
+  - '&8&m&l===================================='
+  footer:
+  - '&8&m&l===================================='
+rankup_cooldown:
+  enabled: false
+  time: 5
+scoreboard:
+  enabled: true
+  refresh_time: 5
+  title: '&6&lServernavn'
+  display:
+  - blank
+  - ' &2&lStats:'
+  - '  &7Rank: &b%rankfrom%'
+  - '  &7Rankup: &b%rankto%'
+  - '  &7Mangler: &c$&f%difference%'
+  - '  &7Penge: &a$&f%balance%'
+  - blank
+  - ' &2&lServer:'
+  - '  &7Tps: &f%tps%'
+  - '  &7Online: &f%online% / %onlinemax%'
+  no_rankups: '&o&cIngen..'
+  can_rankup: '&a/rankup'
+  progress_bar:
+    bar_color: '&a'
+    needs_color: '&8'
+    end_color: '&f&l'
+    left_character: ┃
+    bar_character: ':'
+    right_character: ┃
+  disabled_worlds:
+  - world_nether
+  - world_the_end
+staff_scoreboard:
+  enabled: false
+  title: '&cStaff'
+  display:
+  - '&cPlayers online:'
+  - '%onlineplayers%/%onlinemax%'
+  - blank
+  - '&cStaff online:'
+  - '%onlinestaff%'
+  - blank
+  - '&cTPS:'
+  - '&a%tps%'
+  - '&cPing:'
+  - '&a%ping%'
+money:
+  fix_thousands: true
+  fix_millions: true
+  thousands_format: ' tusind'
+  millions_format: ' millioner'
+  billions_format: ' billioner'
+  trillions_format: ' trillioner'
+  quadrillions_format: ' quardillioner'
+check_updates: true

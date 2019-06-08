@@ -1,0 +1,198 @@
+
+
+
+
+
+command /Warp [<text>]:
+	aliases: warps
+	executable by: players
+	trigger:
+		if arg 1 is not set:
+			set {_rank} to colored player's prefix
+			replace all "&7" with "" in {_rank}
+			replace all "&8" with "" in {_rank}
+			set {_suffix} to colored player's suffix
+			replace all "&7" with "" in {_suffix}
+			replace all "&8" with "" in {_suffix}
+			wait 1 ticks
+			open chest with 6 row named "&aWarps" to player
+			wait 1 ticks
+			if {_suffix} contain "Ejer","Head-Admin", "Coal", "Iron", "Gold", "Lapis", "Redstone", "Diamond", "Emerald", "Obsidian", "mod" or "Bedrock":
+				format slot 27 of player with Coalitem named "&7&lCoal" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Coal %player%"]
+			else:
+				format slot 27 of player with Barrier named "&4&lCoal" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_suffix} contain "Ejer", "Iron", "Gold", "Lapis", "Redstone", "Diamond", "Emerald", "Obsidian", "Head-Admin", "mod" or "Bedrock":
+				format slot 36 of player with Iron Ingot named "&7&lIron" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Iron %player%"]
+			else:
+				format slot 36 of player with Barrier named "&4&lIron" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_suffix} contain "Ejer","head-admin", "mod", "Gold", "Lapis", "Redstone", "Diamond", "Emerald", "Obsidian" or "Bedrock":
+				format slot 37 of player with Gold Ingot named "&e&lGold" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Gold %player%"]
+			else:
+				format slot 37 of player with Barrier named "&4&lGold" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_suffix} contain "Ejer","head-admin","mod", "Lapis", "Redstone", "Diamond", "Emerald", "Obsidian" or "Bedrock":
+				format slot 45 of player with a Lapis Lazuli named "&9&7Lapis" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Lapis %player%"]
+			else:
+				format slot 45 of player with Barrier named "&4&lLapis" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_suffix} contain "Ejer","head-admin","mod", "Redstone", "Diamond", "Emerald", "Obsidian" or "Bedrock":
+				format slot 35 of player with Redstone named "&c&lRedstone" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Redstone %player%"]
+			else:
+				format slot 35 of player with Barrier named "&4&lRedstone" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_suffix} contain "Ejer","head-admin", "mod", "Diamond", "Emerald", "Obsidian" or "Bedrock":
+				format slot 44 of player with Diamond named "&b&lDiamond" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Diamond %player%"]
+			else:
+				format slot 44 of player with Barrier named "&4&lDiamond" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_suffix} contain "Ejer","head-admin","mod", "Emerald", "Obsidian" or "Bedrock":
+				format slot 43 of player with Emerald named "&2&lEmerald" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Emerald %player%"]
+			else:
+				format slot 43 of player with Barrier named "&4&lEmerald" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_suffix} contain "Ejer","head-admin","mod", "Obsidian" or "Bedrock":
+				format slot 53 of player with Obsidian named "&d&lObsidian" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Obsidian %player%"]
+			else:
+				format slot 53 of player with Barrier named "&4&lObsidian" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_suffix} contain "Ejer", "head-admin", "mod" or "Bedrock":
+				format slot 40 of player with Bedrock named "&0&lBedrock" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Bedrock %player%"]
+			else:
+				format slot 40 of player with Barrier named "&4&lBedrock" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[A]","[B]", "[C]", "[D]", "[E]", "[F]", "[G]", "[H]", "[I]", "[J]", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]", "[Prestige]" or "[Z]":
+				format slot 46 of player with Grass named "&2&lPlots" with lore "&7Du har adgang til dette warp||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Plots %player%"]
+				format slot 52 of player with Grass named "&2&lPlots2nd" with lore "&7Du har adgang til dette warp||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Plots2nd %player%"]
+			format slot 47 of player with a enderchest named "&6&lEvent" with lore "&7Du har adgang til dette warp||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Event %player%"]
+			format slot 51 of player with a enderchest named "&6&lEvent" with lore "&7Du har adgang til dette warp||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Event %player%"]
+			format slot 0 of player with green stained glass pane named "&2&lTræ" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps a %player%"]
+			format slot 1 of player with green stained glass pane named "&2&lA" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps a %player%"]
+
+			if {_rank} contain "Ejer", "[B]", "[C]", "[D]", "[E]", "[F]", "[G]", "[H]", "[I]", "[J]", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]", "[prestige]" or "[Z]":
+				format slot 2 of player with green stained glass pane named "&2&lB" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps b %player%"]
+			else:
+				format slot 2 of player with red stained glass pane named "&4&lB" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[C]", "[D]", "[E]", "[F]", "[G]", "[H]", "[I]", "[J]", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]","[prestige]" or "[Z]":
+				format slot 3 of player with green stained glass pane named "&2&lC" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps c %player%"]
+			else:
+				format slot 3 of player with red stained glass pane named "&4&lC" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[D]", "[E]", "[F]", "[G]", "[H]", "[I]", "[J]", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]", "[prestige]" or "[Z]":
+				format slot 4 of player with green stained glass pane named "&2&lD" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps d %player%"]
+			else:
+				format slot 4 of player with red stained glass pane named "&4&lD" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[E]", "[F]", "[G]", "[H]", "[I]", "[J]", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]", "[prestige]" or "[Z]":
+				format slot 5 of player with green stained glass pane named "&2&lE" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps e %player%"]
+			else:
+				format slot 5 of player with red stained glass pane named "&4&lE" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[F]", "[G]", "[H]", "[I]", "[J]", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]", "[prestige]" or "[Z]":
+				format slot 6 of player with green stained glass pane named "&2&lF" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps F %player%"]
+			else:
+				format slot 6 of player with red stained glass pane named "&4&lF" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[G]", "[H]", "[I]", "[J]", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Z]" or "[Y]":
+				format slot 7 of player with green stained glass pane named "&2&lG" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps G %player%"]
+			else:
+				format slot 7 of player with red stained glass pane named "&4&lG" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[H]", "[I]", "[J]", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 8 of player with green stained glass pane named "&2&lH" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps H %player%"]
+			else:
+				format slot 8 of player with red stained glass pane named "&4&lH" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[I]", "[J]", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 9 of player with green stained glass pane named "&2&lI" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps I %player%"]
+			else:
+				format slot 9 of player with red stained glass pane named "&4&lI" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[J]", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 10 of player with green stained glass pane named "&2&lJ" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps J %player%"]
+			else:
+				format slot 10 of player with red stained glass pane named "&4&lJ" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[K]", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 11 of player with green stained glass pane named "&2&lK" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps K %player%"]
+			else:
+				format slot 11 of player with red stained glass pane named "&4&lK" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[L]", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 12 of player with green stained glass pane named "&2&lL" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps L %player%"]
+			else:
+				format slot 12 of player with red stained glass pane named "&4&lL" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[M]", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 13 of player with green stained glass pane named "&2&lM" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps M %player%"]
+			else:
+				format slot 13 of player with red stained glass pane named "&4&lM" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[N]", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 14 of player with green stained glass pane named "&2&lN" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps n %player%"]
+			else:
+				format slot 14 of player with red stained glass pane named "&4&lN" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[O]", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 15 of player with green stained glass pane named "&2&lO" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps O %player%"]
+			else:
+				format slot 15 of player with red stained glass pane named "&4&lO" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[P]", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 16 of player with green stained glass pane named "&2&lP" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps P %player%"]
+			else:
+				format slot 16 of player with red stained glass pane named "&4&lP" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[Q]", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 17 of player with green stained glass pane named "&2&lQ" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Q %player%"]
+			else:
+				format slot 17 of player with red stained glass pane named "&4&lQ" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[R]", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 18 of player with green stained glass pane named "&2&lR" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps R %player%"]
+			else:
+				format slot 18 of player with red stained glass pane named "&4&lR" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[S]", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 19 of player with green stained glass pane named "&2&lS" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps S %player%"]
+			else:
+				format slot 19 of player with red stained glass pane named "&4&lS" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[T]", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 20 of player with green stained glass pane named "&2&lT" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps T %player%"]
+			else:
+				format slot 20 of player with red stained glass pane named "&4&lT" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[U]", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 21 of player with green stained glass pane named "&2&lU" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps U %player%"]
+			else:
+				format slot 21 of player with red stained glass pane named "&4&lU" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[V]", "[W]", "[X]", "[Y]" or "[Z]":
+				format slot 22 of player with green stained glass pane named "&2&lV" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps V %player%"]
+			else:
+				format slot 22 of player with red stained glass pane named "&4&lV" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[W]","[X]", "[Y]" or "[Z]":
+				format slot 23 of player with green stained glass pane named "&2&lW" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps W %player%"]
+			else:
+				format slot 23 of player with red stained glass pane named "&4&lW" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[X]", "[Y]" or "[Z]":
+				format slot 24 of player with green stained glass pane named "&2&lX" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps X %player%"]
+			else:
+				format slot 24 of player with red stained glass pane named "&4&lX" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer", "[Y]" or "[Z]":
+				format slot 25 of player with green stained glass pane named "&2&lY" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Y %player%"]
+			else:
+				format slot 25 of player with red stained glass pane named "&4&lY" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 
+
+			if {_rank} contain "Ejer" or "[Z]":
+				format slot 26 of player with green stained glass pane named "&2&lZ" with lore "&7Du har adgang til denne mine!||||&fKlik for at warpe!" to close then run [execute console command "/ewarps Z %player%"]
+			else:
+				format slot 26 of player with red stained glass pane named "&4&lZ" with lore "&cDu har ikke adgang til denne mine!" to be unstealable 	
+		if arg 1 is set:
+			make player execute command "/essentials:ewarps %arg 1%"

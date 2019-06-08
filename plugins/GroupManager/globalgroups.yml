@@ -1,0 +1,160 @@
+groups:
+  g:diamond:
+    permissions:
+    - essentials.kits.diamond
+    - plots.plot.7
+  g:normal:
+    permissions:
+    - essentials.balance.top
+    - Autoblock.toggle
+    - Autopickup.enabled
+    - AutoPickup.toggle
+    - AutoSell.enabled
+    - baltop
+    - essentials.balance
+    - essentials.baltop
+    - essentials.chat.url
+    - essentials.help
+    - essentials.ignore
+    - essentials.kit
+    - essentials.kit.mad
+    - essentials.kits
+    - essentials.kits.mad
+    - essentials.kits.starter
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - essentials.pay
+    - essentials.spawn
+    - essentials.suicide
+    - minecraft.command.baltop
+    - playervaults.amount.1
+    - playervaults.amount.10
+    - playervaults.amount.11
+    - playervaults.amount.12
+    - playervaults.amount.13
+    - playervaults.amount.14
+    - playervaults.amount.15
+    - playervaults.amount.16
+    - playervaults.amount.17
+    - playervaults.amount.18
+    - playervaults.amount.19
+    - playervaults.amount.2
+    - playervaults.amount.20
+    - playervaults.amount.21
+    - playervaults.amount.22
+    - playervaults.amount.23
+    - playervaults.amount.24
+    - playervaults.amount.25
+    - playervaults.amount.26
+    - playervaults.amount.27
+    - playervaults.amount.28
+    - playervaults.amount.29
+    - playervaults.amount.3
+    - playervaults.amount.30
+    - playervaults.amount.31
+    - playervaults.amount.32
+    - playervaults.amount.33
+    - playervaults.amount.34
+    - playervaults.amount.35
+    - playervaults.amount.356
+    - playervaults.amount.36
+    - playervaults.amount.37
+    - playervaults.amount.38
+    - playervaults.amount.39
+    - playervaults.amount.4
+    - playervaults.amount.40
+    - playervaults.amount.41
+    - playervaults.amount.42
+    - playervaults.amount.43
+    - playervaults.amount.44
+    - playervaults.amount.45
+    - playervaults.amount.46
+    - playervaults.amount.47
+    - playervaults.amount.48
+    - playervaults.amount.49
+    - playervaults.amount.5
+    - playervaults.amount.50
+    - playervaults.amount.6
+    - playervaults.amount.7
+    - playervaults.amount.8
+    - playervaults.amount.9
+    - plots.add
+    - plots.auto
+    - plots.claim
+    - plots.clear
+    - plots.confirm
+    - plots.continue
+    - plots.delete
+    - plots.deny
+    - plots.help
+    - plots.home
+    - plots.info
+    - plots.kick
+    - plots.list
+    - plots.merge
+    - plots.plot.1
+    - plots.remove
+    - plots.set
+    - plots.set.home
+    - plots.trust
+    - plots.undeny
+    - plots.untrust
+    - plots.use
+    - plots.visit
+    - plots.visit.other
+    - plots.visit.shared
+    - serversigns.use.*
+    - essentials.balance.top
+    - essentials.bal.top
+  g:emerald:
+    permissions:
+    - essentials.kits.emerald
+    - plots.plot.8
+  g:gold:
+    permissions:
+    - essentials.hat
+    - essentials.kit
+    - essentials.kit.gold
+    - essentials.kits
+    - essentials.kits.goal
+    - essentials.kits.gold
+    - essentials.repair
+    - essentials.repair.all
+    - plots.plot.4
+  g:lapis:
+    permissions:
+    - essentials.enderchest
+    - essentials.kits.lapis
+    - plots.plot.5
+  g:obsidian:
+    permissions:
+    - essentials.kits.obsidian
+    - plots.plot.10
+  g:coal:
+    permissions:
+    - essentials.chat.color
+    - essentials.kits.coal
+    - essentials.nickname
+    - essentials.warps.coal
+    - plots.plot.2
+  g:bedrock:
+    permissions:
+    - essentials.kits.bedrock
+    - plots.plot.15
+  g:iron:
+    permissions:
+    - essentials.fly
+    - essentials.kit
+    - essentials.kit.coal
+    - essentials.kits
+    - essentials.kits.coal
+    - essentials.kits.iron
+    - essentials.nickname
+    - plots.plot.3
+  g:redstone:
+    permissions:
+    - essentials.kits.redstone
+    - essentials.nickname.color
+    - plots.plot.6

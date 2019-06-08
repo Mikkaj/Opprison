@@ -1,0 +1,3 @@
+vault2:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","display-name":"§0§lBEDROCK
+    RANK"},"type":"BOOK"}'

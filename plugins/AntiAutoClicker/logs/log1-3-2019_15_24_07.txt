@@ -1,0 +1,2 @@
+[1-3-2019 16:37:54] ebbesendk reached 18 CPS, VL=1
+[1-3-2019 16:40:58] ebbesendk reached 60 CPS, VL=1

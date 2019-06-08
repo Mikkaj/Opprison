@@ -1,0 +1,14 @@
+[13-2-2019 18:57:14] Antondenmark123 reached 18 CPS, VL=1
+[13-2-2019 19:12:06] thor_bjoernen reached 83 CPS, VL=1
+[13-2-2019 19:14:20] Victorstar1 reached 21 CPS, VL=1
+[13-2-2019 19:14:21] Victorstar1 reached 23 CPS, VL=2
+[13-2-2019 19:17:29] banken_dk reached 22 CPS, VL=1
+[13-2-2019 19:19:07] Antondenmark123 reached 22 CPS, VL=1
+[13-2-2019 19:22:52] Victorstar1 reached 44 CPS, VL=1
+[13-2-2019 19:23:57] Antondenmark123 reached 26 CPS, VL=1
+[13-2-2019 19:33:10] Antondenmark123 reached 31 CPS, VL=1
+[13-2-2019 19:34:45] Jonasautzen reached 18 CPS, VL=1
+[13-2-2019 19:44:29] HejMor reached 65 CPS, VL=1
+[13-2-2019 20:01:44] NEGEVMEISTER reached 30 CPS, VL=1
+[13-2-2019 20:03:02] Jonasautzen reached 22 CPS, VL=1
+[13-2-2019 20:28:16] BubbiMC reached 21 CPS, VL=1

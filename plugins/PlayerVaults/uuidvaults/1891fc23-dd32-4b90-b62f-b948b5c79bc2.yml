@@ -1,0 +1,21 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"STICK"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":7,"type":"DIRT"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":17,"type":"SPRUCE_WOOD_STAIRS"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":34,"type":"SPRUCE_FENCE"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":37,"type":"LOG"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"LOG_2"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":7,"type":"LOG_2"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","damage":5,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"ARROW_FIRE":1,"ARROW_KNOCKBACK":2},"display-name":"§0Bedrock
+    §8➡ §0Bue"},"type":"BOW"}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","type":"LAVA_BUCKET"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","damage":4,"amount":64,"type":"WOOD"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":10,"FIRE_ASPECT":10},"display-name":"§0Bedrock
+    §8➡ §0Sværd"},"type":"DIAMOND_SWORD"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","damage":4,"amount":64,"type":"WOOD"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":2000,"DIG_SPEED":80},"display-name":"§0Bedrock
+    §8➡ §0Økse"},"type":"DIAMOND_AXE"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":64,"type":"GOLDEN_APPLE"}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","damage":4,"amount":44,"type":"WOOD"}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"STICK"}'

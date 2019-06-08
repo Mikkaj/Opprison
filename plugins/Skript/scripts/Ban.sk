@@ -1,0 +1,51 @@
+options:
+	p: &8[&3Servernavn&8]&7
+	
+command /ban [<text>] [<text>]:
+	permission: essentials.ban
+	permission message: &8[&4Fejl&8] &cDu har ikke tilladelse til denne kommando!
+	trigger:
+		set {_s} to arg-1 parsed as a offline player
+		set {_g} to arg-2
+		if {_s} is not set:
+			send "{@p} Brug: &f/ban <spiller> [grund]&7."
+			send "{@p} F.eks: &f/ban Mikkaj Hack&7."
+			stop
+		else if {_g} is not set:
+			send "{@p} &cDu har ikke indtastet grunden."
+			send "{@p} Brug: &f/ban <spiller> [grund]&7."
+			send "{@p} F.eks: &f/ban Mikkaj Hack&7."
+			stop
+		if {_s} has permission "essentials.ban":
+			send "{@p} &cDu kan ikke banne en staff!"
+			stop
+		else if {_g} is set:
+			if {ban.%{_s}%} is not set:
+				send "{@p} &c%player% &7banned &4%{_s}% &7i &f1 uge&7 for: &e%{_g}% (1. Gang)&7!" to all players
+				make console execute command "/essentials:tempban %arg 1% 1w %{_g}% (1. Gang)"
+				set {ban.%{_s}%} to 1
+				stop
+			if {ban.%arg 1%} is 1:
+				send "{@p} &c%player% &7banned &4%{_s}% &7i &f1 måned&7 for: &e%{_g}% (2. Gang)&7!" to all players
+				make console execute command "/essentials:tempban %{_s}% 1mounth %{_g}% (2. Gang)"
+				set {ban.%{_s}%} to 2
+				stop
+			if {ban.%arg 1%} is 2:
+				send "{@p} &c%player% &7banned &4%{_s}% &7permanent for: &e%{_g}% (2. Gang)&7!" to all players
+				make console execute command "/essentials:ban %{_s}% %{_g}% (3. Gang)"
+				clear {ban.%{_s}%}
+				stop
+
+command /unban [<text>]:
+	permission: essentials.unban
+	permission message: &8[&4Fejl&8] &cDu har ikke tilladelse til denne kommando!
+	trigger:
+		set {_s} to arg-1 parsed as a offline player
+		if {_s} is not set:
+			send "{@p} Brug: &f/unban <spiller>&7."
+			send "{@p} F.eks: &f/unban Mikkaj Hack&7."
+			stop
+		if {_s} is set:
+			send "{@p} &a%player% &7unbanned &2%{_s}%&7!" to all players
+			make console execute command "/pardon %{_s}%"
+			stop

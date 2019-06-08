@@ -1,0 +1,9 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2500 Emeralder."],"display-name":"§b50x Shards"},"type":"PRISMARINE_SHARD"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2500 Emeralder."],"display-name":"§b50x Shards"},"type":"PRISMARINE_SHARD"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2500 Emeralder."],"display-name":"§b50x Shards"},"type":"PRISMARINE_SHARD"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":58,"meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§8Pris:
+    §2500 Emeralder."],"display-name":"§b50x Shards"},"type":"PRISMARINE_SHARD"}'

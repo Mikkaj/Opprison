@@ -1,0 +1,18 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: -1387
+  maxY: 45
+  maxX: 308
+  fillMode: false
+  world: mines
+  minY: 17
+  resetWarnings: []
+  minX: 289
+  composition:
+    '159:15': 1.0
+  name: Obsidian
+  resetClock: 3
+  minZ: -1399
+  isSilent: true

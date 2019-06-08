@@ -1,0 +1,72 @@
+Data Version: 2
+Crate Locations:
+  mystery:
+  - OurSpawn|1874|29|3968
+  rocket:
+  - OurSpawn|1869|29|3974
+  elite:
+  - OurSpawn|1879|29|3974
+Claims:
+  e2d07ddd-8c2c-4401-ad0f-e9d4b684ca15:
+  - elite|20
+  - mystery|30
+  - rocket|20
+  - Mystery|20
+  - Rocket|30
+  - Elite|30
+  b927a4bc-65b8-4cea-b0f6-88c94634b233:
+  - Elite|1
+  7f976bed-89e1-4352-b529-d6ae6b038bdc:
+  - elite|20
+  - mystery|30
+  - rocket|20
+  - Mystery|20
+  - Rocket|30
+  - Elite|30
+  22aac778-4196-4e04-b66f-0d9c35e501c4: []
+  88303f30-2573-4d7f-8d49-4ef3aa0811f7:
+  - elite|20
+  - mystery|20
+  - rocket|20
+  f2dc7097-3e33-4349-8342-6cac0276bb62:
+  - elite|20
+  - rocket|20
+  ba9f19d8-4d13-4d7f-a98c-3efa362acf30:
+  - elite|20
+  60a8b335-5c75-4f9a-9344-dd43e124c255:
+  - Mystery|1
+  dfd57c18-7c37-4203-aa62-4697d81db92c:
+  - Mystery|1
+  f8493680-a5cc-49ed-bcd8-0cb21bc064d0:
+  - Mystery|3
+  b4a3aea3-1872-4d24-879e-116d124c5c2d:
+  - Mystery|5
+  8c5d5657-4ec2-44e8-8ee8-db6a59fca2c6:
+  - Rocket|5
+  7c1c948a-a855-4e9f-ab5c-5a95cddea3cf: []
+  53b526a5-99dd-4cdf-9a81-99a438147d7c:
+  - Mystery|15
+  295c1353-af96-403c-a6e9-b45e4589aa3b:
+  - Mystery|20
+  - Rocket|20
+  - Elite|20
+  af2587d6-ef0b-4965-9f17-9d2d851df36e:
+  - Mystery|20
+  - Rocket|20
+  - Elite|20
+  e9ef75d0-60cb-4c4f-884f-dbfd61addaea: []
+  7c17f1d0-1689-42f9-b15e-f94258d6238b:
+  - Mystery|1
+  242e84aa-cbb0-4d30-8b14-9c823a022fe5:
+  - Rocket|1
+  b7922628-242f-453f-8541-8735622a20b5:
+  - elite|2
+  - mystery|4
+  - rocket|2
+  b8ebb5b1-c137-4748-8cce-4d3bef03cd86:
+  - mystery|5
+  - rocket|5
+  7768f6f8-739f-4b20-93d3-455f91296a7c:
+  - mystery|3
+  66be4d77-32a1-4b35-b540-09e8290971e5:
+  - Mystery|1

@@ -1,0 +1,571 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  A:
+    default: true
+    permissions:
+    - essentials.balance.*
+    - essentials.balance.other
+    - essentials.balance.others
+    - essentials.balance.top
+    - essentials.balancetop
+    - ne.a
+    - nte.a
+    - Rank.A
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7A&8]&f'
+      suffix: ''
+  B:
+    default: false
+    permissions:
+    - ne.b
+    - Rank.B
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7B&8]&f'
+      suffix: ''
+  C:
+    default: false
+    permissions:
+    - ne.c
+    - Rank.C
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7C&8]&f'
+      suffix: ''
+  D:
+    default: false
+    permissions:
+    - ne.d
+    - Rank.D
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7D&8]&f'
+      suffix: ''
+  E:
+    default: false
+    permissions:
+    - ne.e
+    - Rank.E
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7E&8]&f'
+      suffix: ''
+  F:
+    default: false
+    permissions:
+    - ne.f
+    - Rank.F
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7F&8]&f'
+      suffix: ''
+  G:
+    default: false
+    permissions:
+    - ne.g
+    - Rank.G
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7G&8]&f'
+      suffix: ''
+  H:
+    default: false
+    permissions:
+    - ne.h
+    - Rank.H
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7H&8]&f'
+      suffix: ''
+  I:
+    default: false
+    permissions:
+    - ne.i
+    - Rank.I
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7I&8]&f'
+      suffix: ''
+  J:
+    default: false
+    permissions:
+    - ne.j
+    - nej
+    - Rank.J
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7J&8]&f'
+      suffix: ''
+  Iron:
+    default: false
+    permissions:
+    - G:coal
+    - ne.iron
+    - Rank.Iron
+    inheritance:
+    - g:normal
+    - g:iron
+    info:
+      build: false
+      prefix: ''
+      suffix: '&8[&7Iron&8] &7'
+  K:
+    default: false
+    permissions:
+    - ne.k
+    - Rank.K
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7K&8]&f'
+      suffix: ''
+  L:
+    default: false
+    permissions:
+    - ne.l
+    - Rank.L
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7L&8]&f'
+      suffix: ''
+  M:
+    default: false
+    permissions:
+    - ne.m
+    - Rank.M
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7M&8]&f'
+      suffix: ''
+  N:
+    default: false
+    permissions:
+    - ne.n
+    - Rank.N
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7N&8]&f'
+      suffix: ''
+  O:
+    default: false
+    permissions:
+    - ne.o
+    - Rank.A
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7O&8]&f'
+      suffix: ''
+  P:
+    default: false
+    permissions:
+    - ne.p
+    - Rank.A
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7P&8]&f'
+      suffix: ''
+  Q:
+    default: false
+    permissions:
+    - ne.q
+    - Rank.Q
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7Q&8]&f'
+      suffix: ''
+  R:
+    default: false
+    permissions:
+    - ne.r
+    - Rank.R
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7R&8]&f'
+      suffix: ''
+  Ejer:
+    default: false
+    permissions:
+    - ejer
+    - essentials.*
+    - Rank.Ejer
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&f'
+      suffix: '&8[&4Ejer&8] &4'
+  S:
+    default: false
+    permissions:
+    - essentials.balance.other
+    - ne.s
+    - Rank.S
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7S&8]&f'
+      suffix: ''
+  T:
+    default: false
+    permissions:
+    - ne.t
+    - Rank.T
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7T&8]&f'
+      suffix: ''
+  U:
+    default: false
+    permissions:
+    - ne.u
+    - Rank.U
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7U&8]&f'
+      suffix: ''
+  V:
+    default: false
+    permissions:
+    - ne.v
+    - Rank.V
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7V&8]&f'
+      suffix: ''
+  Emerald:
+    default: false
+    permissions:
+    - Rank.Emerald
+    inheritance:
+    - g:normal
+    - g:coal
+    - g:iron
+    - g:gold
+    - g:lapis
+    - g:redstone
+    - g:diamond
+    - g:emerald
+    info:
+      build: false
+      prefix: ''
+      suffix: '&8[&2Emerald&8] &7'
+  W:
+    default: false
+    permissions:
+    - ne.w
+    - Rank.W
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7W&8]&f'
+      suffix: ''
+  Coal:
+    default: false
+    permissions:
+    - essentials,rankup
+    - essentials.rankup
+    - ne.coal
+    - Nte.coal
+    - Rank.Coal
+    - rankup
+    inheritance:
+    - g:normal
+    - g:coal
+    info:
+      build: false
+      prefix: ''
+      '&8[&8Coal&8]': '&7'
+      suffix: '&8[&8Coal&8] &7'
+  X:
+    default: false
+    permissions:
+    - ne.x
+    - Rank.X
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7X&8]&f'
+      suffix: ''
+  Y:
+    default: false
+    permissions:
+    - ne.y
+    - Rank.Y
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7Y&8]&f'
+      suffix: ''
+  Z:
+    default: false
+    permissions:
+    - Rank.Z
+    inheritance:
+    - g:normal
+    info:
+      build: false
+      prefix: '&8[&7Z&8]&f'
+      suffix: ''
+  Gold:
+    default: false
+    permissions:
+    - essentials.balance.other
+    - ne.gold
+    - plot.plots.1
+    - plots.plot.1
+    - Rank.Gold
+    inheritance:
+    - g:normal
+    - g:coal
+    - g:iron
+    - g:gold
+    info:
+      build: false
+      prefix: ''
+      suffix: '&8[&eGold&8] &7'
+  Mod:
+    default: false
+    permissions:
+    - ban
+    - essentials.
+    - essentials.afk
+    - essentials.back
+    - essentials.bal.player
+    - essentials.bal.top
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.baltop
+    - essentials.ban
+    - essentials.fly
+    - essentials.kit.bedrock
+    - essentials.mute
+    - essentials.pay
+    - essentials.pay.player
+    - essentials.tempban
+    - essentials.tp
+    - essentials.tphere
+    - essentials.warp
+    - essentials.warp.bedrock
+    - essentials.warp.prestige1
+    - essentials.warp.prestige2
+    - essentials.warp.prestige3
+    - essentials.warp.prestige4
+    - essentials.warp.prestige5
+    - essentials.warps
+    - essentials.warps.prestige
+    - essentials.warps.prestige1
+    - essentials.warps.prestige2
+    - essentials.warps.prestige3
+    - essentials.warps.prestige4
+    - essentials.warps.prestige5
+    - g:bedorck
+    - g:bedrock
+    - minecraft.command.baltop
+    - mute
+    - ne.mod
+    - Rank.Mod
+    inheritance:
+    - g:normal
+    - g:redstone
+    - bedrock
+    info:
+      build: false
+      prefix: '&8[&5Mod&8] &7'
+      suffix: ''
+  Obsidian:
+    default: false
+    permissions:
+    - ne.obsidian
+    - Rank.Obsidian
+    inheritance:
+    - g:normal
+    - g:coal
+    - g:iron
+    - g:gold
+    - g:lapis
+    - g:redstone
+    - g:diamond
+    - g:emerald
+    - g:obsidian
+    info:
+      build: false
+      prefix: ''
+      suffix: '&8[&0Obsidian&8] &7'
+  Diamond:
+    default: false
+    permissions:
+    - ne.diamond
+    - Rank.Diamond
+    inheritance:
+    - g:normal
+    - g:coal
+    - g:iron
+    - g:gold
+    - g:lapis
+    - g:redstone
+    - g:diamond
+    info:
+      build: false
+      prefix: ''
+      suffix: '&8[&3Diamond&8] &7'
+  Admin:
+    default: false
+    permissions:
+    - ban
+    - essentials.*
+    - mute
+    - ne.admin
+    - Rank.Admin
+    inheritance:
+    - g:normal
+    - g:bedrock
+    info:
+      build: false
+      prefix: '&8[&4Admin&8] &7'
+      suffix: ''
+  Bedrock:
+    default: false
+    permissions:
+    - essentials.feed
+    - ne.bedrock
+    - Rank.Bedrock
+    inheritance:
+    - g:normal
+    - g:coal
+    - g:iron
+    - g:gold
+    - g:lapis
+    - g:redstone
+    - g:diamond
+    - g:emerald
+    - g:obsidian
+    - g:bedrock
+    info:
+      build: false
+      prefix: ''
+      suffix: '&8[&5Bedrock&8] &7'
+  Redstone:
+    default: false
+    permissions:
+    - essentials.itemdb
+    - essentials.rankup.a
+    - essentials.rankup.b
+    - essentials.rankup.c
+    - essentials.rankup.d
+    - essentials.rankup.e
+    - essentials.rankup.f
+    - essentials.rankup.g
+    - essentials.rankup.h
+    - essentials.rankup.i
+    - essentials.rankup.j
+    - essentials.rankup.k
+    - essentials.rankup.l
+    - essentials.rankup.m
+    - essentials.rankup.n
+    - essentials.rankup.o
+    - essentials.rankup.p
+    - essentials.rankup.q
+    - essentials.rankup.r
+    - essentials.rankup.s
+    - essentials.rankup.t
+    - essentials.rankup.u
+    - essentials.rankup.v
+    - essentials.rankup.w
+    - essentials.rankup.x
+    - essentials.rankup.y
+    - essentials.rankup.z
+    - essentials.rankup.å
+    - essentials.rankup.æ
+    - essentials.rankup.ø
+    - essentials.spawn
+    - ne.redstone
+    - Rank.Redstone
+    inheritance:
+    - g:normal
+    - g:coal
+    - g:iron
+    - g:gold
+    - g:lapis
+    - g:redstone
+    info:
+      build: false
+      prefix: ''
+      suffix: '&8[&cRedstone&8] &7'
+  Lapis:
+    default: false
+    permissions:
+    - ne.lapis
+    - Rank.Lapis
+    inheritance:
+    - g:normal
+    - g:coal
+    - g:iron
+    - g:gold
+    - g:lapis
+    info:
+      build: false
+      prefix: ''
+      suffix: '&8[&9Lapis&8] &7'
+  Yt:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: false
+      prefix: ''
+      suffix: ''

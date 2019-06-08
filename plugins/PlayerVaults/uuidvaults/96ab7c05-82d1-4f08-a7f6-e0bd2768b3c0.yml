@@ -1,0 +1,11 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"DIRT"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"QUARTZ_BLOCK"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"QUARTZ_BLOCK"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":40,"type":"QUARTZ_BLOCK"}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"STICK"}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":3,"type":"DIAMOND_BLOCK"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":8,"type":"DIAMOND"}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":59,"type":"DIRT"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":4,"type":"WORKBENCH"}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","damage":124,"type":"DIAMOND_SPADE"}'

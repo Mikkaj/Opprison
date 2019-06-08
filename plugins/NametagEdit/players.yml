@@ -1,0 +1,496 @@
+Players:
+  0ba1cd22-a365-4aad-9a82-797b3398dcd8:
+    Name: BlqckMoon_
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  703e535b-15ec-4c78-8003-b81918e715e3:
+    Name: WeeTaken
+    Prefix: '&4Ejer &8| &f'
+    Suffix: ''
+    SortPriority: 1
+  a7b52d55-a8ef-49ca-b032-1f61c911ce57:
+    Name: secretL
+    Prefix: '&7A &8| &f&f'
+    Suffix: '&8[&dP&f6&8]'
+    SortPriority: 55
+  e5d4bdbc-8ff3-434b-9b2a-9f1655fd29ad:
+    Name: ScrrAm
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  ffecf033-f8a8-4492-8d1f-b1acbd91d8b8:
+    Name: Panda_Gameren
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  16a4b7f3-6156-40d3-ab28-ce7c79a2ada6:
+    Name: Stang3
+    Prefix: '&0Bedrock &8| &f'
+    Suffix: ''
+    SortPriority: 7
+  28a331b7-02c3-48cf-b691-20a0f71c2a1b:
+    Name: Fjordoy
+    Prefix: '&7I &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  d25f294d-5924-4e52-908b-6d8cc2181764:
+    Name: Zybril
+    Prefix: '&7G &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  1e30e7ad-f6fc-4ef2-b041-1957e5ba9798:
+    Name: StormG
+    Prefix: '&7G &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  16aef0fd-8691-40e9-a986-2d47ffe29c3d:
+    Name: SickPatrick
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  36056e6d-a85f-46d3-bed0-052a140a5940:
+    Name: miv99
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  9a4d7cd0-a1d6-4ce1-b43b-6e6e4ece78dd:
+    Name: Anton0707
+    Prefix: '&7G &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  91a01b97-4c64-4d6f-b769-d7d81c31cd98:
+    Name: olitc
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  03301757-7405-45ee-b4aa-94d3d650040d:
+    Name: Pqzy_
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  95a591c7-6fea-4f1c-81ee-33f89f28538e:
+    Name: LucasLoua
+    Prefix: '&7I &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  b3b38809-c236-4fa9-8cb4-5f0608ecab2a:
+    Name: LittleLionDK
+    Prefix: '&7B &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  a4284aac-8b7d-4c5d-b813-f3e4ac04eb70:
+    Name: pankgame
+    Prefix: '&7G &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  801a130e-1af1-48be-831c-dee1637a104b:
+    Name: Elias88reda
+    Prefix: '&7H &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  2e0c6798-e364-49c6-8bb4-fa098c66d73b:
+    Name: Boxmob
+    Prefix: '&eGold &8| &f'
+    Suffix: ''
+    SortPriority: 13
+  3e3b37f4-d5fc-4843-919d-fe7328f84940:
+    Name: casper111dansk
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  44d7c091-f6ae-49fa-a4c1-086f892f3d77:
+    Name: Mikaz17
+    Prefix: '&7H &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  a6169ff5-8637-4ecd-9876-fd5e763d36d6:
+    Name: victor060605
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  99488a30-f4f3-4ded-a94c-25cd25cc6a5e:
+    Name: maj71
+    Prefix: '&7H &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  bf015c03-6ded-44cb-a2ba-de562b0520c4:
+    Name: warybigmikkelman
+    Prefix: '&7E &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  88a26d62-e3db-43e9-954e-3bbd6c37adb4:
+    Name: Mikkri12
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  248ac17e-e61f-492f-89ec-34cd476dff64:
+    Name: FN_SimbooDK
+    Prefix: '&7D &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  a93ebea6-b030-4684-8b65-07b135f62e76:
+    Name: alexandersej
+    Prefix: '&7I &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  329cadb5-4b38-4ca1-8593-1f0ffff40b15:
+    Name: Kill4ce
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  38f10415-67a0-4231-a403-1e45025a164b:
+    Name: J0nesMc
+    Prefix: '&7K &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  86c30aaf-0ae6-4d47-ac66-ea4e16ee01d1:
+    Name: JackXzoo
+    Prefix: '&7H &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  5249f94c-e9a2-40b6-b17e-cfed3717d329:
+    Name: Pand1S
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  f5ba8313-1d3b-4f64-ba0d-84c656b3c0cf:
+    Name: xNeetro
+    Prefix: '&eGold &8| &f'
+    Suffix: ''
+    SortPriority: 13
+  da7b0889-6e49-4e06-94ee-af1472d5907f:
+    Name: nic1007
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  c71b1473-885c-46be-8dd8-ea88c5fe30b9:
+    Name: Fluji
+    Prefix: '&8Coal &8| &f'
+    Suffix: ''
+    SortPriority: 15
+  bf589e37-0796-4cb3-8f01-750548ebcd78:
+    Name: ItzLate
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  ca11fab8-e5ab-40d9-822c-7d89442ebf19:
+    Name: susmus345
+    Prefix: '&7C &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  eca6bb11-8112-4ccf-a13d-c4644e3aebbb:
+    Name: BullerFrans
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  9c7637cf-df9b-44af-8b7e-82a36adfef63:
+    Name: 12KR
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  2265707c-94d7-42da-a5ed-6c53ce31d8c2:
+    Name: Itz_swift_xD
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  59beef5f-2793-463a-91f7-221d7ca620e5:
+    Name: Mikkeo
+    Prefix: '&0Bedrock &8| &f'
+    Suffix: ''
+    SortPriority: 7
+  216160e8-be6e-45bc-aa56-658bc08133bb:
+    Name: Goddreng05
+    Prefix: '&7A &8| &f&f'
+    Suffix: '&8[&dP&f2&8]'
+    SortPriority: 55
+  656a3eb2-09a0-45e4-b1bb-63d1b8484c3d:
+    Name: Fazudo
+    Prefix: '&7Iron &8| &f'
+    Suffix: ''
+    SortPriority: 14
+  264aed13-8842-40b9-86bd-1225c1f962bd:
+    Name: nikolaialex05
+    Prefix: '&7D &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  4c679b15-309f-4fb3-944f-12add39db0e7:
+    Name: ImaRandom
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  847b92d5-0dd8-4276-abd4-75a8d9bfc0da:
+    Name: fredthekid
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  b28763c0-1118-4648-8fe1-54e56c5a8944:
+    Name: Itz_KillerMads
+    Prefix: '&eGold &8| &f'
+    Suffix: ''
+    SortPriority: 13
+  f1a0541b-41ca-4ef0-8dfb-0a8948e943f5:
+    Name: L00P33T
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  1efd173e-0a63-4599-a9e2-714a77fce7d2:
+    Name: monkeyboygamer
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  d0b089f8-58e0-44d9-b485-97ae81aa4cfc:
+    Name: vain3r
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  e5afce86-472f-423a-b722-52d871c6c976:
+    Name: Matonehour
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  10407ed6-7685-4800-9101-f608cbdf204a:
+    Name: Marcusnim
+    Prefix: '&7B &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  25b3dddb-58b8-469a-99fc-a4ac41ac9429:
+    Name: FantixGram
+    Prefix: '&eGold &8| &f'
+    Suffix: ''
+    SortPriority: 13
+  1327e209-082f-461c-b15e-1d4990b5770b:
+    Name: soniiii
+    Prefix: '&0Bedrock &8| &f'
+    Suffix: ''
+    SortPriority: 7
+  db7d0a59-c986-4019-8b4f-92d8bd76f8ba:
+    Name: xXKoXx
+    Prefix: '&eGold &8| &f'
+    Suffix: ''
+    SortPriority: 13
+  0efc55ac-2e9f-4b61-88a3-40c8389578f3:
+    Name: LCRT
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  8ba01b2a-3d9c-4492-941b-c9895cdbfa4f:
+    Name: Mathias_s
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  79b85454-f4e5-44b1-80b3-2dbbfe5e7d12:
+    Name: Tobylyk
+    Prefix: '&7F &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  c3efc64f-1a26-4db9-9a98-b4e1650fac1a:
+    Name: MinrJoss
+    Prefix: '&7F &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  492324f8-85ae-4bd8-8c70-bcc16ae8b4e7:
+    Name: DenSejeste123_
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  2dcfc9ac-c1e9-42c4-8995-24ed09be015c:
+    Name: Sry2Say
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  0d34c010-679c-41f0-b0a0-2ce23e09e01f:
+    Name: StrafersPvPz
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  20683e94-31a6-462e-9f22-38ea59ab3f0d:
+    Name: Big_Alex_PlaysMC
+    Prefix: '&7F &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  52b6173f-bed5-4c1c-8ff5-683500bccd76:
+    Name: _Linqz_
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  8576ccc5-988d-4594-9653-5f9ced8b758c:
+    Name: raspvp
+    Prefix: '&7F &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  bcf4f548-7f16-4b37-83f5-a4c060393151:
+    Name: M1ssing
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  decb5bc0-1b14-49b3-ba9d-75fa723328ab:
+    Name: ZinzygIronMayn
+    Prefix: '&7F &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  79ccd813-c029-4bc0-9633-d5122814f6cb:
+    Name: Troll_Hemadi
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  1c027471-6825-4786-8383-a84ce02a0d67:
+    Name: YT_VALLEGAMER
+    Prefix: '&7E &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  4ee24ee2-33ef-47f5-b87b-269ff61f1450:
+    Name: I_AM_THANOS
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  1a2ba17f-2743-442b-b18e-d916652be690:
+    Name: Lucas1607
+    Prefix: '&7F &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  f6db6a23-4075-40ca-91e1-721746d106e4:
+    Name: Famwennergren
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  d45fd075-177d-4c92-be3f-c1b0657a44dd:
+    Name: Tobiasj2007
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  398a549b-e3d1-4925-a00c-3b837421848b:
+    Name: Relaxxz
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  03366781-7cda-4992-b042-4d68732600a1:
+    Name: oDressing
+    Prefix: '&7E &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  8773d6b2-ba80-4538-8851-e268b15e6f45:
+    Name: _ralle_dk
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  e14333c7-8408-4ea0-8ea4-0bbb0696f224:
+    Name: Chronarius
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  bb36f804-0f77-4fbd-93f2-d2126923dfd9:
+    Name: Guldtyv
+    Prefix: '&7H &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  e34e1ce6-c086-4e43-b847-5d6d0da0a0fc:
+    Name: 08Lucas
+    Prefix: '&7F &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  cf725aee-772c-4e59-b813-e71beac03940:
+    Name: MikkelEilsoe
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  21e3b95b-8a79-4c39-adb5-028270f81937:
+    Name: mannny666
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  a96685e8-e45a-48ae-ab7e-d2528f7cd972:
+    Name: YusuGamer926
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  1f210e4c-f499-4b4c-98ee-60b0e6c8bc55:
+    Name: Forkert
+    Prefix: '&7E &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  5f0ebd45-c50b-4f7c-b507-d9aca87f070e:
+    Name: FakePricey
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  aac09029-cf94-4fb7-bda8-90dd204e88b1:
+    Name: G7L9ZX
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  af2587d6-ef0b-4965-9f17-9d2d851df36e:
+    Name: silas1x
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  007ca6ee-49a6-454b-aaac-a81144a44dec:
+    Name: Secret_M
+    Prefix: '&7F &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  d625ec31-5c28-4123-b503-6687712c7b94:
+    Name: emiltrierV2
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  b42c19fd-aea6-454d-bcc5-a629f34283d2:
+    Name: Anon1337
+    Prefix: '&7A &8| &f&f'
+    Suffix: '&8[&dP&f2&8]'
+    SortPriority: 55
+  487f3201-c695-4d40-b120-de6dc3965e0d:
+    Name: noahwdrengen
+    Prefix: '&7F &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  2634c178-5e88-47cd-a07d-7ca9efabd1c0:
+    Name: CookiePlayzMC
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  c57353c5-b12e-4a58-86ee-497ec6c27cd8:
+    Name: Jixxyy
+    Prefix: '&7D &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  8f5ff401-8c50-42e7-87c0-c7f6bec2de8a:
+    Name: alecsiebeneicher
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  435358f5-857b-4d5f-8c33-0e1c31b8daab:
+    Name: syp0k
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  5bbb440b-0288-4e75-aca2-04c2913ac555:
+    Name: ButEmil
+    Prefix: '&7E &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  c18122f9-1b32-4195-9e7d-0894694b8f69:
+    Name: Twixliamgv
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  eed2bb20-f70e-42a9-83c8-bff52d320913:
+    Name: DuncanQ
+    Prefix: '&7D &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  fdeb2cb0-e523-44a1-917a-bcd2b373a41b:
+    Name: ThegamerBoy_xD
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: -1
+  c20cd4f1-fa31-4456-9ca5-b6b07f1ce618:
+    Name: Mikkaj
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
+  7f976bed-89e1-4352-b529-d6ae6b038bdc:
+    Name: Lugi2660
+    Prefix: '&7A &8| &f&f'
+    Suffix: ''
+    SortPriority: 55
